@@ -1,0 +1,3258 @@
+
+~~~~~~~~~~~~~~~~~~~~
+
+
+Updated Weapons:
+
+~~~~~~~~~~~~~~~~~~~~
+
+
+HandShovel:
+    * DisplayName             : Trowel ==> Gardening Trowel
+    * Categories              : SmallBlade
+    * DisplayCategory         : Gardening
+    * TwoHandWeapon           : None
+    * Weight                  : 0.5 ==> 1
+    * CalculatedDurability    : 54 (Max: 6 Break: 1 in 9)
+    * BaseSpeed               : None
+    * MinDamage               : 0.2
+    * MaxDamage               : 0.4
+    * WeaponLength            : 0.2
+    * CriticalChance          : 30
+    * CritDmgMultiplier       : 10
+    * DoorDamage              : 5
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Stab
+    * AttachmentType          : Knife ==> NotKnife
+    * DropSound               : (NEW) HandShovelDrop
+    * DigType                 : (NEW) Trowel
+
+Saucepan:
+    * DisplayName             : Saucepan
+    * Categories              : Improvised
+    * DisplayCategory         : Cooking ==> CookingWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 0.7
+    * CalculatedDurability    : 50 (Max: 5 Break: 1 in 10)
+    * BaseSpeed               : 1
+    * MinDamage               : 0.2
+    * MaxDamage               : 0.7
+    * WeaponLength            : 0.2
+    * CriticalChance          : 30
+    * CritDmgMultiplier       : 2
+    * DoorDamage              : 1
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Swinging
+    * RainFactor              : 0.8 ==> 0.5
+    * IconFluidMask           : (NEW) Saucepan_Mask
+    * DropSound               : (NEW) SaucepanDrop
+    * Tags                    : (NEW) HasMetal
+    * ContainerName           : (NEW) Saucepan
+    * capacity                : (NEW) 0.6
+
+LeadPipe:
+    * DisplayName             : Lead Pipe
+    * Categories              : Improvised
+    * DisplayCategory         : Weapon ==> MaterialWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 1.5
+    * CalculatedDurability    : 300 (Max: 15 Break: 1 in 20)
+    * BaseSpeed               : 0.93
+    * MinDamage               : 0.7
+    * MaxDamage               : 1.2
+    * WeaponLength            : 0.35
+    * CriticalChance          : 30
+    * CritDmgMultiplier       : 2
+    * DoorDamage              : 1
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Swinging
+    * DropSound               : (NEW) LeadPipeDrop
+    * Tags                    : (NEW) HasMetal
+
+Nightstick:
+    * DisplayName             : Nightstick
+    * Categories              : SmallBlunt
+    * DisplayCategory         : Weapon
+    * TwoHandWeapon           : None
+    * Weight                  : 1.5
+    * CalculatedDurability    : 300 (Max: 15 Break: 1 in 20)
+    * BaseSpeed               : 1
+    * MinDamage               : 0.6
+    * MaxDamage               : 1.1
+    * WeaponLength            : 0.45
+    * CriticalChance          : 25
+    * CritDmgMultiplier       : 2
+    * DoorDamage              : 1
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Swinging
+    * DropSound               : (NEW) NightstickDrop
+    * Tags                    : (NEW) IsFireFuel
+
+MetalBar:
+    * DisplayName             : Metal Bar ==> Steel Rod
+    * Categories              : Improvised
+    * DisplayCategory         : Weapon ==> MaterialWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 1.5
+    * CalculatedDurability    : 120 (Max: 8 Break: 1 in 15)
+    * BaseSpeed               : 0.95
+    * MinDamage               : 0.7
+    * MaxDamage               : 1.1
+    * WeaponLength            : 0.35 ==> 0.4
+    * CriticalChance          : 30
+    * CritDmgMultiplier       : 2
+    * DoorDamage              : 1
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Swinging
+    * WeaponSprite            : LeadPipe ==> SteelRod
+    * Icon                    : MetalBar ==> SteelRod_Full
+    * DropSound               : (NEW) MetalBarDrop
+    * Tags                    : (NEW) HasMetal
+
+MetalPipe:
+    * DisplayName             : Metal Pipe ==> Iron Pipe
+    * Categories              : Improvised
+    * DisplayCategory         : Weapon ==> MaterialWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 1.5
+    * CalculatedDurability    : 120 (Max: 8 Break: 1 in 15)
+    * BaseSpeed               : 0.95
+    * MinDamage               : 0.6
+    * MaxDamage               : 1
+    * WeaponLength            : 0.35
+    * CriticalChance          : 30
+    * CritDmgMultiplier       : 2
+    * DoorDamage              : 1
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Swinging
+    * DropSound               : (NEW) MetalPipeDrop
+    * Tags                    : (NEW) HasMetal
+    * OnBreak                 : (NEW) OnBreak.MetalPipe
+
+MeatCleaver:
+    * DisplayName             : Meat Cleaver
+    * Categories              : SmallBlade ==> Axe
+    * DisplayCategory         : Cooking ==> CookingWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 1
+    * CalculatedDurability    : 150 (Max: 10 Break: 1 in 15)
+    * BaseSpeed               : 1.2
+    * MinDamage               : 0.4
+    * MaxDamage               : 0.8
+    * WeaponLength            : 0.2
+    * CriticalChance          : 15
+    * CritDmgMultiplier       : 5
+    * DoorDamage              : 20 ==> 5
+    * TreeDamage              : 15 ==> 5
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Swinging
+    * Icon                    : (REMOVED) None
+    * IconsForTexture         : (NEW) Cleaver
+    * DropSound               : (NEW) MeatCleaverDrop
+    * WeaponSpritesByIndex    : (NEW) MeatCleaver
+    * Tags                    : (NEW) KillAnimal
+    * Sharpness               : (NEW) 1.0
+    * OnBreak                 : (NEW) OnBreak.MeatCleaver
+
+HandAxe:
+    * DisplayName             : Hand Axe ==> Hatchet
+    * Categories              : Axe
+    * DisplayCategory         : ToolWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 2
+    * CalculatedDurability    : 150 (Max: 10 Break: 1 in 15)
+    * BaseSpeed               : 1
+    * MinDamage               : 0.7
+    * MaxDamage               : 1.5
+    * WeaponLength            : 0.35
+    * CriticalChance          : 15
+    * CritDmgMultiplier       : 5
+    * DoorDamage              : 20
+    * TreeDamage              : 15
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Swinging
+    * IconsForTexture         : (NEW) AxeHand
+    * DropSound               : (NEW) HandAxeDrop
+    * WeaponSpritesByIndex    : (NEW) HandAxe
+    * Sharpness               : (NEW) 1.0
+    * HeadCondition           : (NEW) 10
+    * OnBreak                 : (NEW) OnBreak.HandAxe
+    * HeadConditionLowerChanceMultiplier: (NEW) 1.5
+
+HandScythe:
+    * DisplayName             : Hand Scythe
+    * Categories              : SmallBlade ==> Axe
+    * DisplayCategory         : ToolWeapon ==> GardeningWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 0.5 ==> 1
+    * CalculatedDurability    : 25 (Max: 5 Break: 1 in 5)
+    * BaseSpeed               : 1.1
+    * MinDamage               : 0.6
+    * MaxDamage               : 1.2
+    * WeaponLength            : 0.3
+    * CriticalChance          : 15
+    * CritDmgMultiplier       : 5
+    * DoorDamage              : 5
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Swinging
+    * Icon                    : HandScythe ==> Scythe_Forged
+    * DropSound               : (NEW) HandScytheDrop
+    * WeaponSpritesByIndex    : (NEW) HandScythe
+    * Tags                    : (NEW) ButcherAnimal
+    * Tooltip                 : (NEW) Tooltip_item_CutGrass
+    * Sharpness               : (NEW) 1.0
+    * OnBreak                 : (NEW) OnBreak.HandScythe
+
+Machete:
+    * DisplayName             : Machete
+    * Categories              : LongBlade
+    * DisplayCategory         : Weapon ==> GardeningWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 2
+    * CalculatedDurability    : 325 (Max: 13 Break: 1 in 25)
+    * BaseSpeed               : 1
+    * MinDamage               : 2
+    * MaxDamage               : 3
+    * WeaponLength            : 0.3
+    * CriticalChance          : 20
+    * CritDmgMultiplier       : 5
+    * DoorDamage              : 10
+    * TreeDamage              : 10
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Swinging
+    * SplatBloodOnNoDeath     : False ==> True
+    * Icon                    : Machete ==> Machete_Forged
+    * AttachmentType          : BigBlade ==> Sword
+    * Tags                    : CutPlant ==> IgnoreZombieDensity
+    * DropSound               : (NEW) MacheteDrop
+    * WeaponSpritesByIndex    : (NEW) Machete
+    * Sharpness               : (NEW) 1.0
+    * OnBreak                 : (NEW) OnBreak.Machete
+
+PipeWrench:
+    * DisplayName             : Pipe Wrench
+    * Categories              : SmallBlunt
+    * DisplayCategory         : ToolWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 1.5
+    * CalculatedDurability    : 250 (Max: 10 Break: 1 in 25)
+    * BaseSpeed               : 1
+    * MinDamage               : 0.5
+    * MaxDamage               : 1
+    * WeaponLength            : 0.3
+    * CriticalChance          : 25
+    * CritDmgMultiplier       : 2
+    * DoorDamage              : 10
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Swinging
+    * DropSound               : (NEW) PipeWrenchDrop
+    * Tags                    : (NEW) KillAnimal
+
+Saxophone:
+    * DisplayName             : Saxophone
+    * Categories              : Blunt
+    * DisplayCategory         : Instrument ==> InstrumentWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 3
+    * CalculatedDurability    : 10 (Max: 5 Break: 1 in 2)
+    * BaseSpeed               : 0.9
+    * MinDamage               : 0.4
+    * MaxDamage               : 0.8
+    * WeaponLength            : None
+    * CriticalChance          : 70
+    * CritDmgMultiplier       : 2
+    * DoorDamage              : 5
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Swinging
+    * DropSound               : (NEW) SaxophoneDrop
+    * Tags                    : (NEW) HasMetal
+
+Trumpet:
+    * DisplayName             : Trumpet
+    * Categories              : Blunt
+    * DisplayCategory         : Instrument ==> InstrumentWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 1
+    * CalculatedDurability    : 10 (Max: 5 Break: 1 in 2)
+    * BaseSpeed               : 1
+    * MinDamage               : 0.4
+    * MaxDamage               : 0.8
+    * WeaponLength            : None
+    * CriticalChance          : 20
+    * CritDmgMultiplier       : 2
+    * DoorDamage              : 5
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Swinging
+    * DropSound               : (NEW) TrumpetDrop
+    * Tags                    : (NEW) HasMetal
+
+Violin:
+    * DisplayName             : Violin
+    * Categories              : SmallBlunt
+    * DisplayCategory         : Instrument ==> InstrumentWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 0.7
+    * CalculatedDurability    : 1 (Max: 1 Break: 1 in 1)
+    * BaseSpeed               : 1.2
+    * MinDamage               : 0.2
+    * MaxDamage               : 0.4
+    * WeaponLength            : None
+    * CriticalChance          : 5
+    * CritDmgMultiplier       : None
+    * DoorDamage              : 5
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Swinging
+    * DropSound               : (NEW) ViolinDrop
+    * Tags                    : (NEW) IsFireFuel
+
+Drumstick:
+    * DisplayName             : Drumstick
+    * Categories              : Improvised
+    * DisplayCategory         : Instrument ==> InstrumentWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 3 ==> 0.5
+    * CalculatedDurability    : 1 (Max: 1 Break: 1 in 1)
+    * BaseSpeed               : 1.3
+    * MinDamage               : 0.1
+    * MaxDamage               : 0.2
+    * WeaponLength            : None
+    * CriticalChance          : 0
+    * CritDmgMultiplier       : None
+    * DoorDamage              : 0
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Swinging
+    * DropSound               : (NEW) DrumstickDrop
+    * Tags                    : (NEW) IsFireFuel
+
+Plunger:
+    * DisplayName             : Plunger
+    * Categories              : Improvised
+    * DisplayCategory         : Household ==> HouseholdWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 0.5
+    * CalculatedDurability    : 6 (Max: 3 Break: 1 in 2)
+    * BaseSpeed               : 1.2
+    * MinDamage               : 0.3
+    * MaxDamage               : 0.5
+    * WeaponLength            : None
+    * CriticalChance          : 5
+    * CritDmgMultiplier       : 2
+    * DoorDamage              : 2 ==> 0
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Swinging
+    * AttachmentType          : Knife ==> BigWeapon
+    * DropSound               : (NEW) PlungerDrop
+    * Tags                    : (NEW) NoMaintenanceXp
+    * OnBreak                 : (NEW) OnBreak.WoodenStick
+
+Flute:
+    * DisplayName             : Flute
+    * Categories              : Improvised
+    * DisplayCategory         : Instrument ==> InstrumentWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 3 ==> 1
+    * CalculatedDurability    : 1 (Max: 1 Break: 1 in 1)
+    * BaseSpeed               : 1.3
+    * MinDamage               : 0.1
+    * MaxDamage               : 0.2
+    * WeaponLength            : None
+    * CriticalChance          : 0
+    * CritDmgMultiplier       : None
+    * DoorDamage              : 0
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Swinging
+    * AttachmentType          : Knife ==> NotKnife
+    * DropSound               : (NEW) FluteDrop
+
+ChairLeg:
+    * DisplayName             : Chair Leg
+    * Categories              : Improvised
+    * DisplayCategory         : Household ==> JunkWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 1
+    * CalculatedDurability    : 6 (Max: 3 Break: 1 in 2)
+    * BaseSpeed               : 1.1
+    * MinDamage               : 0.4
+    * MaxDamage               : 0.8
+    * WeaponLength            : None
+    * CriticalChance          : 5
+    * CritDmgMultiplier       : 2
+    * DoorDamage              : 5
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Swinging
+    * Icon                    : FurnitureLeg ==> ChairLeg
+    * AttachmentType          : (NEW) BigWeapon
+    * DropSound               : (NEW) ChairLegDrop
+    * Tags                    : (NEW) NoMaintenanceXp
+
+TableLeg:
+    * DisplayName             : Table Leg ==> Antique Table Leg
+    * Categories              : Improvised
+    * DisplayCategory         : WeaponCrafted ==> JunkWeapon
+    * TwoHandWeapon           : (NEW) True
+    * Weight                  : 1.5 ==> 2
+    * CalculatedDurability    : 12 (Max: 4 Break: 1 in 3)
+    * BaseSpeed               : 1
+    * MinDamage               : 0.5
+    * MaxDamage               : 0.9
+    * WeaponLength            : None
+    * CriticalChance          : 10
+    * CritDmgMultiplier       : 2
+    * DoorDamage              : 5
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Swinging
+    * Icon                    : TableLeg ==> TableLeg2
+    * AttachmentType          : (NEW) BigWeapon
+    * DropSound               : (NEW) TableLegDrop
+    * Tags                    : (NEW) NoMaintenanceXp
+    * OnBreak                 : (NEW) OnBreak.TableLeg
+
+BadmintonRacket:
+    * DisplayName             : Badminton Racket
+    * Categories              : Improvised
+    * DisplayCategory         : Sports ==> SportsWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 1
+    * CalculatedDurability    : 12 (Max: 4 Break: 1 in 3)
+    * BaseSpeed               : 1.2
+    * MinDamage               : 0.1
+    * MaxDamage               : 0.2
+    * WeaponLength            : None
+    * CriticalChance          : 0
+    * CritDmgMultiplier       : None
+    * DoorDamage              : 2
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Swinging
+    * DropSound               : (NEW) BadmintonRacketDrop
+    * Tags                    : (NEW) IsFireFuel
+
+TennisRacket:
+    * DisplayName             : Tennis Racket
+    * Categories              : Improvised
+    * DisplayCategory         : Sports ==> SportsWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 1
+    * CalculatedDurability    : 24 (Max: 4 Break: 1 in 6)
+    * BaseSpeed               : 1.1
+    * MinDamage               : 0.3
+    * MaxDamage               : 0.5
+    * WeaponLength            : None
+    * CriticalChance          : 5
+    * CritDmgMultiplier       : 1
+    * DoorDamage              : 2
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Swinging
+    * DropSound               : (NEW) TennisRacketDrop
+    * Tags                    : (NEW) IsFireFuel
+
+ClubHammer:
+    * DisplayName             : Club Hammer
+    * Categories              : SmallBlunt
+    * DisplayCategory         : ToolWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 1 ==> 2
+    * CalculatedDurability    : 250 (Max: 10 Break: 1 in 25)
+    * BaseSpeed               : 1
+    * MinDamage               : 0.5
+    * MaxDamage               : 1
+    * WeaponLength            : 0.23
+    * CriticalChance          : 20
+    * CritDmgMultiplier       : 2
+    * DoorDamage              : 9
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : True
+    * SubCategory             : Swinging
+    * IconsForTexture         : (NEW) ClubHammer_Forged
+    * DropSound               : (NEW) ClubHammerDrop
+    * WeaponSpritesByIndex    : (NEW) ClubHammer
+    * Tags                    : (NEW) ClubHammer
+    * HeadCondition           : (NEW) 10
+    * OnBreak                 : (NEW) OnBreak.ClubHammer
+    * HeadConditionLowerChanceMultiplier: (NEW) 2
+
+BallPeenHammer:
+    * DisplayName             : Ball Peen Hammer ==> Ball-peen Hammer
+    * Categories              : SmallBlunt
+    * DisplayCategory         : ToolWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 1 ==> 1.5
+    * CalculatedDurability    : 300 (Max: 10 Break: 1 in 30)
+    * BaseSpeed               : 1
+    * MinDamage               : 0.5
+    * MaxDamage               : 1
+    * WeaponLength            : 0.23
+    * CriticalChance          : 20
+    * CritDmgMultiplier       : 3
+    * DoorDamage              : 9
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : True
+    * SubCategory             : Swinging
+    * IconsForTexture         : (NEW) BallPeenHammer
+    * DropSound               : (NEW) BallPeenHammerDrop
+    * WeaponSpritesByIndex    : (NEW) BallPeenHammer
+    * HeadCondition           : (NEW) 10
+    * OnBreak                 : (NEW) OnBreak.BallPeenHammer
+    * HeadConditionLowerChanceMultiplier: (NEW) 2
+
+WoodenMallet:
+    * DisplayName             : Wooden Mallet
+    * Categories              : SmallBlunt
+    * DisplayCategory         : ToolWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 1 ==> 1.5
+    * CalculatedDurability    : 160 (Max: 8 Break: 1 in 20)
+    * BaseSpeed               : 1.1
+    * MinDamage               : 0.4
+    * MaxDamage               : 0.9
+    * WeaponLength            : 0.23
+    * CriticalChance          : 17
+    * CritDmgMultiplier       : 3
+    * DoorDamage              : 9
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : True
+    * SubCategory             : Swinging
+    * SplatBloodOnNoDeath     : True ==> False
+    * DropSound               : (NEW) WoodenMalletDrop
+    * Tags                    : (NEW) Mallet
+
+Wrench:
+    * DisplayName             : Wrench
+    * Categories              : SmallBlunt
+    * DisplayCategory         : ToolWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 1
+    * CalculatedDurability    : 135 (Max: 9 Break: 1 in 15)
+    * BaseSpeed               : 1
+    * MinDamage               : 0.5
+    * MaxDamage               : 1
+    * WeaponLength            : 0.23
+    * CriticalChance          : 20
+    * CritDmgMultiplier       : 2
+    * DoorDamage              : 10
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Swinging
+    * DropSound               : (NEW) WrenchDrop
+    * Tags                    : (NEW) HasMetal
+
+Hammer:
+    * DisplayName             : Hammer ==> Clawhammer
+    * Categories              : SmallBlunt
+    * DisplayCategory         : ToolWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 1 ==> 1.5
+    * CalculatedDurability    : 300 (Max: 10 Break: 1 in 30)
+    * BaseSpeed               : 1
+    * MinDamage               : 0.5
+    * MaxDamage               : 1
+    * WeaponLength            : 0.23
+    * CriticalChance          : 20
+    * CritDmgMultiplier       : 3
+    * DoorDamage              : 9
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : True
+    * SubCategory             : Swinging
+    * IconsForTexture         : (NEW) Hammer
+    * DropSound               : (NEW) HammerDrop
+    * WeaponSpritesByIndex    : (NEW) Hammer
+    * HeadCondition           : (NEW) 10
+    * OnBreak                 : (NEW) OnBreak.Clawhammer
+    * HeadConditionLowerChanceMultiplier: (NEW) 2
+
+HammerStone:
+    * DisplayName             : Stone Hammer
+    * Categories              : SmallBlunt
+    * DisplayCategory         : ToolWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 1.2 ==> 2
+    * CalculatedDurability    : 25 (Max: 5 Break: 1 in 5)
+    * BaseSpeed               : 1
+    * MinDamage               : 0.3
+    * MaxDamage               : 0.7
+    * WeaponLength            : 0.23
+    * CriticalChance          : 15
+    * CritDmgMultiplier       : 3
+    * DoorDamage              : 2
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : True
+    * SubCategory             : Swinging
+    * DropSound               : (NEW) StoneHammerDrop
+    * HeadCondition           : (NEW) 8
+    * HeadConditionMax        : (NEW) 8
+    * OnBreak                 : (NEW) OnBreak.HammerStone
+    * HeadConditionLowerChanceMultiplier: (NEW) 1
+
+RollingPin:
+    * DisplayName             : Rolling Pin
+    * Categories              : SmallBlunt
+    * DisplayCategory         : Cooking ==> CookingWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 1.5
+    * CalculatedDurability    : 112 (Max: 8 Break: 1 in 14)
+    * BaseSpeed               : 1.2
+    * MinDamage               : 0.2
+    * MaxDamage               : 0.5
+    * WeaponLength            : 0.28
+    * CriticalChance          : 15
+    * CritDmgMultiplier       : 2
+    * DoorDamage              : 5
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : None
+    * SubCategory             : Swinging
+    * DropSound               : (NEW) RollingPinDrop
+    * Tags                    : (NEW) RollingPin
+    * OnBreak                 : (NEW) OnBreak.SmallHandle
+
+Pan:
+    * DisplayName             : Frying Pan
+    * Categories              : Improvised
+    * DisplayCategory         : Cooking ==> CookingWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 1 ==> 1.5
+    * CalculatedDurability    : 120 (Max: 10 Break: 1 in 12)
+    * BaseSpeed               : 1
+    * MinDamage               : 0.3
+    * MaxDamage               : 0.5
+    * WeaponLength            : 0.21
+    * CriticalChance          : 30
+    * CritDmgMultiplier       : 2
+    * DoorDamage              : 3
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : True
+    * SubCategory             : Swinging
+    * DropSound               : (NEW) FryingPanDrop
+    * Tags                    : (NEW) HasMetal
+
+GridlePan:
+    * DisplayName             : Griddle Pan
+    * Categories              : Improvised
+    * DisplayCategory         : Cooking ==> CookingWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 1.2
+    * CalculatedDurability    : 120 (Max: 10 Break: 1 in 12)
+    * BaseSpeed               : 1
+    * MinDamage               : 0.25
+    * MaxDamage               : 0.45
+    * WeaponLength            : 0.20
+    * CriticalChance          : 30
+    * CritDmgMultiplier       : 1.7
+    * DoorDamage              : 3
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : True
+    * SubCategory             : Swinging
+    * DropSound               : (NEW) GriddlePanDrop
+    * Tags                    : (NEW) HasMetal
+
+DumbBell:
+    * DisplayName             : DumbBell ==> Dumbbell
+    * Categories              : SmallBlunt
+    * DisplayCategory         : Sports ==> SportsWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 5
+    * CalculatedDurability    : 250 (Max: 10 Break: 1 in 25)
+    * BaseSpeed               : 0.90
+    * MinDamage               : 0.5
+    * MaxDamage               : 1
+    * WeaponLength            : 0.2
+    * CriticalChance          : 25
+    * CritDmgMultiplier       : 3
+    * DoorDamage              : 9
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : True
+    * SubCategory             : Swinging
+    * DropSound               : (NEW) DumbBellDrop
+    * Tags                    : (NEW) SmeltableIronSmall
+
+Golfclub:
+    * DisplayName             : Golfclub ==> Golf Club
+    * Categories              : Blunt
+    * DisplayCategory         : Sports ==> SportsWeapon
+    * TwoHandWeapon           : True
+    * Weight                  : 2
+    * CalculatedDurability    : 75 (Max: 5 Break: 1 in 15)
+    * BaseSpeed               : 1
+    * MinDamage               : 0.5
+    * MaxDamage               : 1
+    * WeaponLength            : None
+    * CriticalChance          : 25
+    * CritDmgMultiplier       : 2
+    * DoorDamage              : 5
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : None
+    * SubCategory             : Swinging
+    * DropSound               : (NEW) GolfclubDrop
+    * Tags                    : (NEW) RepairWithTape
+
+Crowbar:
+    * DisplayName             : Crowbar
+    * Categories              : Blunt
+    * DisplayCategory         : ToolWeapon
+    * TwoHandWeapon           : True
+    * Weight                  : 2
+    * CalculatedDurability    : 1050 (Max: 15 Break: 1 in 70)
+    * BaseSpeed               : 1
+    * MinDamage               : 0.6
+    * MaxDamage               : 1.15
+    * WeaponLength            : 0.4
+    * CriticalChance          : 20 ==> 35
+    * CritDmgMultiplier       : 2.5 ==> 6
+    * DoorDamage              : 8
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : True
+    * SubCategory             : Swinging
+    * IconsForTexture         : (NEW) Crowbar
+    * DropSound               : (NEW) CrowbarDrop
+    * WeaponSpritesByIndex    : (NEW) Crowbar
+
+Katana:
+    * DisplayName             : Katana
+    * Categories              : LongBlade
+    * DisplayCategory         : Weapon
+    * TwoHandWeapon           : True
+    * Weight                  : 2
+    * CalculatedDurability    : 150 (Max: 10 Break: 1 in 15)
+    * BaseSpeed               : 1
+    * MinDamage               : 8
+    * MaxDamage               : 8
+    * WeaponLength            : 0.4
+    * CriticalChance          : 30
+    * CritDmgMultiplier       : 10
+    * DoorDamage              : 8
+    * TreeDamage              : 1
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : True
+    * SubCategory             : Swinging
+    * AttachmentType          : BigBlade ==> Sword
+    * DropSound               : (NEW) KatanaDrop
+    * Tags                    : (NEW) IgnoreZombieDensity
+    * Sharpness               : (NEW) 1.0
+    * OnBreak                 : (NEW) OnBreak.Katana
+
+Banjo:
+    * DisplayName             : Banjo
+    * Categories              : SmallBlunt
+    * DisplayCategory         : Instrument ==> InstrumentWeapon
+    * TwoHandWeapon           : True
+    * Weight                  : 3
+    * CalculatedDurability    : 6 (Max: 3 Break: 1 in 2)
+    * BaseSpeed               : 1.1
+    * MinDamage               : 0.3
+    * MaxDamage               : 0.6
+    * WeaponLength            : None
+    * CriticalChance          : 5
+    * CritDmgMultiplier       : 2
+    * DoorDamage              : 5
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Swinging
+    * DropSound               : (NEW) BanjoDrop
+    * OnBreak                 : (NEW) OnBreak.Banjo
+    * Tags                    : (NEW) IsFireFuel
+
+GuitarAcoustic:
+    * DisplayName             : Acoustic Guitar
+    * Categories              : Blunt
+    * DisplayCategory         : Instrument ==> InstrumentWeapon
+    * TwoHandWeapon           : True
+    * Weight                  : 2.3 ==> 2.6
+    * CalculatedDurability    : 6 (Max: 2 Break: 1 in 3)
+    * BaseSpeed               : 0.9
+    * MinDamage               : 0.3
+    * MaxDamage               : 0.8
+    * WeaponLength            : None
+    * CriticalChance          : 20
+    * CritDmgMultiplier       : 2
+    * DoorDamage              : 3
+    * TreeDamage              : 10
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : True
+    * SubCategory             : Swinging
+    * DropSound               : (NEW) AcousticGuitarDrop
+    * OnBreak                 : (NEW) OnBreak.GuitarAcoustic
+    * Tags                    : (NEW) IsFireFuel
+
+AxeStone:
+    * DisplayName             : Raw Axe ==> Crude Stone Axe
+    * Categories              : Axe
+    * DisplayCategory         : ToolWeapon ==> WeaponCrafted
+    * TwoHandWeapon           : True
+    * Weight                  : 1.2 ==> 2
+    * CalculatedDurability    : 25 (Max: 5 Break: 1 in 5)
+    * BaseSpeed               : 1
+    * MinDamage               : 0.5
+    * MaxDamage               : 1.5
+    * WeaponLength            : None
+    * CriticalChance          : 15
+    * CritDmgMultiplier       : 5
+    * DoorDamage              : 15
+    * TreeDamage              : 10
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : True
+    * SubCategory             : Swinging
+    * DropSound               : (NEW) RawAxeDrop
+    * HeadCondition           : (NEW) 5
+    * OnBreak                 : (NEW) OnBreak.AxeStone
+    * HeadConditionLowerChanceMultiplier: (NEW) 1
+
+SnowShovel:
+    * DisplayName             : Snow Shovel
+    * Categories              : Blunt
+    * DisplayCategory         : ToolWeapon
+    * TwoHandWeapon           : True
+    * Weight                  : 1.5 ==> 2.0
+    * CalculatedDurability    : 100 (Max: 10 Break: 1 in 10)
+    * BaseSpeed               : 0.8
+    * MinDamage               : 0.8
+    * MaxDamage               : 1.9
+    * WeaponLength            : 0.7
+    * CriticalChance          : 40
+    * CritDmgMultiplier       : 2
+    * DoorDamage              : 10
+    * TreeDamage              : 1
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : True
+    * SubCategory             : Swinging
+    * DropSound               : (NEW) SnowShovelDrop
+    * DigType                 : (NEW) Shovel
+    * OnBreak                 : (NEW) OnBreak.LongStick
+
+Shovel:
+    * DisplayName             : Shovel ==> Spade
+    * Categories              : Blunt
+    * DisplayCategory         : Gardening ==> GardeningWeapon
+    * TwoHandWeapon           : True
+    * Weight                  : 1.5 ==> 2.0
+    * CalculatedDurability    : 100 (Max: 10 Break: 1 in 10)
+    * BaseSpeed               : 0.8
+    * MinDamage               : 0.8
+    * MaxDamage               : 1.9
+    * WeaponLength            : 0.55
+    * CriticalChance          : 40
+    * CritDmgMultiplier       : 2
+    * DoorDamage              : 10
+    * TreeDamage              : 1
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : True
+    * SubCategory             : Swinging
+    * DropSound               : (NEW) ShovelDrop
+    * DigType                 : (NEW) Shovel
+    * HeadCondition           : (NEW) 10
+    * OnBreak                 : (NEW) OnBreak.HandleSpade
+    * HeadConditionLowerChanceMultiplier: (NEW) 1
+
+Shovel2:
+    * DisplayName             : Shovel
+    * Categories              : Blunt
+    * DisplayCategory         : Gardening ==> GardeningWeapon
+    * TwoHandWeapon           : True
+    * Weight                  : 1.5 ==> 2.0
+    * CalculatedDurability    : 100 (Max: 10 Break: 1 in 10)
+    * BaseSpeed               : 0.8
+    * MinDamage               : 0.8
+    * MaxDamage               : 1.9
+    * WeaponLength            : 0.55
+    * CriticalChance          : 40
+    * CritDmgMultiplier       : 2
+    * DoorDamage              : 5
+    * TreeDamage              : 1
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : True
+    * SubCategory             : Swinging
+    * DropSound               : (NEW) ShovelDrop
+    * DigType                 : (NEW) Shovel
+    * OnBreak                 : (NEW) OnBreak.GardenTool
+
+GardenHoe:
+    * DisplayName             : Garden Hoe
+    * Categories              : Blunt
+    * DisplayCategory         : Gardening ==> GardeningWeapon
+    * TwoHandWeapon           : True
+    * Weight                  : 1.5 ==> 2.0
+    * CalculatedDurability    : 100 (Max: 10 Break: 1 in 10)
+    * BaseSpeed               : 0.85
+    * MinDamage               : 0.6
+    * MaxDamage               : 1.7
+    * WeaponLength            : 0.65
+    * CriticalChance          : 35
+    * CritDmgMultiplier       : 2
+    * DoorDamage              : 10
+    * TreeDamage              : 1
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : True
+    * SubCategory             : Swinging
+    * IconsForTexture         : (NEW) Hoe
+    * DropSound               : (NEW) GardenHoeDrop
+    * WeaponSpritesByIndex    : (NEW) GardenHoe
+    * DigType                 : (NEW) Hoe
+    * HeadCondition           : (NEW) 10
+    * OnBreak                 : (NEW) OnBreak.GardenHoe
+    * HeadConditionLowerChanceMultiplier: (NEW) 1
+
+Plank:
+    * DisplayName             : Plank
+    * Categories              : Improvised
+    * DisplayCategory         : Material ==> MaterialWeapon
+    * TwoHandWeapon           : True
+    * Weight                  : 3
+    * CalculatedDurability    : 20 (Max: 10 Break: 1 in 2)
+    * BaseSpeed               : 0.9
+    * MinDamage               : 0.4
+    * MaxDamage               : 0.6
+    * WeaponLength            : None
+    * CriticalChance          : 30
+    * CritDmgMultiplier       : 2
+    * DoorDamage              : 5
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Swinging
+    * DropSound               : (NEW) PlankDrop
+    * OnBreak                 : (NEW) OnBreak.Plank
+    * Tags                    : (NEW) NoMaintenanceXp
+
+Poolcue:
+    * DisplayName             : Poolcue ==> Pool Cue
+    * Categories              : Improvised
+    * DisplayCategory         : Sports ==> SportsWeapon
+    * TwoHandWeapon           : True
+    * Weight                  : 1
+    * CalculatedDurability    : 100 (Max: 10 Break: 1 in 10)
+    * BaseSpeed               : 1.2
+    * MinDamage               : 0.2
+    * MaxDamage               : 0.4
+    * WeaponLength            : None
+    * CriticalChance          : 0
+    * CritDmgMultiplier       : None
+    * DoorDamage              : 1
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Swinging
+    * DropSound               : (NEW) PoolcueDrop
+    * OnBreak                 : (NEW) OnBreak.LongStick
+    * Tags                    : (NEW) IsFireFuel
+
+Broom:
+    * DisplayName             : Broom
+    * Categories              : Improvised
+    * DisplayCategory         : Household ==> HouseholdWeapon
+    * TwoHandWeapon           : True
+    * Weight                  : 1 ==> 2
+    * CalculatedDurability    : 6 (Max: 3 Break: 1 in 2)
+    * BaseSpeed               : 1.2
+    * MinDamage               : 0.2
+    * MaxDamage               : 0.5
+    * WeaponLength            : None
+    * CriticalChance          : 5
+    * CritDmgMultiplier       : 1
+    * DoorDamage              : 1
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Swinging
+    * DropSound               : (NEW) BroomDrop
+    * OnBreak                 : (NEW) OnBreak.LongStick
+
+IceHockeyStick:
+    * DisplayName             : Ice Hockey Stick
+    * Categories              : Improvised
+    * DisplayCategory         : Sports ==> SportsWeapon
+    * TwoHandWeapon           : True
+    * Weight                  : 1.5
+    * CalculatedDurability    : 35 (Max: 7 Break: 1 in 5)
+    * BaseSpeed               : 0.9
+    * MinDamage               : 0.3
+    * MaxDamage               : 0.7
+    * WeaponLength            : None
+    * CriticalChance          : 30
+    * CritDmgMultiplier       : 2
+    * DoorDamage              : 1
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Swinging
+    * DropSound               : (NEW) HockeyStickDrop
+    * OnBreak                 : (NEW) OnBreak.LongStick
+    * Tags                    : (NEW) IsFireFuel
+
+LaCrosseStick:
+    * DisplayName             : LaCrosse Stick ==> Lacrosse Stick
+    * Categories              : Improvised
+    * DisplayCategory         : Sports ==> SportsWeapon
+    * TwoHandWeapon           : True
+    * Weight                  : 0.4
+    * CalculatedDurability    : 100 (Max: 10 Break: 1 in 10)
+    * BaseSpeed               : 0.9
+    * MinDamage               : 0.3
+    * MaxDamage               : 0.7
+    * WeaponLength            : None
+    * CriticalChance          : 30
+    * CritDmgMultiplier       : 2
+    * DoorDamage              : 1
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Swinging
+    * DropSound               : (NEW) LacrosseStickDrop
+    * OnBreak                 : (NEW) OnBreak.LongStick
+    * Tags                    : (NEW) IsFireFuel
+
+PickAxe:
+    * DisplayName             : PickAxe ==> Pickaxe
+    * Categories              : Axe
+    * DisplayCategory         : ToolWeapon
+    * TwoHandWeapon           : True
+    * Weight                  : 3
+    * CalculatedDurability    : 260 (Max: 13 Break: 1 in 20)
+    * BaseSpeed               : 0.8
+    * MinDamage               : 1
+    * MaxDamage               : 2.2
+    * WeaponLength            : None
+    * CriticalChance          : 25
+    * CritDmgMultiplier       : 9
+    * DoorDamage              : 35
+    * TreeDamage              : 35
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : True
+    * SubCategory             : Swinging
+    * IconsForTexture         : (NEW) PickAxe
+    * DropSound               : (NEW) PickAxeDrop
+    * WeaponSpritesByIndex    : (NEW) PickAxe
+    * Tooltip                 : (NEW) Tooltip_item_PickAxe
+    * DigType                 : (NEW) PickAxe
+    * HeadCondition           : (NEW) 13
+    * OnBreak                 : (NEW) OnBreak.PickAxe
+    * HeadConditionLowerChanceMultiplier: (NEW) 1.5
+
+CanoePadel:
+    * DisplayName             : Canoe Paddle
+    * Categories              : Improvised
+    * DisplayCategory         : Sports ==> SportsWeapon
+    * TwoHandWeapon           : True
+    * Weight                  : 2
+    * CalculatedDurability    : 100 (Max: 10 Break: 1 in 10)
+    * BaseSpeed               : 0.85
+    * MinDamage               : 0.5
+    * MaxDamage               : 1.3
+    * WeaponLength            : None
+    * CriticalChance          : 40
+    * CritDmgMultiplier       : 2
+    * DoorDamage              : 1
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Swinging
+    * DropSound               : (NEW) CanoePaddleDrop
+    * OnBreak                 : (NEW) OnBreak.LongHandle
+    * Tags                    : (NEW) IsFireFuel
+
+CanoePadelX2:
+    * DisplayName             : Canoe Paddle Double ==> Canoe Paddle - Double-bladed
+    * Categories              : Improvised
+    * DisplayCategory         : Sports ==> SportsWeapon
+    * TwoHandWeapon           : True
+    * Weight                  : 2.2
+    * CalculatedDurability    : 100 (Max: 10 Break: 1 in 10)
+    * BaseSpeed               : 0.8
+    * MinDamage               : 0.8
+    * MaxDamage               : 1.9
+    * WeaponLength            : None
+    * CriticalChance          : 50
+    * CritDmgMultiplier       : 2
+    * DoorDamage              : 1
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Swinging
+    * DropSound               : (NEW) CanoePaddleDoubleDrop
+    * Tags                    : (NEW) IsFireFuel
+    * OnBreak                 : (NEW) OnBreak.CanoePadelX2
+
+BaseballBat:
+    * DisplayName             : Baseball Bat
+    * Categories              : Blunt
+    * DisplayCategory         : Sports ==> SportsWeapon
+    * TwoHandWeapon           : True
+    * Weight                  : 2
+    * CalculatedDurability    : 300 (Max: 15 Break: 1 in 20)
+    * BaseSpeed               : 1
+    * MinDamage               : 0.8
+    * MaxDamage               : 1.1
+    * WeaponLength            : 0.5
+    * CriticalChance          : 40
+    * CritDmgMultiplier       : (NEW) 2
+    * DoorDamage              : 5
+    * TreeDamage              : 1
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : True
+    * SubCategory             : Swinging
+    * critDmgMultiplier       : (REMOVED) None
+    * DropSound               : (NEW) BaseballBatDrop
+    * OnBreak                 : (NEW) OnBreak.BaseballBat
+    * Tags                    : (NEW) IsFireFuel
+
+CraftedFishingRod:
+    * DisplayName             : Fishing Rod
+    * Categories              : Improvised
+    * DisplayCategory         : Fishing ==> FishingWeapon
+    * TwoHandWeapon           : True
+    * Weight                  : 0.4 ==> 1
+    * CalculatedDurability    : 3 (Max: 3 Break: 1 in 1)
+    * BaseSpeed               : 1.3
+    * MinDamage               : 0.2
+    * MaxDamage               : 0.3
+    * WeaponLength            : None
+    * CriticalChance          : 5
+    * CritDmgMultiplier       : 2
+    * DoorDamage              : 1
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Swinging
+    * DropSound               : (NEW) FishingRodDrop
+    * OnCreate                : (NEW) Fishing.onCreateFishingRod
+
+FishingRod:
+    * DisplayName             : Fishing Rod
+    * Categories              : Improvised
+    * DisplayCategory         : Fishing ==> FishingWeapon
+    * TwoHandWeapon           : True
+    * Weight                  : 0.4 ==> 1
+    * CalculatedDurability    : 3 (Max: 3 Break: 1 in 1)
+    * BaseSpeed               : 1.3
+    * MinDamage               : 0.2
+    * MaxDamage               : 0.3
+    * WeaponLength            : None
+    * CriticalChance          : 5
+    * CritDmgMultiplier       : 2
+    * DoorDamage              : 1
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Swinging
+    * DropSound               : (NEW) FishingRodDrop
+    * OnCreate                : (NEW) Fishing.onCreateFishingRod
+
+FishingRodBreak:
+    * DisplayName             : Fishing Rod Without line ==> Fishing Rod without Line
+    * Categories              : Improvised
+    * DisplayCategory         : Fishing ==> FishingWeapon
+    * TwoHandWeapon           : True
+    * Weight                  : 0.4 ==> 1
+    * CalculatedDurability    : 3 (Max: 3 Break: 1 in 1)
+    * BaseSpeed               : 1.3
+    * MinDamage               : 0.2
+    * MaxDamage               : 0.3
+    * WeaponLength            : None
+    * CriticalChance          : 5
+    * CritDmgMultiplier       : 2
+    * DoorDamage              : 1
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Swinging
+    * WeaponSprite            : FishingRod_Crafted ==> FishingRod_Modern
+    * DropSound               : (NEW) FishingRodDrop
+
+Axe:
+    * DisplayName             : Axe ==> Firefighter Axe
+    * Categories              : Axe
+    * DisplayCategory         : ToolWeapon
+    * TwoHandWeapon           : True
+    * Weight                  : 3
+    * CalculatedDurability    : 455 (Max: 13 Break: 1 in 35)
+    * BaseSpeed               : 1
+    * MinDamage               : 0.8
+    * MaxDamage               : 2
+    * WeaponLength            : 0.38
+    * CriticalChance          : 20
+    * CritDmgMultiplier       : 5
+    * DoorDamage              : 35
+    * TreeDamage              : 35
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : True
+    * SubCategory             : Swinging
+    * DropSound               : (NEW) AxeDrop
+    * Sharpness               : (NEW) 1.0
+    * HeadCondition           : (NEW) 13
+    * HeadConditionLowerChanceMultiplier: (NEW) 1.5
+
+LeafRake:
+    * DisplayName             : Leaf Rake
+    * Categories              : Improvised
+    * DisplayCategory         : Gardening ==> GardeningWeapon
+    * TwoHandWeapon           : True
+    * Weight                  : 1.5
+    * CalculatedDurability    : 12 (Max: 4 Break: 1 in 3)
+    * BaseSpeed               : 1.2
+    * MinDamage               : 0.2
+    * MaxDamage               : 0.4
+    * WeaponLength            : 0.65
+    * CriticalChance          : 5
+    * CritDmgMultiplier       : 1
+    * DoorDamage              : 1
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Swinging
+    * DropSound               : (NEW) LeafRakeDrop
+    * Tags                    : (NEW) TakeDung
+    * OnBreak                 : (NEW) OnBreak.LongStick
+
+Rake:
+    * DisplayName             : Rake
+    * Categories              : Improvised
+    * DisplayCategory         : Gardening ==> GardeningWeapon
+    * TwoHandWeapon           : True
+    * Weight                  : 1.5 ==> 2
+    * CalculatedDurability    : 12 (Max: 4 Break: 1 in 3)
+    * BaseSpeed               : 1.2
+    * MinDamage               : 0.2
+    * MaxDamage               : 0.4 ==> 0.5
+    * WeaponLength            : 0.68
+    * CriticalChance          : 5
+    * CritDmgMultiplier       : 1
+    * DoorDamage              : 1
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Swinging
+    * DropSound               : (NEW) RakeDrop
+    * Tags                    : (NEW) TakeDung
+    * OnBreak                 : (NEW) OnBreak.Rake
+    * HeadCondition           : (NEW) 10
+    * HeadConditionLowerChanceMultiplier: (NEW) 1
+
+BarBell:
+    * DisplayName             : Barbell
+    * Categories              : Blunt
+    * DisplayCategory         : Sports ==> SportsWeapon
+    * TwoHandWeapon           : True
+    * Weight                  : 6
+    * CalculatedDurability    : 375 (Max: 15 Break: 1 in 25)
+    * BaseSpeed               : 0.7
+    * MinDamage               : 1.8
+    * MaxDamage               : 2.8
+    * WeaponLength            : 0.5
+    * CriticalChance          : None
+    * CritDmgMultiplier       : 2
+    * DoorDamage              : 35
+    * TreeDamage              : 55
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : True
+    * SubCategory             : Swinging
+    * DropSound               : (NEW) BarbellDrop
+
+WoodAxe:
+    * DisplayName             : Wood Axe
+    * Categories              : Axe
+    * DisplayCategory         : ToolWeapon
+    * TwoHandWeapon           : True
+    * Weight                  : 3
+    * CalculatedDurability    : 375 (Max: 15 Break: 1 in 25)
+    * BaseSpeed               : 1
+    * MinDamage               : 1.3
+    * MaxDamage               : 3
+    * WeaponLength            : 0.5
+    * CriticalChance          : 50
+    * CritDmgMultiplier       : 12
+    * DoorDamage              : 55
+    * TreeDamage              : 55
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : True
+    * SubCategory             : Swinging
+    * IconsForTexture         : (NEW) WoodAxe
+    * DropSound               : (NEW) WoodAxeDrop
+    * WeaponSpritesByIndex    : (NEW) WoodAxe
+    * Sharpness               : (NEW) 1.0
+    * HeadCondition           : (NEW) 15
+    * HeadConditionLowerChanceMultiplier: (NEW) 1.5
+
+Sledgehammer:
+    * DisplayName             : Sledgehammer
+    * Categories              : Blunt
+    * DisplayCategory         : ToolWeapon
+    * TwoHandWeapon           : True
+    * Weight                  : 6
+    * CalculatedDurability    : 400 (Max: 10 Break: 1 in 40)
+    * BaseSpeed               : 0.9
+    * MinDamage               : 2
+    * MaxDamage               : 3
+    * WeaponLength            : 0.65
+    * CriticalChance          : None
+    * CritDmgMultiplier       : 2
+    * DoorDamage              : 40
+    * TreeDamage              : 10
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : True
+    * SubCategory             : Swinging
+    * DropSound               : (NEW) SledgehammerDrop
+    * HeadCondition           : (NEW) 10
+    * HeadConditionLowerChanceMultiplier: (NEW) 1
+
+Sledgehammer2:
+    * DisplayName             : Sledgehammer
+    * Categories              : Blunt
+    * DisplayCategory         : ToolWeapon
+    * TwoHandWeapon           : True
+    * Weight                  : 6
+    * CalculatedDurability    : 400 (Max: 10 Break: 1 in 40)
+    * BaseSpeed               : 0.9
+    * MinDamage               : 2
+    * MaxDamage               : 3
+    * WeaponLength            : 0.65
+    * CriticalChance          : None
+    * CritDmgMultiplier       : 2
+    * DoorDamage              : 40
+    * TreeDamage              : 10
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : True
+    * SubCategory             : Swinging
+    * IconsForTexture         : (NEW) Sledgehammer2
+    * WeaponSpritesByIndex    : (NEW) SledgeHammer02
+    * HeadCondition           : (NEW) 10
+    * OnBreak                 : (NEW) OnBreak.Sledgehammer
+    * HeadConditionLowerChanceMultiplier: (NEW) 1
+
+Keytar:
+    * DisplayName             : Keytar
+    * Categories              : Blunt
+    * DisplayCategory         : Instrument ==> InstrumentWeapon
+    * TwoHandWeapon           : True
+    * Weight                  : 2
+    * CalculatedDurability    : 6 (Max: 2 Break: 1 in 3)
+    * BaseSpeed               : 1.2
+    * MinDamage               : 0.2
+    * MaxDamage               : 0.7
+    * WeaponLength            : None
+    * CriticalChance          : 20
+    * CritDmgMultiplier       : 2
+    * DoorDamage              : 3
+    * TreeDamage              : 10
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : True
+    * SubCategory             : Swinging
+    * DropSound               : (NEW) KeytarDrop
+
+SmashedBottle:
+    * DisplayName             : Smashed Bottle
+    * Categories              : SmallBlade
+    * DisplayCategory         : WeaponCrafted ==> WeaponImprovised
+    * TwoHandWeapon           : None
+    * Weight                  : 1
+    * CalculatedDurability    : 3 (Max: 3 Break: 1 in 1)
+    * BaseSpeed               : 1.4
+    * MinDamage               : 0.2
+    * MaxDamage               : 0.5
+    * WeaponLength            : 0.2
+    * CriticalChance          : 5
+    * CritDmgMultiplier       : 5
+    * DoorDamage              : 0
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Stab
+    * PushBackMod             : 0.3 ==> 0.01
+    * DropSound               : (NEW) SmashedBottleDrop
+    * OnBreak                 : (NEW) OnBreak.BrokenGlass
+
+HandFork:
+    * DisplayName             : Hand Fork
+    * Categories              : SmallBlade
+    * DisplayCategory         : ToolWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 0.5 ==> 1
+    * CalculatedDurability    : 54 (Max: 6 Break: 1 in 9)
+    * BaseSpeed               : None
+    * MinDamage               : 0.2
+    * MaxDamage               : 0.4
+    * WeaponLength            : 0.2
+    * CriticalChance          : 10
+    * CritDmgMultiplier       : 10
+    * DoorDamage              : 5
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Stab
+    * PushBackMod             : 0.3 ==> 0.01
+    * AttachmentType          : Knife ==> NotKnife
+    * DropSound               : (NEW) HandForkDrop
+    * DigType                 : (NEW) Trowel
+
+HuntingKnife:
+    * DisplayName             : Hunting Knife
+    * Categories              : SmallBlade
+    * DisplayCategory         : Weapon
+    * TwoHandWeapon           : None
+    * Weight                  : 0.5 ==> 1
+    * CalculatedDurability    : 150 (Max: 10 Break: 1 in 15)
+    * BaseSpeed               : None
+    * MinDamage               : 0.6
+    * MaxDamage               : 1.2
+    * WeaponLength            : 0.25
+    * CriticalChance          : 50
+    * CritDmgMultiplier       : 3
+    * DoorDamage              : 1
+    * TreeDamage              : 2 ==> 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Stab
+    * PushBackMod             : 0.3 ==> 0.01
+    * Icon                    : (REMOVED) None
+    * IconsForTexture         : (NEW) HuntingKnife
+    * DropSound               : (NEW) HuntingKnifeDrop
+    * WeaponSpritesByIndex    : (NEW) HuntingKnife
+    * Sharpness               : (NEW) 1.0
+    * OnBreak                 : (NEW) OnBreak.HuntingKnife
+
+FlintKnife:
+    * DisplayName             : Stone Knife
+    * Categories              : SmallBlade
+    * DisplayCategory         : WeaponCrafted
+    * TwoHandWeapon           : None
+    * Weight                  : 0.75
+    * CalculatedDurability    : 42 (Max: 6 Break: 1 in 7)
+    * BaseSpeed               : None
+    * MinDamage               : 0.4
+    * MaxDamage               : 0.6
+    * WeaponLength            : 0.25 ==> 0.19
+    * CriticalChance          : 20
+    * CritDmgMultiplier       : 2
+    * DoorDamage              : 1
+    * TreeDamage              : 2 ==> 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Stab
+    * MaxRange                : 0.85 ==> 0.69
+    * WeaponSprite            : FlintKnife ==> StoneKnife
+    * PushBackMod             : 0.3 ==> 0.01
+    * Icon                    : KnifeFlint ==> SpearHead_StoneShiv_Crude01
+    * DropSound               : (NEW) StoneKnifeDrop
+    * OnBreak                 : (NEW) OnBreak.SmallHandle
+
+IcePick:
+    * DisplayName             : Ice Pick
+    * Categories              : SmallBlade
+    * DisplayCategory         : Cooking ==> CookingWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 0.3
+    * CalculatedDurability    : 70 (Max: 10 Break: 1 in 7)
+    * BaseSpeed               : None
+    * MinDamage               : 0.6
+    * MaxDamage               : 0.9
+    * WeaponLength            : 0.25
+    * CriticalChance          : 10
+    * CritDmgMultiplier       : 5
+    * DoorDamage              : 1
+    * TreeDamage              : 2 ==> 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Stab
+    * PushBackMod             : 0.3 ==> 0.01
+    * DropSound               : (NEW) IcePickDrop
+    * Tags                    : (NEW) Sharpenable
+    * Sharpness               : (NEW) 1.0
+    * OnBreak                 : (NEW) OnBreak.SmallHandle
+
+LetterOpener:
+    * DisplayName             : Letter Opener
+    * Categories              : SmallBlade
+    * DisplayCategory         : Household ==> HouseholdWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 0.3
+    * CalculatedDurability    : 5 (Max: 5 Break: 1 in 1)
+    * BaseSpeed               : None
+    * MinDamage               : 0.1
+    * MaxDamage               : 0.1
+    * WeaponLength            : 0.25
+    * CriticalChance          : 5
+    * CritDmgMultiplier       : 10
+    * DoorDamage              : 1
+    * TreeDamage              : 2 ==> 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Stab
+    * PushBackMod             : 0.3 ==> 0.01
+    * DropSound               : (NEW) LetterOpenerDrop
+    * Tags                    : (NEW) NoMaintenanceXp
+
+Fork:
+    * DisplayName             : Fork
+    * Categories              : SmallBlade
+    * DisplayCategory         : Cooking ==> CookingWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 0.3 ==> 0.25
+    * CalculatedDurability    : 3 (Max: 3 Break: 1 in 1)
+    * BaseSpeed               : None
+    * MinDamage               : 0.1
+    * MaxDamage               : 0.1
+    * WeaponLength            : 0.17
+    * CriticalChance          : 5
+    * CritDmgMultiplier       : 10
+    * DoorDamage              : 1
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : None
+    * SubCategory             : Stab
+    * PushBackMod             : 0.3 ==> 0.01
+    * DropSound               : (NEW) ForkDrop
+
+Scissors:
+    * DisplayName             : Scissors
+    * Categories              : SmallBlade
+    * DisplayCategory         : Household ==> HouseholdWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 0.4 ==> 0.5
+    * CalculatedDurability    : 10 (Max: 10 Break: 1 in 1)
+    * BaseSpeed               : None
+    * MinDamage               : 0.1
+    * MaxDamage               : 0.1
+    * WeaponLength            : 0.17
+    * CriticalChance          : 5
+    * CritDmgMultiplier       : None
+    * DoorDamage              : 1
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : None
+    * SubCategory             : Stab
+    * PushBackMod             : 0.3 ==> 0.01
+    * DropSound               : (NEW) ScissorsDrop
+    * Sharpness               : (NEW) 1.0
+
+Spoon:
+    * DisplayName             : Spoon
+    * Categories              : SmallBlade
+    * DisplayCategory         : Cooking ==> CookingWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 0.3 ==> 0.25
+    * CalculatedDurability    : 3 (Max: 3 Break: 1 in 1)
+    * BaseSpeed               : None
+    * MinDamage               : 0.1
+    * MaxDamage               : 0.1
+    * WeaponLength            : 0.17
+    * CriticalChance          : 0
+    * CritDmgMultiplier       : None
+    * DoorDamage              : 1
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : None
+    * SubCategory             : Stab
+    * PushBackMod             : 0.3 ==> 0.01
+    * DropSound               : (NEW) SpoonDrop
+
+Scalpel:
+    * DisplayName             : Scalpel
+    * Categories              : SmallBlade
+    * DisplayCategory         : FirstAid ==> FirstAidWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 0.3
+    * CalculatedDurability    : 5 (Max: 5 Break: 1 in 1)
+    * BaseSpeed               : None
+    * MinDamage               : 0.1
+    * MaxDamage               : 0.4
+    * WeaponLength            : 0.17
+    * CriticalChance          : 10
+    * CritDmgMultiplier       : 10
+    * DoorDamage              : 1
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Stab
+    * PushBackMod             : 0.3 ==> 0.01
+    * DropSound               : (NEW) ScalpelDrop
+    * Tags                    : (NEW) Sharpenable
+    * Sharpness               : (NEW) 1.0
+
+ButterKnife:
+    * DisplayName             : Butter Knife
+    * Categories              : SmallBlade
+    * DisplayCategory         : Cooking ==> CookingWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 0.3 ==> 0.25
+    * CalculatedDurability    : 3 (Max: 3 Break: 1 in 1)
+    * BaseSpeed               : None
+    * MinDamage               : 0.1
+    * MaxDamage               : 0.4
+    * WeaponLength            : 0.17
+    * CriticalChance          : 7
+    * CritDmgMultiplier       : 10
+    * DoorDamage              : 1
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Stab
+    * PushBackMod             : 0.3 ==> 0.01
+    * DropSound               : (NEW) ButterKnifeDrop
+
+Stake:
+    * DisplayName             : Stake
+    * Categories              : SmallBlade
+    * DisplayCategory         : WeaponCrafted ==> GardeningWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 0.3 ==> 0.5
+    * CalculatedDurability    : 5 (Max: 5 Break: 1 in 1)
+    * BaseSpeed               : None
+    * MinDamage               : 0.25
+    * MaxDamage               : 0.53
+    * WeaponLength            : 0.18
+    * CriticalChance          : 10
+    * CritDmgMultiplier       : 10
+    * DoorDamage              : 1
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Stab
+    * PushBackMod             : 0.3 ==> 0.01
+    * DropSound               : (NEW) StakeDrop
+    * Tags                    : (NEW) TentPeg
+
+BreadKnife:
+    * DisplayName             : Bread Knife
+    * Categories              : SmallBlade
+    * DisplayCategory         : Cooking ==> CookingWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 0.3 ==> 1
+    * CalculatedDurability    : 25 (Max: 5 Break: 1 in 5)
+    * BaseSpeed               : None
+    * MinDamage               : 0.1
+    * MaxDamage               : 0.4
+    * WeaponLength            : 0.17
+    * CriticalChance          : 15
+    * CritDmgMultiplier       : 10
+    * DoorDamage              : 1
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Stab
+    * PushBackMod             : 0.3 ==> 0.01
+    * AttachmentType          : Knife ==> NotKnife
+    * DropSound               : (NEW) BreadKnifeDrop
+
+KitchenKnife:
+    * DisplayName             : Kitchen Knife
+    * Categories              : SmallBlade
+    * DisplayCategory         : Cooking ==> CookingWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 0.3 ==> 0.7
+    * CalculatedDurability    : 20 (Max: 10 Break: 1 in 2)
+    * BaseSpeed               : None
+    * MinDamage               : 0.3
+    * MaxDamage               : 0.7
+    * WeaponLength            : 0.19
+    * CriticalChance          : 25
+    * CritDmgMultiplier       : 4
+    * DoorDamage              : 1
+    * TreeDamage              : 1 ==> 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Stab
+    * PushBackMod             : 0.3 ==> 0.01
+    * Icon                    : (REMOVED) None
+    * IconsForTexture         : (NEW) KnifeChopping
+    * DropSound               : (NEW) KitchenKnifeDrop
+    * WeaponSpritesByIndex    : (NEW) Knife
+    * Sharpness               : (NEW) 1.0
+    * OnBreak                 : (NEW) OnBreak.KitchenKnife
+
+RedPen:
+    * DisplayName             : Red Pen ==> Pen - Red
+    * Categories              : Improvised
+    * DisplayCategory         : Household ==> HouseholdWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 0.1
+    * CalculatedDurability    : 2 (Max: 2 Break: 1 in 1)
+    * BaseSpeed               : None
+    * MinDamage               : 0.1
+    * MaxDamage               : 0.1
+    * WeaponLength            : 0.15
+    * CriticalChance          : 0
+    * CritDmgMultiplier       : None
+    * DoorDamage              : 0
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Stab
+    * PushBackMod             : 0.3 ==> 0.01
+
+BluePen:
+    * DisplayName             : Blue Pen ==> Pen - Blue
+    * Categories              : Improvised
+    * DisplayCategory         : Household ==> HouseholdWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 0.1
+    * CalculatedDurability    : 2 (Max: 2 Break: 1 in 1)
+    * BaseSpeed               : None
+    * MinDamage               : 0.1
+    * MaxDamage               : 0.1
+    * WeaponLength            : 0.15
+    * CriticalChance          : 0
+    * CritDmgMultiplier       : None
+    * DoorDamage              : 0
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Stab
+    * PushBackMod             : 0.3 ==> 0.01
+
+Pen:
+    * DisplayName             : Pen ==> Pen - Black
+    * Categories              : Improvised
+    * DisplayCategory         : Household ==> HouseholdWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 0.1
+    * CalculatedDurability    : 2 (Max: 2 Break: 1 in 1)
+    * BaseSpeed               : None
+    * MinDamage               : 0.1
+    * MaxDamage               : 0.1
+    * WeaponLength            : 0.15
+    * CriticalChance          : 0
+    * CritDmgMultiplier       : None
+    * DoorDamage              : 0
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Stab
+    * PushBackMod             : 0.3 ==> 0.01
+
+Pencil:
+    * DisplayName             : Pencil
+    * Categories              : Improvised
+    * DisplayCategory         : Household ==> HouseholdWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 0.1
+    * CalculatedDurability    : 1 (Max: 1 Break: 1 in 1)
+    * BaseSpeed               : None
+    * MinDamage               : 0.1
+    * MaxDamage               : 0.1
+    * WeaponLength            : 0.15
+    * CriticalChance          : 0
+    * CritDmgMultiplier       : None
+    * DoorDamage              : 0
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Stab
+    * PushBackMod             : 0.3 ==> 0.01
+
+Screwdriver:
+    * DisplayName             : Screwdriver
+    * Categories              : Improvised
+    * DisplayCategory         : ToolWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 0.4 ==> 0.5
+    * CalculatedDurability    : 60 (Max: 10 Break: 1 in 6)
+    * BaseSpeed               : None
+    * MinDamage               : 0.3
+    * MaxDamage               : 0.7
+    * WeaponLength            : 0.19
+    * CriticalChance          : 10
+    * CritDmgMultiplier       : 10
+    * DoorDamage              : 1
+    * TreeDamage              : 1 ==> 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Stab
+    * PushBackMod             : 0.3 ==> 0.01
+    * IconsForTexture         : (NEW) Screwdriver_Blue
+    * DropSound               : (NEW) ScrewdriverDrop
+    * WeaponSpritesByIndex    : (NEW) Screwdriver
+
+ClosedUmbrellaBlue:
+    * DisplayName             : Closed Umbrella ==> Umbrella (Closed)
+    * Categories              : Improvised
+    * DisplayCategory         : Household ==> HouseholdWeapon
+    * TwoHandWeapon           : True
+    * Weight                  : 1
+    * CalculatedDurability    : 21 (Max: 7 Break: 1 in 3)
+    * BaseSpeed               : 0.9
+    * MinDamage               : 0.5
+    * MaxDamage               : 0.7
+    * WeaponLength            : None
+    * CriticalChance          : 10
+    * CritDmgMultiplier       : 1
+    * DoorDamage              : 1
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Swinging
+    * Icon                    : Umbrella_Red ==> UmbrellaBlue
+    * DropSound               : (NEW) UmbrellaDrop
+
+ClosedUmbrellaRed:
+    * DisplayName             : Closed Umbrella ==> Umbrella (Closed)
+    * Categories              : Improvised
+    * DisplayCategory         : Household ==> HouseholdWeapon
+    * TwoHandWeapon           : True
+    * Weight                  : 1
+    * CalculatedDurability    : 21 (Max: 7 Break: 1 in 3)
+    * BaseSpeed               : 0.9
+    * MinDamage               : 0.5
+    * MaxDamage               : 0.7
+    * WeaponLength            : None
+    * CriticalChance          : 10
+    * CritDmgMultiplier       : 1
+    * DoorDamage              : 1
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Swinging
+    * Icon                    : Umbrella_Red ==> UmbrellaRed
+    * DropSound               : (NEW) UmbrellaDrop
+
+ClosedUmbrellaBlack:
+    * DisplayName             : Closed Umbrella ==> Umbrella (Closed)
+    * Categories              : Improvised
+    * DisplayCategory         : Household ==> HouseholdWeapon
+    * TwoHandWeapon           : True
+    * Weight                  : 1
+    * CalculatedDurability    : 21 (Max: 7 Break: 1 in 3)
+    * BaseSpeed               : 0.9
+    * MinDamage               : 0.5
+    * MaxDamage               : 0.7
+    * WeaponLength            : None
+    * CriticalChance          : 10
+    * CritDmgMultiplier       : 1
+    * DoorDamage              : 1
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Swinging
+    * Icon                    : Umbrella_Red ==> UmbrellaBlack
+    * DropSound               : (NEW) UmbrellaDrop
+
+ClosedUmbrellaWhite:
+    * DisplayName             : Closed Umbrella ==> Umbrella (Closed)
+    * Categories              : Improvised
+    * DisplayCategory         : Household ==> HouseholdWeapon
+    * TwoHandWeapon           : True
+    * Weight                  : 1
+    * CalculatedDurability    : 21 (Max: 7 Break: 1 in 3)
+    * BaseSpeed               : 0.9
+    * MinDamage               : 0.5
+    * MaxDamage               : 0.7
+    * WeaponLength            : None
+    * CriticalChance          : 10
+    * CritDmgMultiplier       : 1
+    * DoorDamage              : 1
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Swinging
+    * Icon                    : Umbrella_Red ==> UmbrellaWhite
+    * DropSound               : (NEW) UmbrellaDrop
+
+GardenFork:
+    * DisplayName             : Garden Fork
+    * Categories              : Improvised
+    * DisplayCategory         : Gardening ==> GardeningWeapon
+    * TwoHandWeapon           : True
+    * Weight                  : 1.5
+    * CalculatedDurability    : 150 (Max: 10 Break: 1 in 15)
+    * BaseSpeed               : 0.9
+    * MinDamage               : 1
+    * MaxDamage               : 1.5
+    * WeaponLength            : None
+    * CriticalChance          : 30
+    * CritDmgMultiplier       : 10
+    * DoorDamage              : 7
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Swinging
+    * Icon                    : Pitchfork ==> Pitchfork2
+    * DropSound               : (NEW) GardenForkDrop
+    * DigType                 : (NEW) Shovel
+    * OnBreak                 : (NEW) OnBreak.GardenFork
+
+SpearScissors:
+    * DisplayName             : Spear With Scissors ==> Spear with Scissors
+    * Categories              : Improvised
+    * DisplayCategory         : WeaponCrafted
+    * TwoHandWeapon           : True
+    * Weight                  : 2.1 ==> 2.5
+    * CalculatedDurability    : 18 (Max: 6 Break: 1 in 3)
+    * BaseSpeed               : None
+    * MinDamage               : 1
+    * MaxDamage               : 1.6
+    * WeaponLength            : None
+    * CriticalChance          : 30 ==> 20
+    * CritDmgMultiplier       : 10 ==> 5
+    * DoorDamage              : 5
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Spear
+    * Sharpness               : (NEW) 1.0
+    * HeadCondition           : (NEW) 10
+    * HeadConditionMax        : (NEW) 10
+    * OnBreak                 : (NEW) OnBreak.SpearScissors
+    * HeadConditionLowerChanceMultiplier: (NEW) 1
+
+SpearHandFork:
+    * DisplayName             : Spear With Hand Fork ==> Spear with Hand Fork
+    * Categories              : Improvised
+    * DisplayCategory         : WeaponCrafted
+    * TwoHandWeapon           : True
+    * Weight                  : 2.2 ==> 3
+    * CalculatedDurability    : 28 (Max: 7 Break: 1 in 4)
+    * BaseSpeed               : 0.95
+    * MinDamage               : 1.1
+    * MaxDamage               : 1.6
+    * WeaponLength            : None
+    * CriticalChance          : 30 ==> 20
+    * CritDmgMultiplier       : 10 ==> 5
+    * DoorDamage              : 6
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Spear
+    * HeadCondition           : (NEW) 6
+    * HeadConditionMax        : (NEW) 6
+    * OnBreak                 : (NEW) OnBreak.SpearHandFork
+    * HeadConditionLowerChanceMultiplier: (NEW) 1
+
+SpearScrewdriver:
+    * DisplayName             : Spear With Screwdriver ==> Spear with Screwdriver
+    * Categories              : Improvised
+    * DisplayCategory         : WeaponCrafted
+    * TwoHandWeapon           : True
+    * Weight                  : 2.1 ==> 2.5
+    * CalculatedDurability    : 28 (Max: 7 Break: 1 in 4)
+    * BaseSpeed               : None
+    * MinDamage               : 1.2
+    * MaxDamage               : 1.6
+    * WeaponLength            : None
+    * CriticalChance          : 30 ==> 20
+    * CritDmgMultiplier       : 10 ==> 5
+    * DoorDamage              : 7
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Spear
+    * HeadCondition           : (NEW) 10
+    * HeadConditionMax        : (NEW) 10
+    * OnBreak                 : (NEW) OnBreak.SpearScrewdriver
+    * HeadConditionLowerChanceMultiplier: (NEW) 1
+
+SpearHuntingKnife:
+    * DisplayName             : Spear With Hunting Knife ==> Spear with Hunting Knife
+    * Categories              : Improvised
+    * DisplayCategory         : WeaponCrafted
+    * TwoHandWeapon           : True
+    * Weight                  : 2.2 ==> 3
+    * CalculatedDurability    : 72 (Max: 9 Break: 1 in 8)
+    * BaseSpeed               : None
+    * MinDamage               : 1.2
+    * MaxDamage               : 1.7
+    * WeaponLength            : None
+    * CriticalChance          : 30 ==> 20
+    * CritDmgMultiplier       : 10 ==> 5
+    * DoorDamage              : 7
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Spear
+    * Sharpness               : (NEW) 1.0
+    * HeadCondition           : (NEW) 10
+    * HeadConditionMax        : (NEW) 10
+    * OnBreak                 : (NEW) OnBreak.SpearHuntingKnife
+    * HeadConditionLowerChanceMultiplier: (NEW) 1
+
+SpearCrafted:
+    * DisplayName             : Crafted Spear ==> Wooden Spear
+    * Categories              : Improvised
+    * DisplayCategory         : WeaponCrafted
+    * TwoHandWeapon           : True
+    * Weight                  : 1.7 ==> 2
+    * CalculatedDurability    : 10 (Max: 5 Break: 1 in 2)
+    * BaseSpeed               : None
+    * MinDamage               : 1
+    * MaxDamage               : 1.5 ==> 1.4
+    * WeaponLength            : None
+    * CriticalChance          : 30 ==> 20
+    * CritDmgMultiplier       : 10 ==> 5
+    * DoorDamage              : 5
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Spear
+    * OnBreak                 : (NEW) OnBreak.LongStick
+
+SpearKnife:
+    * DisplayName             : Spear With Knife ==> Spear with Kitchen Knife
+    * Categories              : Improvised
+    * DisplayCategory         : WeaponCrafted
+    * TwoHandWeapon           : True
+    * Weight                  : 2.0 ==> 2.7
+    * CalculatedDurability    : 28 (Max: 7 Break: 1 in 4)
+    * BaseSpeed               : None
+    * MinDamage               : 1
+    * MaxDamage               : 1.6
+    * WeaponLength            : None
+    * CriticalChance          : 30 ==> 20
+    * CritDmgMultiplier       : 10 ==> 5
+    * DoorDamage              : 5
+    * TreeDamage              : 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : False
+    * SubCategory             : Spear
+    * Sharpness               : (NEW) 1.0
+    * HeadCondition           : (NEW) 10
+    * HeadConditionMax        : (NEW) 10
+    * OnBreak                 : (NEW) OnBreak.SpearKitchenKnife
+    * HeadConditionLowerChanceMultiplier: (NEW) 1
+
+VarmintRifle:
+    * DisplayName             : MSR700 Rifle
+    * Categories              : None
+    * DisplayCategory         : Weapon
+    * TwoHandWeapon           : True
+    * Weight                  : 4
+    * CalculatedDurability    : 2000 (Max: 10 Break: 1 in 200)
+    * BaseSpeed               : None
+    * MinDamage               : 0.6 ==> 1.0
+    * MaxDamage               : 1.3 ==> 1.6
+    * WeaponLength            : None
+    * CriticalChance          : 25 ==> 20
+    * CritDmgMultiplier       : 8 ==> 4
+    * DoorDamage              : 20 ==> 5
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : True
+    * SubCategory             : Firearm
+    * MaxRange                : 10 ==> 30
+    * SoundRadius             : 70 ==> 150
+    * AimingPerkCritModifier  : 12 ==> 6
+    * HitChance               : 27 ==> 50
+    * AimingPerkHitChanceModifier: 17 ==> 4
+    * AimingPerkRangeModifier : 2 ==> 0
+    * RecoilDelay             : 90 ==> 17
+    * AimingTime              : 30 ==> 50
+    * ModelWeaponPart         : RedDot RedDot reddot reddot ==> x8Scope x8Scope scope scope
+    * JamGunChance            : 5 ==> 1
+    * DropSound               : (NEW) MSR700Drop
+    * MinSightRange           : (NEW) 2
+    * MaxSightRange           : (NEW) 10
+    * Tags                    : (NEW) HasMetal
+
+HuntingRifle:
+    * DisplayName             : MSR788 Rifle
+    * Categories              : None
+    * DisplayCategory         : Weapon
+    * TwoHandWeapon           : True
+    * Weight                  : 4
+    * CalculatedDurability    : 2000 (Max: 10 Break: 1 in 200)
+    * BaseSpeed               : None
+    * MinDamage               : 1.2
+    * MaxDamage               : 2
+    * WeaponLength            : None
+    * CriticalChance          : 30
+    * CritDmgMultiplier       : 10 ==> 4
+    * DoorDamage              : 20 ==> 5
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : True
+    * SubCategory             : Firearm
+    * MaxRange                : 10 ==> 40
+    * SoundRadius             : 70 ==> 170
+    * AimingPerkCritModifier  : 15 ==> 6
+    * HitChance               : 25 ==> 50
+    * AimingPerkHitChanceModifier: 15 ==> 4
+    * AimingPerkRangeModifier : 3 ==> 0
+    * RecoilDelay             : 100 ==> 23
+    * AimingTime              : 40 ==> 60
+    * ModelWeaponPart         : RedDot RedDot reddot reddot ==> x8Scope x8Scope scope scope
+    * JamGunChance            : 5 ==> 1
+    * DropSound               : (NEW) MSR788Drop
+    * MinSightRange           : (NEW) 2
+    * MaxSightRange           : (NEW) 10
+    * Tags                    : (NEW) HasMetal
+
+Shotgun:
+    * DisplayName             : JS-2000 Shotgun
+    * Categories              : None
+    * DisplayCategory         : Weapon
+    * TwoHandWeapon           : True
+    * Weight                  : 4
+    * CalculatedDurability    : 2000 (Max: 10 Break: 1 in 200)
+    * BaseSpeed               : None
+    * MinDamage               : 1.5
+    * MaxDamage               : 2.2
+    * WeaponLength            : None
+    * CriticalChance          : 60 ==> 70
+    * CritDmgMultiplier       : 2 ==> 12
+    * DoorDamage              : 20 ==> 30
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : True
+    * SubCategory             : Firearm
+    * MaxRange                : 7 ==> 12
+    * MinAngle                : 0.9 ==> 0.90
+    * ProjectileCount         : 5 ==> 9
+    * MaxHitCount             : 4 ==> 9
+    * AngleFalloff            : True ==> False
+    * SoundRadius             : 100 ==> 200
+    * AimingPerkCritModifier  : 4 ==> 10
+    * HitChance               : 70 ==> 65
+    * AimingPerkHitChanceModifier: 5 ==> 4
+    * RecoilDelay             : 50 ==> 30
+    * AimingTime              : 20 ==> 40
+    * ModelWeaponPart         : ChokeTubeImproved ChokeTube choketube choketube ==> RecoilPad RecoilPad recoilpad recoilpad
+    * DropSound               : (NEW) JS2000ShotgunDrop
+    * MinSightRange           : (NEW) 3
+    * MaxSightRange           : (NEW) 8
+    * ProjectileSpread        : (NEW) 1
+    * ProjectileWeightCenter  : (NEW) 1.0
+    * PiercingBullets         : (NEW) False
+    * Tags                    : (NEW) HasMetal
+
+DoubleBarrelShotgun:
+    * DisplayName             : Double Barrel Shotgun
+    * Categories              : None
+    * DisplayCategory         : Weapon
+    * TwoHandWeapon           : True
+    * Weight                  : 4
+    * CalculatedDurability    : 2000 (Max: 10 Break: 1 in 200)
+    * BaseSpeed               : None
+    * MinDamage               : 2 ==> 1.5
+    * MaxDamage               : 2.7 ==> 2.2
+    * WeaponLength            : None
+    * CriticalChance          : 80 ==> 70
+    * CritDmgMultiplier       : 2 ==> 12
+    * DoorDamage              : 30
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : True
+    * SubCategory             : Firearm
+    * MaxRange                : 9 ==> 15
+    * MinAngle                : 0.9 ==> 0.90
+    * ProjectileCount         : 5 ==> 9
+    * MaxHitCount             : 4 ==> 9
+    * SoundRadius             : 100 ==> 200
+    * AimingPerkCritModifier  : 4 ==> 6
+    * HitChance               : 80 ==> 65
+    * AimingPerkHitChanceModifier: 5 ==> 4
+    * RecoilDelay             : 50 ==> 30
+    * AimingTime              : 20 ==> 40
+    * haveChamber             : (REMOVED) None
+    * DropSound               : (NEW) DoubleBarrelShotgunDrop
+    * HaveChamber             : (NEW) False
+    * MinSightRange           : (NEW) 3
+    * MaxSightRange           : (NEW) 9
+    * ModelWeaponPart         : (NEW) RecoilPad RecoilPad recoilpad recoilpad
+    * ProjectileSpread        : (NEW) 0.6
+    * ProjectileWeightCenter  : (NEW) 1.0
+    * PiercingBullets         : (NEW) False
+    * Tags                    : (NEW) HasMetal
+
+DoubleBarrelShotgunSawnoff:
+    * DisplayName             : Sawn Off Double Barrel Shotgun ==> Sawed-off Double Barrel Shotgun
+    * Categories              : None
+    * DisplayCategory         : Weapon
+    * TwoHandWeapon           : True
+    * Weight                  : 3.5
+    * CalculatedDurability    : 2000 (Max: 10 Break: 1 in 200)
+    * BaseSpeed               : None
+    * MinDamage               : 2 ==> 1.2
+    * MaxDamage               : 2.7 ==> 1.8
+    * WeaponLength            : None
+    * CriticalChance          : 80 ==> 50
+    * CritDmgMultiplier       : 2 ==> 8
+    * DoorDamage              : 30
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : True
+    * SubCategory             : Firearm
+    * MinAngle                : 0.657 ==> 0.9
+    * ProjectileCount         : 5 ==> 9
+    * MaxHitCount             : 4 ==> 9
+    * SoundRadius             : 100 ==> 200
+    * AimingPerkCritModifier  : 4 ==> 6
+    * HitChance               : 80 ==> 70
+    * AimingPerkHitChanceModifier: 5 ==> 4
+    * RecoilDelay             : 50 ==> 34
+    * AimingTime              : 20 ==> 30
+    * haveChamber             : (REMOVED) None
+    * DropSound               : (NEW) SawnOffDoubleBarrelShotgunDrop
+    * HaveChamber             : (NEW) False
+    * MinSightRange           : (NEW) 3
+    * MaxSightRange           : (NEW) 3
+    * ProjectileSpread        : (NEW) 2
+    * ProjectileWeightCenter  : (NEW) 1.0
+    * PiercingBullets         : (NEW) False
+    * Tags                    : (NEW) HasMetal
+
+ShotgunSawnoff:
+    * DisplayName             : Sawn Off JS-2000 Shotgun ==> Sawed-off JS-2000 Shotgun
+    * Categories              : None
+    * DisplayCategory         : Weapon
+    * TwoHandWeapon           : True
+    * Weight                  : 3.5
+    * CalculatedDurability    : 2000 (Max: 10 Break: 1 in 200)
+    * BaseSpeed               : None
+    * MinDamage               : 1.5 ==> 1.3
+    * MaxDamage               : 2.2 ==> 2.0
+    * WeaponLength            : None
+    * CriticalChance          : 60 ==> 50
+    * CritDmgMultiplier       : 2 ==> 10
+    * DoorDamage              : 20 ==> 30
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : True
+    * SubCategory             : Firearm
+    * MaxRange                : 6 ==> 10
+    * MinAngle                : 0.657 ==> 0.9
+    * ProjectileCount         : 6 ==> 9
+    * MaxHitCount             : 4 ==> 9
+    * SoundRadius             : 100 ==> 200
+    * AimingPerkCritModifier  : 4 ==> 6
+    * HitChance               : 100 ==> 70
+    * AimingPerkHitChanceModifier: 0 ==> 4
+    * RecoilDelay             : 50 ==> 30
+    * AimingTime              : 20 ==> 35
+    * DropSound               : (NEW) SawnOffJS2000ShotgunDrop
+    * MinSightRange           : (NEW) 3
+    * MaxSightRange           : (NEW) 3
+    * ModelWeaponPart         : (NEW) RecoilPad RecoilPad recoilpad recoilpad
+    * ProjectileSpread        : (NEW) 1.5
+    * ProjectileWeightCenter  : (NEW) 1.0
+    * PiercingBullets         : (NEW) False
+    * Tags                    : (NEW) HasMetal
+
+Pistol:
+    * DisplayName             : M9 Pistol
+    * Categories              : None
+    * DisplayCategory         : Weapon
+    * TwoHandWeapon           : None
+    * Weight                  : 1.5
+    * CalculatedDurability    : 2000 (Max: 10 Break: 1 in 200)
+    * BaseSpeed               : None
+    * MinDamage               : 0.6
+    * MaxDamage               : 1
+    * WeaponLength            : None
+    * CriticalChance          : 20
+    * CritDmgMultiplier       : 4
+    * DoorDamage              : 5
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : True
+    * SubCategory             : Firearm
+    * MaxRange                : 7 ==> 15
+    * SoundRadius             : 40 ==> 100
+    * AimingPerkCritModifier  : 10 ==> 6
+    * AimingPerkRangeModifier : 1.5 ==> 0
+    * AimingPerkHitChanceModifier: 8 ==> 4
+    * RecoilDelay             : 20 ==> 12
+    * AimingTime              : 15 ==> 25
+    * JamGunChance            : 2 ==> 1
+    * ModelWeaponPart         : Laser Laser laser laser ==> RedDot RedDot reddot reddot
+    * DropSound               : (NEW) M9Drop
+    * MinSightRange           : (NEW) 2
+    * MaxSightRange           : (NEW) 6
+    * Tags                    : (NEW) HasMetal
+
+Pistol2:
+    * DisplayName             : M1911 Pistol
+    * Categories              : None
+    * DisplayCategory         : Weapon
+    * TwoHandWeapon           : None
+    * Weight                  : 1.5
+    * CalculatedDurability    : 2000 (Max: 10 Break: 1 in 200)
+    * BaseSpeed               : None
+    * MinDamage               : 1 ==> 0.9
+    * MaxDamage               : 1.4 ==> 1.2
+    * WeaponLength            : None
+    * CriticalChance          : 20
+    * CritDmgMultiplier       : 4
+    * DoorDamage              : 5
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : True
+    * SubCategory             : Firearm
+    * MaxRange                : 8 ==> 12
+    * SoundRadius             : 50 ==> 70
+    * AimingPerkCritModifier  : 10 ==> 6
+    * AimingPerkRangeModifier : 1.5 ==> 0
+    * HitChance               : 40 ==> 50
+    * AimingPerkHitChanceModifier: 10 ==> 4
+    * RecoilDelay             : 25 ==> 15
+    * AimingTime              : 20 ==> 25
+    * JamGunChance            : 2 ==> 1
+    * ModelWeaponPart         : Laser Laser laser laser ==> RedDot RedDot reddot reddot
+    * DropSound               : (NEW) M1911Drop
+    * MinSightRange           : (NEW) 2
+    * MaxSightRange           : (NEW) 6
+    * Tags                    : (NEW) HasMetal
+
+Pistol3:
+    * DisplayName             : D-E Pistol
+    * Categories              : None
+    * DisplayCategory         : Weapon
+    * TwoHandWeapon           : None
+    * Weight                  : 1.5
+    * CalculatedDurability    : 2000 (Max: 10 Break: 1 in 200)
+    * BaseSpeed               : None
+    * MinDamage               : 1
+    * MaxDamage               : 1.9 ==> 1.6
+    * WeaponLength            : None
+    * CriticalChance          : 20
+    * CritDmgMultiplier       : 4
+    * DoorDamage              : 5
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : True
+    * SubCategory             : Firearm
+    * MaxRange                : 10 ==> 17
+    * SoundRadius             : 70 ==> 120
+    * AimingPerkCritModifier  : 10 ==> 6
+    * AimingPerkRangeModifier : 1.5 ==> 0
+    * HitChance               : 20 ==> 50
+    * AimingPerkHitChanceModifier: 12 ==> 4
+    * RecoilDelay             : 32 ==> 17
+    * AimingTime              : 30 ==> 25
+    * JamGunChance            : 2 ==> 1
+    * ModelWeaponPart         : Laser Laser laser laser ==> RedDot RedDot reddot reddot
+    * DropSound               : (NEW) DesertEagleDrop
+    * MinSightRange           : (NEW) 2
+    * MaxSightRange           : (NEW) 6
+    * Tags                    : (NEW) HasMetal
+
+Revolver:
+    * DisplayName             : M625 Revolver
+    * Categories              : None
+    * DisplayCategory         : Weapon
+    * TwoHandWeapon           : None
+    * Weight                  : 1.75
+    * CalculatedDurability    : 2000 (Max: 10 Break: 1 in 200)
+    * BaseSpeed               : None
+    * MinDamage               : 1 ==> 0.9
+    * MaxDamage               : 1.6 ==> 1.2
+    * WeaponLength            : None
+    * CriticalChance          : 20
+    * CritDmgMultiplier       : 4
+    * DoorDamage              : 5
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : True
+    * SubCategory             : Firearm
+    * MaxRange                : 9 ==> 12
+    * SoundRadius             : 50 ==> 80
+    * AimingPerkCritModifier  : 10 ==> 6
+    * AimingPerkRangeModifier : 1.5 ==> 0
+    * HitChance               : 30 ==> 50
+    * AimingPerkHitChanceModifier: 10 ==> 4
+    * RecoilDelay             : 25 ==> 15
+    * haveChamber             : (REMOVED) None
+    * DropSound               : (NEW) M625Drop
+    * HaveChamber             : (NEW) False
+    * MinSightRange           : (NEW) 2
+    * MaxSightRange           : (NEW) 6
+    * Tags                    : (NEW) HasMetal
+
+Revolver_Long:
+    * DisplayName             : Magnum
+    * Categories              : None
+    * DisplayCategory         : Weapon
+    * TwoHandWeapon           : None
+    * Weight                  : 2
+    * CalculatedDurability    : 2000 (Max: 10 Break: 1 in 200)
+    * BaseSpeed               : None
+    * MinDamage               : 1.2 ==> 1
+    * MaxDamage               : 1.9 ==> 1.6
+    * WeaponLength            : None
+    * CriticalChance          : 20
+    * CritDmgMultiplier       : 4
+    * DoorDamage              : 5
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : True
+    * SubCategory             : Firearm
+    * MaxRange                : 11 ==> 18
+    * SoundRadius             : 80 ==> 120
+    * AimingPerkCritModifier  : 10 ==> 6
+    * AimingPerkRangeModifier : 1.5 ==> 0
+    * HitChance               : 20 ==> 50
+    * AimingPerkHitChanceModifier: 12 ==> 4
+    * RecoilDelay             : 32 ==> 17
+    * AimingTime              : 40 ==> 25
+    * UnequipSound            : MagumUnEquip ==> MagnumUnEquip
+    * haveChamber             : (REMOVED) None
+    * DropSound               : (NEW) MagnumDrop
+    * HaveChamber             : (NEW) False
+    * MinSightRange           : (NEW) 2
+    * MaxSightRange           : (NEW) 6.5
+    * Tags                    : (NEW) HasMetal
+
+Revolver_Short:
+    * DisplayName             : M36 Revolver
+    * Categories              : None
+    * DisplayCategory         : Weapon
+    * TwoHandWeapon           : None
+    * Weight                  : 1.5
+    * CalculatedDurability    : 2000 (Max: 10 Break: 1 in 200)
+    * BaseSpeed               : None
+    * MinDamage               : 0.7 ==> 0.5
+    * MaxDamage               : 1.2 ==> 0.8
+    * WeaponLength            : None
+    * CriticalChance          : 20
+    * CritDmgMultiplier       : 4
+    * DoorDamage              : 5
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : True
+    * SubCategory             : Firearm
+    * MaxRange                : 6 ==> 8
+    * SoundRadius             : 30 ==> 60
+    * AimingPerkCritModifier  : 10 ==> 6
+    * AimingPerkRangeModifier : 1.5 ==> 0
+    * HitChance               : 65 ==> 50
+    * AimingPerkHitChanceModifier: 8 ==> 4
+    * RecoilDelay             : 17 ==> 11
+    * AimingTime              : 10 ==> 25
+    * haveChamber             : (REMOVED) None
+    * AttachmentType          : Holster ==> HolsterSmall
+    * DropSound               : (NEW) M36Drop
+    * HaveChamber             : (NEW) False
+    * MinSightRange           : (NEW) 2
+    * MaxSightRange           : (NEW) 5
+    * Tags                    : (NEW) HasMetal
+
+AssaultRifle:
+    * DisplayName             : M16 Assault Rifle
+    * Categories              : None
+    * DisplayCategory         : Weapon
+    * TwoHandWeapon           : True
+    * Weight                  : 4
+    * CalculatedDurability    : 2000 (Max: 10 Break: 1 in 200)
+    * BaseSpeed               : None
+    * MinDamage               : 0.8 ==> 1.0
+    * MaxDamage               : 1.4 ==> 1.6
+    * WeaponLength            : None
+    * CriticalChance          : 25 ==> 20
+    * CritDmgMultiplier       : 10 ==> 4
+    * DoorDamage              : 20 ==> 5
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : True
+    * SubCategory             : Firearm
+    * MaxRange                : 11 ==> 30
+    * SoundRadius             : 70 ==> 150
+    * AimingPerkCritModifier  : 12 ==> 6
+    * HitChance               : 20 ==> 50
+    * AimingPerkHitChanceModifier: 7 ==> 4
+    * AimingPerkRangeModifier : 3 ==> 0
+    * RecoilDelay             : 0 ==> 15
+    * AimingTime              : 25 ==> 40
+    * JamGunChance            : 2 ==> 1
+    * ModelWeaponPart         : Laser Laser laser laser ==> x8Scope x8Scope scope scope
+    * DropSound               : (NEW) M16Drop
+    * MinSightRange           : (NEW) 2
+    * MaxSightRange           : (NEW) 10
+    * Tags                    : (NEW) HasMetal
+
+AssaultRifle2:
+    * DisplayName             : M14 Single Shot Assault Rifle ==> M14 Rifle
+    * Categories              : None
+    * DisplayCategory         : Weapon
+    * TwoHandWeapon           : True
+    * Weight                  : 4
+    * CalculatedDurability    : 2000 (Max: 10 Break: 1 in 200)
+    * BaseSpeed               : None
+    * MinDamage               : 1.2
+    * MaxDamage               : 2
+    * WeaponLength            : None
+    * CriticalChance          : 30
+    * CritDmgMultiplier       : 10 ==> 4
+    * DoorDamage              : 20 ==> 5
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : True
+    * SubCategory             : Firearm
+    * MaxRange                : 10 ==> 40
+    * SoundRadius             : 70 ==> 170
+    * AimingPerkCritModifier  : 15 ==> 6
+    * AimingPerkHitChanceModifier: 5 ==> 4
+    * AimingPerkRangeModifier : 3 ==> 0
+    * RecoilDelay             : 0 ==> 20
+    * AimingTime              : 25 ==> 50
+    * ModelWeaponPart         : Laser Laser laser laser ==> x8Scope x8Scope scope scope
+    * DropSound               : (NEW) M14Drop
+    * MinSightRange           : (NEW) 2
+    * MaxSightRange           : (NEW) 10
+    * Tags                    : (NEW) HasMetal
+
+Mop:
+    * DisplayName             : Mop
+    * Categories              : (NEW) Improvised
+    * DisplayCategory         : Household ==> HouseholdWeapon
+    * TwoHandWeapon           : (NEW) True
+    * Weight                  : 0.1 ==> 2
+    * CalculatedDurability    : 6 (Max: 3 Break: 1 in 2)
+    * BaseSpeed               : (NEW) 1.2
+    * MinDamage               : (NEW) 0.2
+    * MaxDamage               : (NEW) 0.5
+    * WeaponLength            : None
+    * CriticalChance          : (NEW) 5
+    * CritDmgMultiplier       : (NEW) 1
+    * DoorDamage              : (NEW) 1
+    * TreeDamage              : (NEW) 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : (NEW) False
+    * SubCategory             : (NEW) Swinging
+    * Type                    : Normal ==> Weapon
+    * WorldStaticModel        : (REMOVED) None
+    * AttachmentType          : (NEW) Shovel
+    * BreakSound              : (NEW) BroomBreak
+    * DoorHitSound            : (NEW) BroomHit
+    * DropSound               : (NEW) BroomDrop
+    * HitFloorSound           : (NEW) BroomHit
+    * HitSound                : (NEW) BroomHit
+    * IdleAnim                : (NEW) Idle_Weapon2
+    * KnockdownMod            : (NEW) 0
+    * MaxHitCount             : (NEW) 3
+    * MaxRange                : (NEW) 1.6
+    * MinAngle                : (NEW) 0.85
+    * MinRange                : (NEW) 0.61
+    * MinimumSwingTime        : (NEW) 2
+    * PushBackMod             : (NEW) 0.3
+    * RunAnim                 : (NEW) Run_Weapon2
+    * SplatBloodOnNoDeath     : (NEW) False
+    * SplatNumber             : (NEW) 1
+    * SwingAmountBeforeImpact : (NEW) 0.02
+    * SwingAnim               : (NEW) Bat
+    * SwingSound              : (NEW) BroomSwing
+    * SwingTime               : (NEW) 2
+    * WeaponSprite            : (NEW) Mop_Hand
+    * Tags                    : (NEW) CleanStains
+    * OnBreak                 : (NEW) OnBreak.LongStick
+
+Aerosolbomb:
+    * DisplayName             : Aerosol Bomb
+    * Categories              : None
+    * DisplayCategory         : Explosives
+    * TwoHandWeapon           : None
+    * Weight                  : 1.5
+    * CalculatedDurability    : 0 (Max: 0 Break: 1 in 0)
+    * BaseSpeed               : None
+    * MinDamage               : 0
+    * MaxDamage               : 0
+    * WeaponLength            : None
+    * CriticalChance          : None
+    * CritDmgMultiplier       : None
+    * DoorDamage              : None
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : None
+    * SubCategory             : None
+    * WeaponSprite            : Molotov ==> AerosolBomb
+
+AerosolbombTriggered:
+    * DisplayName             : Aerosol Bomb with Timer
+    * Categories              : None
+    * DisplayCategory         : Explosives
+    * TwoHandWeapon           : None
+    * Weight                  : 1.5
+    * CalculatedDurability    : 0 (Max: 0 Break: 1 in 0)
+    * BaseSpeed               : None
+    * MinDamage               : 0
+    * MaxDamage               : 0
+    * WeaponLength            : None
+    * CriticalChance          : None
+    * CritDmgMultiplier       : None
+    * DoorDamage              : None
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : None
+    * SubCategory             : None
+    * WeaponSprite            : Molotov ==> AerosolBombSensor
+
+AerosolbombSensorV1:
+    * DisplayName             : Aerosol Bomb with Sensor
+    * Categories              : None
+    * DisplayCategory         : Explosives
+    * TwoHandWeapon           : None
+    * Weight                  : 1.5
+    * CalculatedDurability    : 0 (Max: 0 Break: 1 in 0)
+    * BaseSpeed               : None
+    * MinDamage               : 0
+    * MaxDamage               : 0
+    * WeaponLength            : None
+    * CriticalChance          : None
+    * CritDmgMultiplier       : None
+    * DoorDamage              : None
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : None
+    * SubCategory             : None
+    * WeaponSprite            : Molotov ==> AerosolBombSensor
+
+AerosolbombSensorV2:
+    * DisplayName             : Aerosol Bomb with Sensor
+    * Categories              : None
+    * DisplayCategory         : Explosives
+    * TwoHandWeapon           : None
+    * Weight                  : 1.5
+    * CalculatedDurability    : 0 (Max: 0 Break: 1 in 0)
+    * BaseSpeed               : None
+    * MinDamage               : 0
+    * MaxDamage               : 0
+    * WeaponLength            : None
+    * CriticalChance          : None
+    * CritDmgMultiplier       : None
+    * DoorDamage              : None
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : None
+    * SubCategory             : None
+    * WeaponSprite            : Molotov ==> AerosolBombSensor
+
+AerosolbombSensorV3:
+    * DisplayName             : Aerosol Bomb with Sensor
+    * Categories              : None
+    * DisplayCategory         : Explosives
+    * TwoHandWeapon           : None
+    * Weight                  : 1.5
+    * CalculatedDurability    : 0 (Max: 0 Break: 1 in 0)
+    * BaseSpeed               : None
+    * MinDamage               : 0
+    * MaxDamage               : 0
+    * WeaponLength            : None
+    * CriticalChance          : None
+    * CritDmgMultiplier       : None
+    * DoorDamage              : None
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : None
+    * SubCategory             : None
+    * WeaponSprite            : Molotov ==> AerosolBombSensor
+
+AerosolbombRemote:
+    * DisplayName             : Remote Aerosol Bomb
+    * Categories              : None
+    * DisplayCategory         : Explosives
+    * TwoHandWeapon           : None
+    * Weight                  : 1.5
+    * CalculatedDurability    : 0 (Max: 0 Break: 1 in 0)
+    * BaseSpeed               : None
+    * MinDamage               : 0
+    * MaxDamage               : 0
+    * WeaponLength            : None
+    * CriticalChance          : None
+    * CritDmgMultiplier       : None
+    * DoorDamage              : None
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : None
+    * SubCategory             : None
+    * WeaponSprite            : Molotov ==> AerosolBombSensor
+
+FlameTrap:
+    * DisplayName             : Flame Trap ==> Fire Bomb
+    * Categories              : None
+    * DisplayCategory         : Explosives
+    * TwoHandWeapon           : None
+    * Weight                  : 1.5
+    * CalculatedDurability    : 0 (Max: 0 Break: 1 in 0)
+    * BaseSpeed               : None
+    * MinDamage               : 0
+    * MaxDamage               : 0
+    * WeaponLength            : None
+    * CriticalChance          : None
+    * CritDmgMultiplier       : None
+    * DoorDamage              : None
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : None
+    * SubCategory             : None
+    * WeaponSprite            : Molotov ==> FlameTrap
+
+FlameTrapTriggered:
+    * DisplayName             : Flame Trap with Timer ==> Fire Bomb with Timer
+    * Categories              : None
+    * DisplayCategory         : Explosives
+    * TwoHandWeapon           : None
+    * Weight                  : 1.5
+    * CalculatedDurability    : 0 (Max: 0 Break: 1 in 0)
+    * BaseSpeed               : None
+    * MinDamage               : 0
+    * MaxDamage               : 0
+    * WeaponLength            : None
+    * CriticalChance          : None
+    * CritDmgMultiplier       : None
+    * DoorDamage              : None
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : None
+    * SubCategory             : None
+    * WeaponSprite            : Molotov ==> FlameTrapSensor
+
+FlameTrapSensorV1:
+    * DisplayName             : Flame Trap with Sensor ==> Fire Bomb with Sensor
+    * Categories              : None
+    * DisplayCategory         : Explosives
+    * TwoHandWeapon           : None
+    * Weight                  : 1.5
+    * CalculatedDurability    : 0 (Max: 0 Break: 1 in 0)
+    * BaseSpeed               : None
+    * MinDamage               : 0
+    * MaxDamage               : 0
+    * WeaponLength            : None
+    * CriticalChance          : None
+    * CritDmgMultiplier       : None
+    * DoorDamage              : None
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : None
+    * SubCategory             : None
+    * WeaponSprite            : Molotov ==> FlameTrapSensor
+
+FlameTrapSensorV2:
+    * DisplayName             : Flame Trap with Sensor ==> Fire Bomb with Sensor
+    * Categories              : None
+    * DisplayCategory         : Explosives
+    * TwoHandWeapon           : None
+    * Weight                  : 1.5
+    * CalculatedDurability    : 0 (Max: 0 Break: 1 in 0)
+    * BaseSpeed               : None
+    * MinDamage               : 0
+    * MaxDamage               : 0
+    * WeaponLength            : None
+    * CriticalChance          : None
+    * CritDmgMultiplier       : None
+    * DoorDamage              : None
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : None
+    * SubCategory             : None
+    * WeaponSprite            : Molotov ==> FlameTrapSensor
+
+FlameTrapSensorV3:
+    * DisplayName             : Flame Trap with Sensor ==> Fire Bomb with Sensor
+    * Categories              : None
+    * DisplayCategory         : Explosives
+    * TwoHandWeapon           : None
+    * Weight                  : 1.5
+    * CalculatedDurability    : 0 (Max: 0 Break: 1 in 0)
+    * BaseSpeed               : None
+    * MinDamage               : 0
+    * MaxDamage               : 0
+    * WeaponLength            : None
+    * CriticalChance          : None
+    * CritDmgMultiplier       : None
+    * DoorDamage              : None
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : None
+    * SubCategory             : None
+    * WeaponSprite            : Molotov ==> FlameTrapSensor
+
+FlameTrapRemote:
+    * DisplayName             : Remote Flame Trap ==> Remote Fire Bomb
+    * Categories              : None
+    * DisplayCategory         : Explosives
+    * TwoHandWeapon           : None
+    * Weight                  : 1.5
+    * CalculatedDurability    : 0 (Max: 0 Break: 1 in 0)
+    * BaseSpeed               : None
+    * MinDamage               : 0
+    * MaxDamage               : 0
+    * WeaponLength            : None
+    * CriticalChance          : None
+    * CritDmgMultiplier       : None
+    * DoorDamage              : None
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : None
+    * SubCategory             : None
+    * WeaponSprite            : Molotov ==> FlameTrapSensor
+
+SmokeBomb:
+    * DisplayName             : Smoke Bomb
+    * Categories              : None
+    * DisplayCategory         : Explosives
+    * TwoHandWeapon           : None
+    * Weight                  : 1.5
+    * CalculatedDurability    : 0 (Max: 0 Break: 1 in 0)
+    * BaseSpeed               : None
+    * MinDamage               : 0
+    * MaxDamage               : 0
+    * WeaponLength            : None
+    * CriticalChance          : None
+    * CritDmgMultiplier       : None
+    * DoorDamage              : None
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : None
+    * SubCategory             : None
+    * WeaponSprite            : Molotov ==> SmokeBomb
+    * PlacedSprite            : constructedobjects_01_36 ==> constructedobjects_01_40
+    * ExplosionSound          : SmokeBombExplode ==> SmokeBombLoop
+    * ExplosionDuration       : (NEW) 10
+    * NoiseDuration           : (NEW) 10
+    * NoiseRange              : (NEW) 10
+
+SmokeBombRemote:
+    * DisplayName             : Remote Smoke Bomb
+    * Categories              : None
+    * DisplayCategory         : Explosives
+    * TwoHandWeapon           : None
+    * Weight                  : 1.5
+    * CalculatedDurability    : 0 (Max: 0 Break: 1 in 0)
+    * BaseSpeed               : None
+    * MinDamage               : 0
+    * MaxDamage               : 0
+    * WeaponLength            : None
+    * CriticalChance          : None
+    * CritDmgMultiplier       : None
+    * DoorDamage              : None
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : None
+    * SubCategory             : None
+    * WeaponSprite            : Molotov ==> SmokeBombSensor
+    * PlacedSprite            : constructedobjects_01_36 ==> constructedobjects_01_40
+    * ExplosionSound          : SmokeBombExplode ==> SmokeBombLoop
+    * ExplosionDuration       : (NEW) 10
+    * NoiseDuration           : (NEW) 10
+    * NoiseRange              : (NEW) 10
+
+SmokeBombSensorV1:
+    * DisplayName             : Smoke Bomb with Sensor
+    * Categories              : None
+    * DisplayCategory         : Explosives
+    * TwoHandWeapon           : None
+    * Weight                  : 1.5
+    * CalculatedDurability    : 0 (Max: 0 Break: 1 in 0)
+    * BaseSpeed               : None
+    * MinDamage               : 0
+    * MaxDamage               : 0
+    * WeaponLength            : None
+    * CriticalChance          : None
+    * CritDmgMultiplier       : None
+    * DoorDamage              : None
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : None
+    * SubCategory             : None
+    * WeaponSprite            : Molotov ==> SmokeBombSensor
+    * PlacedSprite            : constructedobjects_01_36 ==> constructedobjects_01_40
+    * ExplosionSound          : SmokeBombExplode ==> SmokeBombLoop
+    * ExplosionDuration       : (NEW) 10
+    * NoiseDuration           : (NEW) 10
+    * NoiseRange              : (NEW) 10
+
+SmokeBombSensorV2:
+    * DisplayName             : Smoke Bomb with Sensor
+    * Categories              : None
+    * DisplayCategory         : Explosives
+    * TwoHandWeapon           : None
+    * Weight                  : 1.5
+    * CalculatedDurability    : 0 (Max: 0 Break: 1 in 0)
+    * BaseSpeed               : None
+    * MinDamage               : 0
+    * MaxDamage               : 0
+    * WeaponLength            : None
+    * CriticalChance          : None
+    * CritDmgMultiplier       : None
+    * DoorDamage              : None
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : None
+    * SubCategory             : None
+    * WeaponSprite            : Molotov ==> SmokeBombSensor
+    * PlacedSprite            : constructedobjects_01_36 ==> constructedobjects_01_40
+    * ExplosionSound          : SmokeBombExplode ==> SmokeBombLoop
+    * ExplosionDuration       : (NEW) 10
+    * NoiseDuration           : (NEW) 10
+    * NoiseRange              : (NEW) 10
+
+SmokeBombSensorV3:
+    * DisplayName             : Smoke Bomb with Sensor
+    * Categories              : None
+    * DisplayCategory         : Explosives
+    * TwoHandWeapon           : None
+    * Weight                  : 1.5
+    * CalculatedDurability    : 0 (Max: 0 Break: 1 in 0)
+    * BaseSpeed               : None
+    * MinDamage               : 0
+    * MaxDamage               : 0
+    * WeaponLength            : None
+    * CriticalChance          : None
+    * CritDmgMultiplier       : None
+    * DoorDamage              : None
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : None
+    * SubCategory             : None
+    * WeaponSprite            : Molotov ==> SmokeBombSensor
+    * PlacedSprite            : constructedobjects_01_36 ==> constructedobjects_01_40
+    * ExplosionSound          : SmokeBombExplode ==> SmokeBombLoop
+    * ExplosionDuration       : (NEW) 10
+    * NoiseDuration           : (NEW) 10
+    * NoiseRange              : (NEW) 10
+
+SmokeBombTriggered:
+    * DisplayName             : Smoke Bomb with Timer
+    * Categories              : None
+    * DisplayCategory         : Explosives
+    * TwoHandWeapon           : None
+    * Weight                  : 1.5
+    * CalculatedDurability    : 0 (Max: 0 Break: 1 in 0)
+    * BaseSpeed               : None
+    * MinDamage               : 0
+    * MaxDamage               : 0
+    * WeaponLength            : None
+    * CriticalChance          : None
+    * CritDmgMultiplier       : None
+    * DoorDamage              : None
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : None
+    * SubCategory             : None
+    * WeaponSprite            : Molotov ==> SmokeBombSensor
+    * PlacedSprite            : constructedobjects_01_36 ==> constructedobjects_01_40
+    * ExplosionSound          : SmokeBombExplode ==> SmokeBombLoop
+    * ExplosionDuration       : (NEW) 10
+    * NoiseDuration           : (NEW) 10
+    * NoiseRange              : (NEW) 10
+
+NoiseTrap:
+    * DisplayName             : Noise Maker
+    * Categories              : None
+    * DisplayCategory         : Explosives
+    * TwoHandWeapon           : None
+    * Weight                  : 1.5
+    * CalculatedDurability    : 0 (Max: 0 Break: 1 in 0)
+    * BaseSpeed               : None
+    * MinDamage               : 0
+    * MaxDamage               : 0
+    * WeaponLength            : None
+    * CriticalChance          : None
+    * CritDmgMultiplier       : None
+    * DoorDamage              : None
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : None
+    * SubCategory             : None
+    * WeaponSprite            : Molotov ==> NoiseMaker
+    * SwingSound              : (NEW) NoiseMakerThrow
+
+NoiseTrapTriggered:
+    * DisplayName             : Noise Generator with Timer
+    * Categories              : None
+    * DisplayCategory         : Explosives
+    * TwoHandWeapon           : None
+    * Weight                  : 1.5
+    * CalculatedDurability    : 0 (Max: 0 Break: 1 in 0)
+    * BaseSpeed               : None
+    * MinDamage               : 0
+    * MaxDamage               : 0
+    * WeaponLength            : None
+    * CriticalChance          : None
+    * CritDmgMultiplier       : None
+    * DoorDamage              : None
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : None
+    * SubCategory             : None
+    * WeaponSprite            : Molotov ==> NoiseMakerSensor
+    * SwingSound              : (NEW) NoiseMakerThrow
+
+NoiseTrapSensorV1:
+    * DisplayName             : Noise Generator with Sensor
+    * Categories              : None
+    * DisplayCategory         : Explosives
+    * TwoHandWeapon           : None
+    * Weight                  : 1.5
+    * CalculatedDurability    : 0 (Max: 0 Break: 1 in 0)
+    * BaseSpeed               : None
+    * MinDamage               : 0
+    * MaxDamage               : 0
+    * WeaponLength            : None
+    * CriticalChance          : None
+    * CritDmgMultiplier       : None
+    * DoorDamage              : None
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : None
+    * SubCategory             : None
+    * WeaponSprite            : Molotov ==> NoiseMakerSensor
+    * SwingSound              : (NEW) NoiseMakerThrow
+
+NoiseTrapSensorV2:
+    * DisplayName             : Noise Generator with Sensor
+    * Categories              : None
+    * DisplayCategory         : Explosives
+    * TwoHandWeapon           : None
+    * Weight                  : 1.5
+    * CalculatedDurability    : 0 (Max: 0 Break: 1 in 0)
+    * BaseSpeed               : None
+    * MinDamage               : 0
+    * MaxDamage               : 0
+    * WeaponLength            : None
+    * CriticalChance          : None
+    * CritDmgMultiplier       : None
+    * DoorDamage              : None
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : None
+    * SubCategory             : None
+    * WeaponSprite            : Molotov ==> NoiseMakerSensor
+    * SwingSound              : (NEW) NoiseMakerThrow
+
+NoiseTrapSensorV3:
+    * DisplayName             : Noise Generator with Sensor
+    * Categories              : None
+    * DisplayCategory         : Explosives
+    * TwoHandWeapon           : None
+    * Weight                  : 1.5
+    * CalculatedDurability    : 0 (Max: 0 Break: 1 in 0)
+    * BaseSpeed               : None
+    * MinDamage               : 0
+    * MaxDamage               : 0
+    * WeaponLength            : None
+    * CriticalChance          : None
+    * CritDmgMultiplier       : None
+    * DoorDamage              : None
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : None
+    * SubCategory             : None
+    * WeaponSprite            : Molotov ==> NoiseMakerSensor
+    * SwingSound              : (NEW) NoiseMakerThrow
+
+NoiseTrapRemote:
+    * DisplayName             : Remote Noise Generator
+    * Categories              : None
+    * DisplayCategory         : Explosives
+    * TwoHandWeapon           : None
+    * Weight                  : 1.5
+    * CalculatedDurability    : 0 (Max: 0 Break: 1 in 0)
+    * BaseSpeed               : None
+    * MinDamage               : 0
+    * MaxDamage               : 0
+    * WeaponLength            : None
+    * CriticalChance          : None
+    * CritDmgMultiplier       : None
+    * DoorDamage              : None
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : None
+    * SubCategory             : None
+    * WeaponSprite            : Molotov ==> NoiseMakerSensor
+    * SwingSound              : (NEW) NoiseMakerThrow
+
+PipeBomb:
+    * DisplayName             : Pipe Bomb
+    * Categories              : None
+    * DisplayCategory         : Explosives
+    * TwoHandWeapon           : None
+    * Weight                  : 1.5
+    * CalculatedDurability    : 0 (Max: 0 Break: 1 in 0)
+    * BaseSpeed               : None
+    * MinDamage               : 0
+    * MaxDamage               : 0
+    * WeaponLength            : None
+    * CriticalChance          : None
+    * CritDmgMultiplier       : None
+    * DoorDamage              : None
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : None
+    * SubCategory             : None
+    * WeaponSprite            : Molotov ==> PipeBomb
+
+PipeBombTriggered:
+    * DisplayName             : Pipe Bomb with Timer
+    * Categories              : None
+    * DisplayCategory         : Explosives
+    * TwoHandWeapon           : None
+    * Weight                  : 1.5
+    * CalculatedDurability    : 0 (Max: 0 Break: 1 in 0)
+    * BaseSpeed               : None
+    * MinDamage               : 0
+    * MaxDamage               : 0
+    * WeaponLength            : None
+    * CriticalChance          : None
+    * CritDmgMultiplier       : None
+    * DoorDamage              : None
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : None
+    * SubCategory             : None
+    * WeaponSprite            : Molotov ==> PipeBombSensor
+
+PipeBombSensorV1:
+    * DisplayName             : Pipe Bomb with Sensor
+    * Categories              : None
+    * DisplayCategory         : Explosives
+    * TwoHandWeapon           : None
+    * Weight                  : 1.5
+    * CalculatedDurability    : 0 (Max: 0 Break: 1 in 0)
+    * BaseSpeed               : None
+    * MinDamage               : 0
+    * MaxDamage               : 0
+    * WeaponLength            : None
+    * CriticalChance          : None
+    * CritDmgMultiplier       : None
+    * DoorDamage              : None
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : None
+    * SubCategory             : None
+    * WeaponSprite            : Molotov ==> PipeBombSensor
+
+PipeBombSensorV2:
+    * DisplayName             : Pipe Bomb with Sensor
+    * Categories              : None
+    * DisplayCategory         : Explosives
+    * TwoHandWeapon           : None
+    * Weight                  : 1.5
+    * CalculatedDurability    : 0 (Max: 0 Break: 1 in 0)
+    * BaseSpeed               : None
+    * MinDamage               : 0
+    * MaxDamage               : 0
+    * WeaponLength            : None
+    * CriticalChance          : None
+    * CritDmgMultiplier       : None
+    * DoorDamage              : None
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : None
+    * SubCategory             : None
+    * WeaponSprite            : Molotov ==> PipeBombSensor
+
+PipeBombSensorV3:
+    * DisplayName             : Pipe Bomb with Sensor
+    * Categories              : None
+    * DisplayCategory         : Explosives
+    * TwoHandWeapon           : None
+    * Weight                  : 1.5
+    * CalculatedDurability    : 0 (Max: 0 Break: 1 in 0)
+    * BaseSpeed               : None
+    * MinDamage               : 0
+    * MaxDamage               : 0
+    * WeaponLength            : None
+    * CriticalChance          : None
+    * CritDmgMultiplier       : None
+    * DoorDamage              : None
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : None
+    * SubCategory             : None
+    * WeaponSprite            : Molotov ==> PipeBombSensor
+
+PipeBombRemote:
+    * DisplayName             : Remote Pipe Bomb
+    * Categories              : None
+    * DisplayCategory         : Explosives
+    * TwoHandWeapon           : None
+    * Weight                  : 1.5
+    * CalculatedDurability    : 0 (Max: 0 Break: 1 in 0)
+    * BaseSpeed               : None
+    * MinDamage               : 0
+    * MaxDamage               : 0
+    * WeaponLength            : None
+    * CriticalChance          : None
+    * CritDmgMultiplier       : None
+    * DoorDamage              : None
+    * TreeDamage              : None
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : None
+    * SubCategory             : None
+    * WeaponSprite            : Molotov ==> PipeBombSensor
+
+Handle:
+    * DisplayName             : Handle ==> Medium Handle
+    * Categories              : (NEW) Improvised
+    * DisplayCategory         : Material ==> MaterialWeapon
+    * TwoHandWeapon           : None
+    * Weight                  : 0.3 ==> 1
+    * CalculatedDurability    : 50 (Max: 10 Break: 1 in 5)
+    * BaseSpeed               : (NEW) 1.2
+    * MinDamage               : (NEW) 0.3
+    * MaxDamage               : (NEW) 0.5
+    * WeaponLength            : (NEW) 0.23
+    * CriticalChance          : (NEW) 5
+    * CritDmgMultiplier       : (NEW) 2
+    * DoorDamage              : (NEW) 1
+    * TreeDamage              : (NEW) 0
+    * PushbackMod             : None
+    * KnockBackOnNoDeath      : (NEW) False
+    * SubCategory             : (NEW) Swinging
+    * Type                    : Normal ==> Weapon
+    * Icon                    : WoodHandle ==> Hammer_Shaft
+    * WorldStaticModel        : (REMOVED) None
+    * AttachmentType          : (NEW) NotKnife
+    * BreakSound              : (NEW) PlungerBreak
+    * DoorHitSound            : (NEW) PickAxeHandleHit
+    * DropSound               : (NEW) PickAxeHandleDrop
+    * HitFloorSound           : (NEW) PickAxeHandleHit
+    * HitSound                : (NEW) PickAxeHandleHit
+    * KnockdownMod            : (NEW) 2
+    * MaxHitCount             : (NEW) 2
+    * MaxRange                : (NEW) 1.1
+    * MinAngle                : (NEW) 0.65
+    * MinRange                : (NEW) 0.61
+    * MinimumSwingTime        : (NEW) 4
+    * PushBackMod             : (NEW) 0.3
+    * SplatBloodOnNoDeath     : (NEW) False
+    * SplatNumber             : (NEW) 1
+    * SwingAmountBeforeImpact : (NEW) 0.02
+    * SwingAnim               : (NEW) Bat
+    * SwingSound              : (NEW) PlungerSwing
+    * SwingTime               : (NEW) 4
+    * Tags                    : (NEW) WoodHandle
+    * WeaponSprite            : (NEW) Handle_Hand

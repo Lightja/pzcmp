@@ -1,0 +1,1562 @@
+
+~~~~~~~~~~~~~~~~~~~~
+
+
+New Weapons:
+
+~~~~~~~~~~~~~~~~~~~~
+
+Bolt Cutters (BoltCutters) - Blunt (ToolWeapon) - Swinging
+    Dmg: 0.6 - 1.15, Crit: 20% (2.5x) (Wgt: 4)
+        DPS: 1.312 - DPS/Wgt: 0.328
+    Durability: 1050 (Max: 15, Break: 1 in 70)
+    Speed: 1, Length: 0.4, DoorDmg: 8, TreeDmg: 0
+    Pushback: True ()
+Crowbar (CrowbarForged) - Blunt (ToolWeapon) - Swinging
+    Dmg: 0.6 - 1.15, Crit: 35% (6x) (Wgt: 2)
+        DPS: 2.713 - DPS/Wgt: 1.356
+    Durability: 1050 (Max: 15, Break: 1 in 70)
+    Speed: 1, Length: 0.4, DoorDmg: 8, TreeDmg: 0
+    Pushback: True ()
+Baseball Bat - Sheet Metal (BaseballBat_ScrapSheet) - Blunt (SportsWeapon) - Swinging
+    Dmg: 1.0 - 1.3, Crit: 50% (4x) (Wgt: 2)
+        DPS: 3.45 - DPS/Wgt: 1.725
+    Durability: 750 (Max: 25, Break: 1 in 30)
+    Speed: 1, Length: 0.5, DoorDmg: 5, TreeDmg: 1
+    Pushback: True ()
+Baseball Bat - Can-Reinforced (BaseballBat_Can) - Blunt (SportsWeapon) - Swinging
+    Dmg: 0.9 - 1.2, Crit: 45% (3x) (Wgt: 2)
+        DPS: 2.468 - DPS/Wgt: 1.234
+    Durability: 500 (Max: 20, Break: 1 in 25)
+    Speed: 1, Length: 0.5, DoorDmg: 5, TreeDmg: 1
+    Pushback: True ()
+Metal Baseball Bat (BaseballBat_Metal) - Blunt (SportsWeapon) - Swinging
+    Dmg: 0.8 - 1.1, Crit: 40% (0x) (Wgt: 2)
+        DPS: 0.95 - DPS/Wgt: 0.475
+    Durability: 500 (Max: 20, Break: 1 in 25)
+    Speed: 1, Length: 0.5, DoorDmg: 5, TreeDmg: 1
+    Pushback: True ()
+Axe (Axe_Old) - Axe (ToolWeapon) - Swinging
+    Dmg: 0.8 - 2, Crit: 20% (5x) (Wgt: 3)
+        DPS: 2.8 - DPS/Wgt: 0.933
+    Durability: 455 (Max: 13, Break: 1 in 35)
+    Speed: 1, Length: 0.38, DoorDmg: 35, TreeDmg: 35
+    Pushback: True ()
+Sawblade Axe (Axe_Sawblade) - Axe (WeaponCrafted) - Swinging
+    Dmg: 0.8 - 2, Crit: 20% (5x) (Wgt: 3.5)
+        DPS: 2.66 - DPS/Wgt: 0.76
+    Durability: 455 (Max: 13, Break: 1 in 35)
+    Speed: 0.95, Length: 0.38, DoorDmg: 15, TreeDmg: 15
+    Pushback: True ()
+Railroad Spike (RailroadSpike) - SmallBlade (MaterialWeapon) - Stab
+    Dmg: 0.3 - 0.4, Crit: 5% (2x) (Wgt: 0.5)
+        DPS: 0.385 - DPS/Wgt: 0.77
+    Durability: 450 (Max: 15, Break: 1 in 30)
+    Speed: 1, Length: 0.19, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Stone Maul (StoneMaul) - Blunt (WeaponCrafted) - Swinging
+    Dmg: 2 - 3, Crit: 0% (2x) (Wgt: 6)
+        DPS: 2.25 - DPS/Wgt: 0.375
+    Durability: 400 (Max: 10, Break: 1 in 40)
+    Speed: 0.9, Length: 0.65, DoorDmg: 40, TreeDmg: 10
+    Pushback: True ()
+Block Maul (BlockMaul) - Blunt (WeaponCrafted) - Swinging
+    Dmg: 2 - 3, Crit: 0% (2x) (Wgt: 4)
+        DPS: 2.25 - DPS/Wgt: 0.562
+    Durability: 400 (Max: 10, Break: 1 in 40)
+    Speed: 0.9, Length: 0.65, DoorDmg: 40, TreeDmg: 10
+    Pushback: True ()
+Railroad Spike Puller (RailroadSpikePuller) - Blunt (ToolWeapon) - Swinging
+    Dmg: 2 - 3, Crit: 0% (2x) (Wgt: 6)
+        DPS: 2.25 - DPS/Wgt: 0.375
+    Durability: 400 (Max: 10, Break: 1 in 40)
+    Speed: 0.9, Length: 0.65, DoorDmg: 10, TreeDmg: 5
+    Pushback: True ()
+Railroad Spike Puller (RailroadSpikePullerOld) - Blunt (ToolWeapon) - Swinging
+    Dmg: 2 - 3, Crit: 0% (2x) (Wgt: 6)
+        DPS: 2.25 - DPS/Wgt: 0.375
+    Durability: 400 (Max: 10, Break: 1 in 40)
+    Speed: 0.9, Length: 0.65, DoorDmg: 10, TreeDmg: 5
+    Pushback: True ()
+Sledgehammer (SledgehammerForged) - Blunt (ToolWeapon) - Swinging
+    Dmg: 2 - 3, Crit: 0% (2x) (Wgt: 6)
+        DPS: 2.25 - DPS/Wgt: 0.375
+    Durability: 400 (Max: 10, Break: 1 in 40)
+    Speed: 0.9, Length: 0.65, DoorDmg: 40, TreeDmg: 10
+    Pushback: True ()
+Jawbone Morningstar (JawboneBovide_Morningstar) - Blunt (WeaponCrafted) - Swinging
+    Dmg: 1.3 - 3, Crit: 50% (12x) (Wgt: 4)
+        DPS: 15.05 - DPS/Wgt: 3.762
+    Durability: 375 (Max: 15, Break: 1 in 25)
+    Speed: 1, Length: 0.5, DoorDmg: 7, TreeDmg: 1
+    Pushback: True ()
+Scrap Metal Cleaver-Axe (Axe_ScrapCleaver) - Axe (WeaponCrafted) - Swinging
+    Dmg: 1.3 - 3, Crit: 50% (12x) (Wgt: 3)
+        DPS: 13.545 - DPS/Wgt: 4.515
+    Durability: 375 (Max: 15, Break: 1 in 25)
+    Speed: 0.9, Length: 0.5, DoorDmg: 55, TreeDmg: 55
+    Pushback: True ()
+Large Stone Axe (StoneAxeLarge) - Axe (WeaponCrafted) - Swinging
+    Dmg: 1.3 - 3, Crit: 50% (12x) (Wgt: 3)
+        DPS: 15.05 - DPS/Wgt: 5.017
+    Durability: 375 (Max: 15, Break: 1 in 25)
+    Speed: 1, Length: 0.5, DoorDmg: 55, TreeDmg: 55
+    Pushback: True ()
+Barbell (BarBell_Forged) - Blunt (SportsWeapon) - Swinging
+    Dmg: 1.8 - 2.8, Crit: 0% (2x) (Wgt: 6)
+        DPS: 1.61 - DPS/Wgt: 0.268
+    Durability: 375 (Max: 15, Break: 1 in 25)
+    Speed: 0.7, Length: 0.5, DoorDmg: 35, TreeDmg: 55
+    Pushback: True ()
+Wood Axe (WoodAxeForged) - Axe (ToolWeapon) - Swinging
+    Dmg: 1.3 - 3, Crit: 50% (12x) (Wgt: 3)
+        DPS: 15.05 - DPS/Wgt: 5.017
+    Durability: 375 (Max: 15, Break: 1 in 25)
+    Speed: 1, Length: 0.5, DoorDmg: 55, TreeDmg: 55
+    Pushback: True ()
+Machete (MacheteForged) - LongBlade (GardeningWeapon) - Swinging
+    Dmg: 2 - 3, Crit: 20% (5x) (Wgt: 2)
+        DPS: 5.0 - DPS/Wgt: 2.5
+    Durability: 325 (Max: 13, Break: 1 in 25)
+    Speed: 1, Length: 0.3, DoorDmg: 10, TreeDmg: 10
+    Pushback: False ()
+Ball-peen Hammer (BallPeenHammerForged) - SmallBlunt (ToolWeapon) - Swinging
+    Dmg: 0.5 - 1, Crit: 20% (3x) (Wgt: 1)
+        DPS: 1.8 - DPS/Wgt: 1.8
+    Durability: 300 (Max: 10, Break: 1 in 30)
+    Speed: 1.5, Length: 0.23, DoorDmg: 9, TreeDmg: 0
+    Pushback: True ()
+Claw Hammer (HammerForged) - SmallBlunt (ToolWeapon) - Swinging
+    Dmg: 0.5 - 1, Crit: 20% (3x) (Wgt: 1.5)
+        DPS: 1.2 - DPS/Wgt: 0.8
+    Durability: 300 (Max: 10, Break: 1 in 30)
+    Speed: 1, Length: 0.23, DoorDmg: 9, TreeDmg: 0
+    Pushback: True ()
+Mace (Mace) - SmallBlunt (Weapon) - Swinging
+    Dmg: 0.7 - 1.3, Crit: 40% (4x) (Wgt: 2.5)
+        DPS: 2.6 - DPS/Wgt: 1.04
+    Durability: 300 (Max: 15, Break: 1 in 20)
+    Speed: 1, Length: 0.35, DoorDmg: 9, TreeDmg: 0
+    Pushback: True ()
+Short Bat - Can-Reinforced (ShortBat_Can) - SmallBlunt (Weapon) - Swinging
+    Dmg: 0.7 - 1.2, Crit: 30% (3x) (Wgt: 2)
+        DPS: 1.986 - DPS/Wgt: 0.993
+    Durability: 300 (Max: 15, Break: 1 in 20)
+    Speed: 1.1, Length: 0.35, DoorDmg: 7, TreeDmg: 0
+    Pushback: True ()
+Smithing Hammer (SmithingHammer) - SmallBlunt (ToolWeapon) - Swinging
+    Dmg: 0.5 - 1, Crit: 20% (3x) (Wgt: 1.5)
+        DPS: 1.2 - DPS/Wgt: 0.8
+    Durability: 300 (Max: 10, Break: 1 in 30)
+    Speed: 1, Length: 0.23, DoorDmg: 9, TreeDmg: 0
+    Pushback: True ()
+Long Mace (LongMace) - Improvised (Weapon) - Swinging
+    Dmg: 0.7 - 1.5, Crit: 40% (4x) (Wgt: 2)
+        DPS: 2.86 - DPS/Wgt: 1.43
+    Durability: 300 (Max: 15, Break: 1 in 20)
+    Speed: 1, Length: , DoorDmg: 9, TreeDmg: 0
+    Pushback: False ()
+Pickaxe (PickAxeForged) - Axe (ToolWeapon) - Swinging
+    Dmg: 1 - 2.2, Crit: 25% (9x) (Wgt: 3)
+        DPS: 4.16 - DPS/Wgt: 1.387
+    Durability: 260 (Max: 13, Break: 1 in 20)
+    Speed: 0.8, Length: , DoorDmg: 35, TreeDmg: 35
+    Pushback: True ()
+Shortsword (ShortSword) - LongBlade (Weapon) - Swinging
+    Dmg: 1.5 - 2, Crit: 20% (4x) (Wgt: 1.5)
+        DPS: 3.15 - DPS/Wgt: 2.1
+    Durability: 260 (Max: 13, Break: 1 in 20)
+    Speed: 1, Length: 0.3, DoorDmg: 5, TreeDmg: 1
+    Pushback: True ()
+Sword (Sword) - LongBlade (Weapon) - Swinging
+    Dmg: 2 - 3, Crit: 20% (5x) (Wgt: 2)
+        DPS: 5.0 - DPS/Wgt: 2.5
+    Durability: 260 (Max: 13, Break: 1 in 20)
+    Speed: 1, Length: 0.4, DoorDmg: 8, TreeDmg: 1
+    Pushback: True ()
+Block Mace (BlockMace) - SmallBlunt (WeaponCrafted) - Swinging
+    Dmg: 0.5 - 1, Crit: 20% (2x) (Wgt: 3)
+        DPS: 1.05 - DPS/Wgt: 0.35
+    Durability: 250 (Max: 10, Break: 1 in 25)
+    Speed: 1, Length: 0.29, DoorDmg: 9, TreeDmg: 0
+    Pushback: True ()
+Club Hammer (ClubHammerForged) - SmallBlunt (ToolWeapon) - Swinging
+    Dmg: 0.5 - 1, Crit: 20% (2x) (Wgt: 2)
+        DPS: 1.05 - DPS/Wgt: 0.525
+    Durability: 250 (Max: 10, Break: 1 in 25)
+    Speed: 1, Length: 0.23, DoorDmg: 9, TreeDmg: 0
+    Pushback: True ()
+Dumbbell (DumbBell_Forged) - SmallBlunt (SportsWeapon) - Swinging
+    Dmg: 0.5 - 1, Crit: 25% (3x) (Wgt: 5)
+        DPS: 1.181 - DPS/Wgt: 0.236
+    Durability: 250 (Max: 10, Break: 1 in 25)
+    Speed: 0.90, Length: 0.2, DoorDmg: 9, TreeDmg: 0
+    Pushback: True ()
+Long Handle - Can-Reinforced (LongHandle_Can) - Improvised (WeaponCrafted) - Swinging
+    Dmg: 0.6 - 1.0, Crit: 30% (3x) (Wgt: 2.5)
+        DPS: 1.52 - DPS/Wgt: 0.608
+    Durability: 225 (Max: 15, Break: 1 in 15)
+    Speed: 1, Length: , DoorDmg: 7, TreeDmg: 0
+    Pushback: False ()
+Metal Baseball Bat - Sawblade (BaseballBat_Metal_Sawblade) - Axe (WeaponCrafted) - Swinging
+    Dmg: 1.2 - 1.9, Crit: 20% (5x) (Wgt: 3)
+        DPS: 3.1 - DPS/Wgt: 1.033
+    Durability: 225 (Max: 15, Break: 1 in 15)
+    Speed: 1, Length: 0.38, DoorDmg: 15, TreeDmg: 15
+    Pushback: True ()
+Metal Baseball Bat - Bolts (BaseballBat_Metal_Bolts) - Blunt (WeaponCrafted) - Swinging
+    Dmg: 0.8 - 1.1, Crit: 50% (0x) (Wgt: 2.4)
+        DPS: 0.95 - DPS/Wgt: 0.396
+    Durability: 200 (Max: 20, Break: 1 in 10)
+    Speed: 1, Length: 0.5, DoorDmg: 5, TreeDmg: 1
+    Pushback: True ()
+Engine Parts Maul (EngineMaul) - Blunt (WeaponCrafted) - Swinging
+    Dmg: 2 - 3, Crit: 0% (2x) (Wgt: 6)
+        DPS: 2.25 - DPS/Wgt: 0.375
+    Durability: 200 (Max: 10, Break: 1 in 20)
+    Speed: 0.9, Length: 0.65, DoorDmg: 40, TreeDmg: 10
+    Pushback: True ()
+Scrap Metal Maul (ScrapMaul) - Blunt (WeaponCrafted) - Swinging
+    Dmg: 2 - 3, Crit: 0% (2x) (Wgt: 6)
+        DPS: 2.25 - DPS/Wgt: 0.375
+    Durability: 200 (Max: 10, Break: 1 in 20)
+    Speed: 0.9, Length: 0.65, DoorDmg: 40, TreeDmg: 10
+    Pushback: True ()
+Broken Sword (Sword_Broken) - LongBlade (BrokenWeapon) - Swinging
+    Dmg: 1.4 - 1.8, Crit: 20% (3x) (Wgt: 1.5)
+        DPS: 2.56 - DPS/Wgt: 1.707
+    Durability: 195 (Max: 13, Break: 1 in 15)
+    Speed: 1, Length: 0.3, DoorDmg: 5, TreeDmg: 1
+    Pushback: True ()
+Spade Head (SpadeHead) - Blunt (JunkWeapon) - Swinging
+    Dmg: 0.4 - 0.8, Crit: 15% (2x) (Wgt: 1)
+        DPS: 0.936 - DPS/Wgt: 0.936
+    Durability: 150 (Max: 10, Break: 1 in 15)
+    Speed: 1.2, Length: 0.2, DoorDmg: 5, TreeDmg: 5
+    Pushback: False ()
+Garden Fork Head (GardenForkHead) - Blunt (MaterialWeapon) - Swinging
+    Dmg: 0.4 - 0.8, Crit: 15% (2x) (Wgt: 1)
+        DPS: 0.936 - DPS/Wgt: 0.936
+    Durability: 150 (Max: 10, Break: 1 in 15)
+    Speed: 1.2, Length: 0.2, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Garden Fork Head (GardenForkHead_Forged) - Blunt (MaterialWeapon) - Swinging
+    Dmg: 0.4 - 0.8, Crit: 15% (2x) (Wgt: 1)
+        DPS: 0.936 - DPS/Wgt: 0.936
+    Durability: 150 (Max: 10, Break: 1 in 15)
+    Speed: 1.2, Length: 0.2, DoorDmg: 1, TreeDmg: 0
+    Pushback: True ()
+Short Bat (ShortBat) - SmallBlunt (Weapon) - Swinging
+    Dmg: 0.6 - 1.1, Crit: 25% (2x) (Wgt: 1.5)
+        DPS: 1.403 - DPS/Wgt: 0.935
+    Durability: 150 (Max: 10, Break: 1 in 15)
+    Speed: 1.1, Length: 0.35, DoorDmg: 5, TreeDmg: 0
+    Pushback: True ()
+Short Bat - Rake-Head (ShortBat_RakeHead) - SmallBlunt (WeaponCrafted) - Swinging
+    Dmg: 0.8 - 1.5, Crit: 20% (5x) (Wgt: 1.5)
+        DPS: 2.415 - DPS/Wgt: 1.61
+    Durability: 150 (Max: 15, Break: 1 in 10)
+    Speed: 1.05, Length: 0.35, DoorDmg: 7, TreeDmg: 0
+    Pushback: True ()
+Short Bat - Nail-Spiked (ShortBat_Nails) - SmallBlunt (WeaponCrafted) - Swinging
+    Dmg: 0.8 - 1.5, Crit: 20% (5x) (Wgt: 1.5)
+        DPS: 2.415 - DPS/Wgt: 1.61
+    Durability: 150 (Max: 15, Break: 1 in 10)
+    Speed: 1.05, Length: 0.35, DoorDmg: 7, TreeDmg: 0
+    Pushback: True ()
+Spiked Short Bat (SpikedShortBat) - SmallBlunt (Weapon) - Swinging
+    Dmg: 0.6 - 1.2, Crit: 30% (3x) (Wgt: 2)
+        DPS: 1.71 - DPS/Wgt: 0.855
+    Durability: 150 (Max: 10, Break: 1 in 15)
+    Speed: 1, Length: 0.35, DoorDmg: 9, TreeDmg: 0
+    Pushback: True ()
+Sawblade Hatchet (Axe_Sawblade_Hatchet) - Axe (WeaponCrafted) - Swinging
+    Dmg: 0.7 - 1.5, Crit: 15% (5x) (Wgt: 2.5)
+        DPS: 1.829 - DPS/Wgt: 0.732
+    Durability: 150 (Max: 10, Break: 1 in 15)
+    Speed: 0.95, Length: 0.35, DoorDmg: 10, TreeDmg: 10
+    Pushback: False ()
+Hand Axe (HandAxe_Old) - Axe (ToolWeapon) - Swinging
+    Dmg: 0.7 - 1.5, Crit: 15% (5x) (Wgt: 2)
+        DPS: 1.925 - DPS/Wgt: 0.963
+    Durability: 150 (Max: 10, Break: 1 in 15)
+    Speed: 1, Length: 0.35, DoorDmg: 20, TreeDmg: 15
+    Pushback: False ()
+Hatchet (HandAxeForged) - Axe (ToolWeapon) - Swinging
+    Dmg: 0.7 - 1.5, Crit: 15% (5x) (Wgt: 2)
+        DPS: 1.925 - DPS/Wgt: 0.963
+    Durability: 150 (Max: 10, Break: 1 in 15)
+    Speed: 1, Length: 0.35, DoorDmg: 20, TreeDmg: 15
+    Pushback: False ()
+Ice Axe (IceAxe) - Axe (ToolWeapon) - Swinging
+    Dmg: 0.7 - 1.5, Crit: 15% (5x) (Wgt: 2)
+        DPS: 1.925 - DPS/Wgt: 0.963
+    Durability: 150 (Max: 10, Break: 1 in 15)
+    Speed: 1, Length: 0.38, DoorDmg: 20, TreeDmg: 5
+    Pushback: False ()
+Scrap Metal Cleaver (MeatCleaver_Scrap) - Axe (WeaponCrafted) - Swinging
+    Dmg: 0.4 - 0.8, Crit: 15% (5x) (Wgt: 2)
+        DPS: 1.05 - DPS/Wgt: 0.525
+    Durability: 150 (Max: 10, Break: 1 in 15)
+    Speed: 1, Length: 0.2, DoorDmg: 5, TreeDmg: 5
+    Pushback: False ()
+Meat Cleaver (MeatCleaverForged) - Axe (CookingWeapon) - Swinging
+    Dmg: 0.4 - 0.8, Crit: 15% (5x) (Wgt: 1)
+        DPS: 1.26 - DPS/Wgt: 1.26
+    Durability: 150 (Max: 10, Break: 1 in 15)
+    Speed: 1.2, Length: 0.2, DoorDmg: 5, TreeDmg: 5
+    Pushback: False ()
+Railspike Short Bat (ShortBat_RailSpike) - Axe (WeaponCrafted) - Swinging
+    Dmg: 0.8 - 1.5, Crit: 20% (5x) (Wgt: 1.5)
+        DPS: 2.415 - DPS/Wgt: 1.61
+    Durability: 150 (Max: 15, Break: 1 in 10)
+    Speed: 1.05, Length: 0.35, DoorDmg: 7, TreeDmg: 0
+    Pushback: True ()
+Baseball Bat - Nail-Spiked (BaseballBat_Nails) - Blunt (WeaponCrafted) - Swinging
+    Dmg: 1 - 1.5, Crit: 30% (5x) (Wgt: 2)
+        DPS: 2.969 - DPS/Wgt: 1.484
+    Durability: 150 (Max: 15, Break: 1 in 10)
+    Speed: 0.95, Length: 0.5, DoorDmg: 7, TreeDmg: 1
+    Pushback: True ()
+Rake-Head Scrap Metal Weapon (ScrapWeaponRakeHead) - Blunt (WeaponCrafted) - Swinging
+    Dmg: 0.6 - 1.5, Crit: 15% (4x) (Wgt: 3)
+        DPS: 1.68 - DPS/Wgt: 0.56
+    Durability: 150 (Max: 10, Break: 1 in 15)
+    Speed: 1, Length: 0.38, DoorDmg: 15, TreeDmg: 5
+    Pushback: True ()
+Brake Disk Scrap Metal Weapon (ScrapWeapon_Brake) - Axe (WeaponCrafted) - Swinging
+    Dmg: 0.8 - 2, Crit: 15% (4x) (Wgt: 4)
+        DPS: 2.24 - DPS/Wgt: 0.56
+    Durability: 150 (Max: 10, Break: 1 in 15)
+    Speed: 1, Length: 0.38, DoorDmg: 15, TreeDmg: 5
+    Pushback: True ()
+Garden Fork Scrap Metal Weapon (ScrapWeaponGardenFork) - Axe (WeaponCrafted) - Swinging
+    Dmg: 0.8 - 2, Crit: 15% (4x) (Wgt: 4)
+        DPS: 2.24 - DPS/Wgt: 0.56
+    Durability: 150 (Max: 10, Break: 1 in 15)
+    Speed: 1, Length: 0.38, DoorDmg: 15, TreeDmg: 5
+    Pushback: True ()
+Spade Scrap Metal Weapon (ScrapWeaponSpade) - Axe (WeaponCrafted) - Swinging
+    Dmg: 0.8 - 2, Crit: 15% (4x) (Wgt: 4)
+        DPS: 2.24 - DPS/Wgt: 0.56
+    Durability: 150 (Max: 10, Break: 1 in 15)
+    Speed: 1, Length: 0.38, DoorDmg: 15, TreeDmg: 15
+    Pushback: True ()
+Crude Shortsword (CrudeShortSword) - LongBlade (Weapon) - Swinging
+    Dmg: 1 - 2, Crit: 20% (3x) (Wgt: 1.5)
+        DPS: 2.4 - DPS/Wgt: 1.6
+    Durability: 150 (Max: 10, Break: 1 in 15)
+    Speed: 1, Length: 0.3, DoorDmg: 5, TreeDmg: 1
+    Pushback: True ()
+Crude Sword (CrudeSword) - LongBlade (Weapon) - Swinging
+    Dmg: 1.5 - 3, Crit: 20% (4x) (Wgt: 2)
+        DPS: 4.05 - DPS/Wgt: 2.025
+    Durability: 150 (Max: 10, Break: 1 in 15)
+    Speed: 1, Length: 0.4, DoorDmg: 8, TreeDmg: 1
+    Pushback: True ()
+Scrap Metal Sword (Sword_Scrap) - LongBlade (WeaponCrafted) - Swinging
+    Dmg: 1.5 - 3, Crit: 20% (4x) (Wgt: 2.5)
+        DPS: 4.05 - DPS/Wgt: 1.62
+    Durability: 150 (Max: 10, Break: 1 in 15)
+    Speed: 1, Length: 0.4, DoorDmg: 8, TreeDmg: 1
+    Pushback: True ()
+Garden Fork (GardenFork_Forged) - Improvised (GardeningWeapon) - Swinging
+    Dmg: 1 - 1.5, Crit: 30% (10x) (Wgt: 1.5)
+        DPS: 4.5 - DPS/Wgt: 3.0
+    Durability: 150 (Max: 10, Break: 1 in 15)
+    Speed: 0.9, Length: , DoorDmg: 7, TreeDmg: 0
+    Pushback: False ()
+Hunting Knife (HuntingKnifeForged) - SmallBlade (Weapon) - Stab
+    Dmg: 0.6 - 1.2, Crit: 50% (3x) (Wgt: 1)
+        DPS: 2.25 - DPS/Wgt: 2.25
+    Durability: 150 (Max: 10, Break: 1 in 15)
+    Speed: 1, Length: 0.25, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Large Knife (LargeKnife) - SmallBlade (ToolWeapon) - Stab
+    Dmg: 0.6 - 1.1, Crit: 30% (3x) (Wgt: 1)
+        DPS: 1.615 - DPS/Wgt: 1.615
+    Durability: 150 (Max: 10, Break: 1 in 15)
+    Speed: 1, Length: 0.25, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Machete Blade Knife (MacheteKnife) - SmallBlade (ToolWeapon) - Stab
+    Dmg: 0.6 - 1.1, Crit: 30% (3x) (Wgt: 1)
+        DPS: 1.615 - DPS/Wgt: 1.615
+    Durability: 150 (Max: 10, Break: 1 in 15)
+    Speed: 1, Length: 0.25, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Railroad Spike Knife (RailroadSpikeKnife) - SmallBlade (Weapon) - Stab
+    Dmg: 0.3 - 0.7, Crit: 25% (4x) (Wgt: 0.5)
+        DPS: 1.0 - DPS/Wgt: 2.0
+    Durability: 150 (Max: 10, Break: 1 in 15)
+    Speed: 1, Length: 0.19, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Long Spearhead (SpearLongHead) - SmallBlade (MaterialWeapon) - Stab
+    Dmg: 0.6 - 1.2, Crit: 50% (3x) (Wgt: 1)
+        DPS: 2.25 - DPS/Wgt: 2.25
+    Durability: 150 (Max: 10, Break: 1 in 15)
+    Speed: 1, Length: 0.25, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Ratchet Wrench (Ratchet) - SmallBlunt (ToolWeapon) - Swinging
+    Dmg: 0.5 - 1, Crit: 20% (2x) (Wgt: 1)
+        DPS: 1.05 - DPS/Wgt: 1.05
+    Durability: 135 (Max: 9, Break: 1 in 15)
+    Speed: 1, Length: 0.23, DoorDmg: 10, TreeDmg: 0
+    Pushback: False ()
+Sawblade Short Bat (ShortBat_Sawblade) - Axe (WeaponCrafted) - Swinging
+    Dmg: 0.8 - 1.5, Crit: 20% (5x) (Wgt: 3)
+        DPS: 2.3 - DPS/Wgt: 0.767
+    Durability: 130 (Max: 13, Break: 1 in 10)
+    Speed: 1, Length: 0.38, DoorDmg: 15, TreeDmg: 15
+    Pushback: True ()
+Carpentry Chisel (CarpentryChisel) - Improvised (ToolWeapon) - Swinging
+    Dmg: 0.4 - 0.8, Crit: 30% (2x) (Wgt: 1)
+        DPS: 0.912 - DPS/Wgt: 0.912
+    Durability: 120 (Max: 8, Break: 1 in 15)
+    Speed: 0.95, Length: 0.25, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+File (File) - Improvised (ToolWeapon) - Swinging
+    Dmg: 0.4 - 0.8, Crit: 30% (2x) (Wgt: 1)
+        DPS: 0.912 - DPS/Wgt: 0.912
+    Durability: 120 (Max: 8, Break: 1 in 15)
+    Speed: 0.95, Length: 0.25, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Fireplace Poker (FireplacePoker) - Improvised (ToolWeapon) - Swinging
+    Dmg: 0.7 - 1.1, Crit: 35% (3x) (Wgt: 1.5)
+        DPS: 1.753 - DPS/Wgt: 1.169
+    Durability: 120 (Max: 8, Break: 1 in 15)
+    Speed: 0.95, Length: 0.35, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Medium Handle - Can-Reinforced (Handle_Can) - Improvised (MaterialWeapon) - Swinging
+    Dmg: 0.4 - 0.6, Crit: 10% (3x) (Wgt: 1.25)
+        DPS: 0.78 - DPS/Wgt: 0.624
+    Durability: 120 (Max: 15, Break: 1 in 8)
+    Speed: 1.2, Length: 0.23, DoorDmg: 2, TreeDmg: 0
+    Pushback: False ()
+Iron Bar (IronBar) - Blunt (MaterialWeapon) - Swinging
+    Dmg: 0.6 - 1.15, Crit: 20% (2x) (Wgt: 2)
+        DPS: 1.225 - DPS/Wgt: 0.613
+    Durability: 120 (Max: 8, Break: 1 in 15)
+    Speed: 1, Length: 0.4, DoorDmg: 1, TreeDmg: 0
+    Pushback: True ()
+Iron Bar Half (IronBarHalf) - SmallBlunt (MaterialWeapon) - Swinging
+    Dmg: 0.5 - 1, Crit: 20% (2x) (Wgt: 1)
+        DPS: 1.05 - DPS/Wgt: 1.05
+    Durability: 120 (Max: 8, Break: 1 in 15)
+    Speed: 1, Length: 0.23, DoorDmg: 10, TreeDmg: 0
+    Pushback: False ()
+Iron Rod (IronRod) - Improvised (MaterialWeapon) - Swinging
+    Dmg: 0.7 - 1.1, Crit: 30% (2x) (Wgt: 1.5)
+        DPS: 1.368 - DPS/Wgt: 0.912
+    Durability: 120 (Max: 8, Break: 1 in 15)
+    Speed: 0.95, Length: 0.4, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Iron Rod Half (IronRodHalf) - SmallBlunt (MaterialWeapon) - Swinging
+    Dmg: 0.5 - 1, Crit: 20% (2x) (Wgt: 0.75)
+        DPS: 1.05 - DPS/Wgt: 1.4
+    Durability: 120 (Max: 8, Break: 1 in 15)
+    Speed: 1, Length: 0.23, DoorDmg: 10, TreeDmg: 0
+    Pushback: False ()
+Masons Chisel (MasonsChisel) - Improvised (ToolWeapon) - Swinging
+    Dmg: 0.4 - 0.8, Crit: 30% (2x) (Wgt: 1)
+        DPS: 0.912 - DPS/Wgt: 0.912
+    Durability: 120 (Max: 8, Break: 1 in 15)
+    Speed: 0.95, Length: 0.25, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Broken Iron Pipe (MetalPipe_Broken) - Improvised (JunkWeapon) - Swinging
+    Dmg: 0.6 - 1, Crit: 30% (2x) (Wgt: 1.5)
+        DPS: 1.216 - DPS/Wgt: 0.811
+    Durability: 120 (Max: 8, Break: 1 in 15)
+    Speed: 0.95, Length: 0.35, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Metalworking Chisel (MetalworkingChisel) - Improvised (ToolWeapon) - Swinging
+    Dmg: 0.4 - 0.8, Crit: 30% (2x) (Wgt: 1)
+        DPS: 0.912 - DPS/Wgt: 0.912
+    Durability: 120 (Max: 8, Break: 1 in 15)
+    Speed: 0.95, Length: 0.25, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Metalworking Punch (MetalworkingPunch) - Improvised (ToolWeapon) - Swinging
+    Dmg: 0.4 - 0.8, Crit: 30% (2x) (Wgt: 1)
+        DPS: 0.912 - DPS/Wgt: 0.912
+    Durability: 120 (Max: 8, Break: 1 in 15)
+    Speed: 0.95, Length: 0.25, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Frying Pan (PanForged) - Improvised (CookingWeapon) - Swinging
+    Dmg: 0.3 - 0.5, Crit: 30% (2x) (Wgt: 1.5)
+        DPS: 0.64 - DPS/Wgt: 0.427
+    Durability: 120 (Max: 10, Break: 1 in 12)
+    Speed: 1, Length: 0.21, DoorDmg: 3, TreeDmg: 0
+    Pushback: True ()
+Steel Bar (SteelBar) - Blunt (MaterialWeapon) - Swinging
+    Dmg: 0.6 - 1.15, Crit: 20% (2x) (Wgt: 2)
+        DPS: 1.225 - DPS/Wgt: 0.613
+    Durability: 120 (Max: 8, Break: 1 in 15)
+    Speed: 1, Length: 0.4, DoorDmg: 1, TreeDmg: 0
+    Pushback: True ()
+Steel Bar Half (SteelBarHalf) - SmallBlunt (MaterialWeapon) - Swinging
+    Dmg: 0.5 - 1, Crit: 20% (2x) (Wgt: 1)
+        DPS: 1.05 - DPS/Wgt: 1.05
+    Durability: 120 (Max: 8, Break: 1 in 15)
+    Speed: 1, Length: 0.23, DoorDmg: 10, TreeDmg: 0
+    Pushback: False ()
+Steel Rod Half (SteelRodHalf) - SmallBlunt (MaterialWeapon) - Swinging
+    Dmg: 0.5 - 1, Crit: 20% (2x) (Wgt: 0.75)
+        DPS: 1.05 - DPS/Wgt: 1.4
+    Durability: 120 (Max: 8, Break: 1 in 15)
+    Speed: 1, Length: 0.23, DoorDmg: 10, TreeDmg: 0
+    Pushback: False ()
+Tire Iron (TireIron) - Improvised (VehicleMaintenanceWeapon) - Swinging
+    Dmg: 0.5 - 1, Crit: 30% (2x) (Wgt: 1.5)
+        DPS: 1.14 - DPS/Wgt: 0.76
+    Durability: 120 (Max: 8, Break: 1 in 15)
+    Speed: 0.95, Length: 0.35, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Iron Pipe - Railspike (MetalPipe_Railspike) - Axe (WeaponCrafted) - Swinging
+    Dmg: 0.6 - 1, Crit: 30% (2x) (Wgt: 1.5)
+        DPS: 1.216 - DPS/Wgt: 0.811
+    Durability: 120 (Max: 8, Break: 1 in 15)
+    Speed: 0.95, Length: 0.35, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Electric Bass (GuitarElectricBass) - Blunt (InstrumentWeapon) - Swinging
+    Dmg: 0.9 - 1.4, Crit: 70% (2x) (Wgt: 3.5)
+        DPS: 2.76 - DPS/Wgt: 0.789
+    Durability: 108 (Max: 12, Break: 1 in 9)
+    Speed: 1, Length: , DoorDmg: 10, TreeDmg: 0
+    Pushback: True ()
+Broken Banjo Neck (BanjoNeck_Broken) - SmallBlunt (JunkWeapon) - Swinging
+    Dmg: 0.6 - 1.1, Crit: 25% (2x) (Wgt: 1.5)
+        DPS: 1.403 - DPS/Wgt: 0.935
+    Durability: 100 (Max: 10, Break: 1 in 10)
+    Speed: 1.1, Length: 0.35, DoorDmg: 5, TreeDmg: 0
+    Pushback: True ()
+Broken Garden Tool Handle (GardenToolHandle_Broken) - SmallBlunt (JunkWeapon) - Swinging
+    Dmg: 0.6 - 1.1, Crit: 25% (2x) (Wgt: 1.5)
+        DPS: 1.403 - DPS/Wgt: 0.935
+    Durability: 100 (Max: 10, Break: 1 in 10)
+    Speed: 1.1, Length: 0.35, DoorDmg: 5, TreeDmg: 0
+    Pushback: True ()
+Broken Acoustic Guitar Neck (GuitarAcousticNeck_Broken) - SmallBlunt (JunkWeapon) - Swinging
+    Dmg: 0.6 - 1.1, Crit: 25% (2x) (Wgt: 1.5)
+        DPS: 1.403 - DPS/Wgt: 0.935
+    Durability: 100 (Max: 10, Break: 1 in 10)
+    Speed: 1.1, Length: 0.35, DoorDmg: 5, TreeDmg: 0
+    Pushback: True ()
+Broken Electric Bass Neck (GuitarElectricBassNeck_Broken) - SmallBlunt (JunkWeapon) - Swinging
+    Dmg: 0.6 - 1.1, Crit: 25% (2x) (Wgt: 1.5)
+        DPS: 1.403 - DPS/Wgt: 0.935
+    Durability: 100 (Max: 10, Break: 1 in 10)
+    Speed: 1.1, Length: 0.35, DoorDmg: 5, TreeDmg: 0
+    Pushback: True ()
+Broken Electric Guitar Neck (GuitarElectricNeck_Broken) - SmallBlunt (JunkWeapon) - Swinging
+    Dmg: 0.6 - 1.1, Crit: 25% (2x) (Wgt: 1.5)
+        DPS: 1.403 - DPS/Wgt: 0.935
+    Durability: 100 (Max: 10, Break: 1 in 10)
+    Speed: 1.1, Length: 0.35, DoorDmg: 5, TreeDmg: 0
+    Pushback: True ()
+Jawbone Club (JawboneBovide_Club) - SmallBlunt (WeaponCrafted) - Swinging
+    Dmg: 0.6 - 1.1, Crit: 30% (3x) (Wgt: 1.5)
+        DPS: 1.777 - DPS/Wgt: 1.184
+    Durability: 100 (Max: 10, Break: 1 in 10)
+    Speed: 1.1, Length: 0.35, DoorDmg: 5, TreeDmg: 0
+    Pushback: True ()
+Scrap Metal Morningstar - Short (Morningstar_Scrap_Short) - Axe (WeaponCrafted) - Swinging
+    Dmg: 0.7 - 1.5, Crit: 30% (0x) (Wgt: 2.25)
+        DPS: 1.045 - DPS/Wgt: 0.464
+    Durability: 100 (Max: 10, Break: 1 in 10)
+    Speed: 0.95, Length: 0.35, DoorDmg: 5, TreeDmg: 1
+    Pushback: False ()
+Entrenching Tool (EntrenchingTool) - Axe (GardeningWeapon) - Swinging
+    Dmg: 0.5 - 1.3, Crit: 10% (4x) (Wgt: 2)
+        DPS: 1.26 - DPS/Wgt: 0.63
+    Durability: 100 (Max: 10, Break: 1 in 10)
+    Speed: 1, Length: 0.35, DoorDmg: 10, TreeDmg: 10
+    Pushback: False ()
+Bucket Maul - Metal Handle (BucketMace_Metal) - Blunt (Weapon) - Swinging
+    Dmg: 2 - 3, Crit: 0% (2x) (Wgt: 10)
+        DPS: 2.25 - DPS/Wgt: 0.225
+    Durability: 100 (Max: 10, Break: 1 in 10)
+    Speed: 0.9, Length: 0.65, DoorDmg: 40, TreeDmg: 10
+    Pushback: True ()
+Bucket Maul - Wood Handle (BucketMace_Wood) - Blunt (Weapon) - Swinging
+    Dmg: 2 - 3, Crit: 0% (2x) (Wgt: 10)
+        DPS: 2.25 - DPS/Wgt: 0.225
+    Durability: 100 (Max: 10, Break: 1 in 10)
+    Speed: 0.9, Length: 0.65, DoorDmg: 40, TreeDmg: 10
+    Pushback: True ()
+Broken Canoe Paddle (CanoePadelX2_Broken) - Improvised (JunkWeapon) - Swinging
+    Dmg: 0.5 - 1.3, Crit: 40% (2x) (Wgt: 2)
+        DPS: 1.377 - DPS/Wgt: 0.689
+    Durability: 100 (Max: 10, Break: 1 in 10)
+    Speed: 0.85, Length: , DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Garden Hoe (GardenHoeForged) - Blunt (GardeningWeapon) - Swinging
+    Dmg: 0.6 - 1.7, Crit: 35% (2x) (Wgt: 2.0)
+        DPS: 1.662 - DPS/Wgt: 0.831
+    Durability: 100 (Max: 10, Break: 1 in 10)
+    Speed: 0.85, Length: 0.65, DoorDmg: 10, TreeDmg: 1
+    Pushback: True ()
+Kettle Maul - Metal Handle (KettleMace_Metal) - Blunt (Weapon) - Swinging
+    Dmg: 2 - 3, Crit: 0% (2x) (Wgt: 6)
+        DPS: 2.25 - DPS/Wgt: 0.375
+    Durability: 100 (Max: 10, Break: 1 in 10)
+    Speed: 0.9, Length: 0.65, DoorDmg: 40, TreeDmg: 10
+    Pushback: True ()
+Kettle Maul - Wood Handle (KettleMace_Wood) - Blunt (Weapon) - Swinging
+    Dmg: 2 - 3, Crit: 0% (2x) (Wgt: 6)
+        DPS: 2.25 - DPS/Wgt: 0.375
+    Durability: 100 (Max: 10, Break: 1 in 10)
+    Speed: 0.9, Length: 0.65, DoorDmg: 40, TreeDmg: 10
+    Pushback: True ()
+Long Handle (LongHandle) - Improvised (MaterialWeapon) - Swinging
+    Dmg: 0.5 - 0.9, Crit: 25% (2x) (Wgt: 2)
+        DPS: 1.05 - DPS/Wgt: 0.525
+    Durability: 100 (Max: 10, Break: 1 in 10)
+    Speed: 1, Length: , DoorDmg: 5, TreeDmg: 0
+    Pushback: False ()
+Scrap Metal Morningstar (Morningstar_Scrap) - Blunt (WeaponCrafted) - Swinging
+    Dmg: 1 - 1.5, Crit: 30% (0x) (Wgt: 3)
+        DPS: 1.188 - DPS/Wgt: 0.396
+    Durability: 100 (Max: 10, Break: 1 in 10)
+    Speed: 0.95, Length: 0.5, DoorDmg: 7, TreeDmg: 1
+    Pushback: True ()
+Spade (SpadeForged) - Blunt (GardeningWeapon) - Swinging
+    Dmg: 0.8 - 1.9, Crit: 40% (2x) (Wgt: 2.0)
+        DPS: 1.944 - DPS/Wgt: 0.972
+    Durability: 100 (Max: 10, Break: 1 in 10)
+    Speed: 0.8, Length: 0.55, DoorDmg: 10, TreeDmg: 1
+    Pushback: True ()
+Baseball Bat - Sawblade (BaseballBat_Sawblade) - Axe (WeaponCrafted) - Swinging
+    Dmg: 1.2 - 1.9, Crit: 20% (5x) (Wgt: 3)
+        DPS: 3.1 - DPS/Wgt: 1.033
+    Durability: 100 (Max: 10, Break: 1 in 10)
+    Speed: 1, Length: 0.38, DoorDmg: 15, TreeDmg: 15
+    Pushback: True ()
+Cudgel - Bone-Spiked (Cudgel_Bone) - Axe (WeaponCrafted) - Swinging
+    Dmg: 2 - 3, Crit: 0% (2x) (Wgt: 6)
+        DPS: 2.25 - DPS/Wgt: 0.375
+    Durability: 100 (Max: 10, Break: 1 in 10)
+    Speed: 0.9, Length: 0.65, DoorDmg: 40, TreeDmg: 10
+    Pushback: True ()
+Cudgel - Brake Disk (Cudgel_Brake) - Axe (MaterialWeapon) - Swinging
+    Dmg: 2 - 3, Crit: 0% (2x) (Wgt: 6)
+        DPS: 2.25 - DPS/Wgt: 0.375
+    Durability: 100 (Max: 10, Break: 1 in 10)
+    Speed: 0.9, Length: 0.65, DoorDmg: 40, TreeDmg: 10
+    Pushback: True ()
+Cudgel - Garden Fork Head (Cudgel_GardenForkHead) - Blunt (WeaponCrafted) - Swinging
+    Dmg: 2 - 3, Crit: 0% (2x) (Wgt: 6)
+        DPS: 2.25 - DPS/Wgt: 0.375
+    Durability: 100 (Max: 10, Break: 1 in 10)
+    Speed: 0.9, Length: 0.65, DoorDmg: 40, TreeDmg: 10
+    Pushback: True ()
+Cudgel - Nail-Spiked (Cudgel_Nails) - Blunt (WeaponCrafted) - Swinging
+    Dmg: 2 - 3, Crit: 0% (2x) (Wgt: 6)
+        DPS: 2.25 - DPS/Wgt: 0.375
+    Durability: 100 (Max: 10, Break: 1 in 10)
+    Speed: 0.9, Length: 0.65, DoorDmg: 40, TreeDmg: 10
+    Pushback: True ()
+Cudgel - Railspike (Cudgel_Railspike) - Blunt (WeaponCrafted) - Swinging
+    Dmg: 2 - 3, Crit: 0% (2x) (Wgt: 6)
+        DPS: 2.25 - DPS/Wgt: 0.375
+    Durability: 100 (Max: 10, Break: 1 in 10)
+    Speed: 0.9, Length: 0.65, DoorDmg: 40, TreeDmg: 10
+    Pushback: True ()
+Cudgel - Sheet Metal (Cudgel_ScrapSheet) - Blunt (MaterialWeapon) - Swinging
+    Dmg: 2 - 3, Crit: 0% (2x) (Wgt: 6)
+        DPS: 2.25 - DPS/Wgt: 0.375
+    Durability: 100 (Max: 10, Break: 1 in 10)
+    Speed: 0.9, Length: 0.65, DoorDmg: 20, TreeDmg: 10
+    Pushback: True ()
+Cudgel - Sawblade (Cudgel_Sawblade) - Axe (WeaponCrafted) - Swinging
+    Dmg: 2 - 3, Crit: 0% (2x) (Wgt: 6)
+        DPS: 2.25 - DPS/Wgt: 0.375
+    Durability: 100 (Max: 10, Break: 1 in 10)
+    Speed: 0.9, Length: 0.65, DoorDmg: 40, TreeDmg: 10
+    Pushback: True ()
+Cudgel - Spade Head (Cudgel_SpadeHead) - Axe (WeaponCrafted) - Swinging
+    Dmg: 2 - 3, Crit: 0% (2x) (Wgt: 6)
+        DPS: 2.25 - DPS/Wgt: 0.375
+    Durability: 100 (Max: 10, Break: 1 in 10)
+    Speed: 0.9, Length: 0.65, DoorDmg: 40, TreeDmg: 15
+    Pushback: True ()
+Cudgel - Spiked (Cudgel_Spike) - Blunt (WeaponCrafted) - Swinging
+    Dmg: 2 - 3, Crit: 0% (2x) (Wgt: 6)
+        DPS: 2.25 - DPS/Wgt: 0.375
+    Durability: 100 (Max: 10, Break: 1 in 10)
+    Speed: 0.9, Length: 0.65, DoorDmg: 40, TreeDmg: 10
+    Pushback: True ()
+Large Branch (LargeBranch) - Blunt (MaterialWeapon) - Swinging
+    Dmg: 2 - 3, Crit: 0% (2x) (Wgt: 6)
+        DPS: 2.25 - DPS/Wgt: 0.375
+    Durability: 100 (Max: 10, Break: 1 in 10)
+    Speed: 0.9, Length: 0.65, DoorDmg: 20, TreeDmg: 10
+    Pushback: True ()
+Broken Crude Sword (CrudeSword_Broken) - LongBlade (BrokenWeapon) - Swinging
+    Dmg: 0.9 - 1.8, Crit: 20% (2x) (Wgt: 1.5)
+        DPS: 1.89 - DPS/Wgt: 1.26
+    Durability: 100 (Max: 10, Break: 1 in 10)
+    Speed: 1, Length: 0.3, DoorDmg: 5, TreeDmg: 1
+    Pushback: True ()
+Broken Katana (Katana_Broken) - LongBlade (BrokenWeapon) - Swinging
+    Dmg: 1.5 - 2, Crit: 20% (4x) (Wgt: 1.5)
+        DPS: 3.15 - DPS/Wgt: 2.1
+    Durability: 100 (Max: 10, Break: 1 in 10)
+    Speed: 1, Length: 0.3, DoorDmg: 5, TreeDmg: 1
+    Pushback: True ()
+Scrap Metal Shortsword (ShortSword_Scrap) - LongBlade (BrokenWeapon) - Swinging
+    Dmg: 0.9 - 1.8, Crit: 20% (2x) (Wgt: 2)
+        DPS: 1.89 - DPS/Wgt: 0.945
+    Durability: 100 (Max: 10, Break: 1 in 10)
+    Speed: 1, Length: 0.3, DoorDmg: 5, TreeDmg: 1
+    Pushback: True ()
+Broken Scrap Metal Sword (Sword_Scrap_Broken) - LongBlade (BrokenWeapon) - Swinging
+    Dmg: 0.9 - 1.8, Crit: 20% (2x) (Wgt: 2)
+        DPS: 1.89 - DPS/Wgt: 0.945
+    Durability: 100 (Max: 10, Break: 1 in 10)
+    Speed: 1, Length: 0.3, DoorDmg: 5, TreeDmg: 1
+    Pushback: True ()
+Fighting Knife (FightingKnife) - SmallBlade (Weapon) - Stab
+    Dmg: 0.6 - 1.2, Crit: 50% (4x) (Wgt: 1)
+        DPS: 2.7 - DPS/Wgt: 2.7
+    Durability: 100 (Max: 10, Break: 1 in 10)
+    Speed: 1, Length: 0.25, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Scrap Metal Large Knife (LargeKnife_Scrap) - SmallBlade (ToolWeapon) - Stab
+    Dmg: 0.6 - 1.1, Crit: 30% (3x) (Wgt: 1)
+        DPS: 1.615 - DPS/Wgt: 1.615
+    Durability: 100 (Max: 10, Break: 1 in 10)
+    Speed: 1, Length: 0.25, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Sheet Metal Snips (SheetMetalSnips) - Improvised (ToolWeapon) - Swinging
+    Dmg: 0.4 - 0.8, Crit: 5% (2x) (Wgt: 1)
+        DPS: 0.627 - DPS/Wgt: 0.627
+    Durability: 80 (Max: 8, Break: 1 in 10)
+    Speed: 0.95, Length: 0.25, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Long Spear (SpearLong) - Spear (Weapon) - Spear
+    Dmg: 1.2 - 1.7, Crit: 20% (5x) (Wgt: 2.7)
+        DPS: 2.9 - DPS/Wgt: 1.074
+    Durability: 72 (Max: 9, Break: 1 in 8)
+    Speed: 1, Length: , DoorDmg: 7, TreeDmg: 0
+    Pushback: False ()
+Spear (SpearShort) - Spear (Weapon) - Spear
+    Dmg: 1 - 1.6, Crit: 20% (5x) (Wgt: 2.4)
+        DPS: 2.6 - DPS/Wgt: 1.083
+    Durability: 72 (Max: 9, Break: 1 in 8)
+    Speed: 1, Length: , DoorDmg: 5, TreeDmg: 0
+    Pushback: False ()
+Spear with Large Knife (SpearLargeKnife) - Improvised (WeaponCrafted) - Spear
+    Dmg: 1.2 - 1.7, Crit: 20% (5x) (Wgt: 3)
+        DPS: 2.9 - DPS/Wgt: 0.967
+    Durability: 72 (Max: 9, Break: 1 in 8)
+    Speed: 1, Length: , DoorDmg: 7, TreeDmg: 0
+    Pushback: False ()
+Spear with Scrap Knife (SpearScrapKnife) - Improvised (WeaponCrafted) - Spear
+    Dmg: 1.2 - 1.7, Crit: 20% (5x) (Wgt: 3)
+        DPS: 2.9 - DPS/Wgt: 0.967
+    Durability: 72 (Max: 9, Break: 1 in 8)
+    Speed: 1, Length: , DoorDmg: 7, TreeDmg: 0
+    Pushback: False ()
+Spear with Fighting Knife (SpearFightingKnife) - Improvised (WeaponCrafted) - Spear
+    Dmg: 1.2 - 1.7, Crit: 20% (5x) (Wgt: 3)
+        DPS: 2.9 - DPS/Wgt: 0.967
+    Durability: 72 (Max: 9, Break: 1 in 8)
+    Speed: 1, Length: , DoorDmg: 7, TreeDmg: 0
+    Pushback: False ()
+Ice Hockey Stick - Barbed Wire (IceHockeyStick_BarbedWire) - Improvised (SportsWeapon) - Swinging
+    Dmg: 0.3 - 0.7, Crit: 30% (2x) (Wgt: 1.5)
+        DPS: 0.72 - DPS/Wgt: 0.48
+    Durability: 70 (Max: 10, Break: 1 in 7)
+    Speed: 0.9, Length: , DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Electric Guitar (GuitarElectric) - Blunt (InstrumentWeapon) - Swinging
+    Dmg: 0.8 - 1.2, Crit: 55% (2x) (Wgt: 2.8)
+        DPS: 2.31 - DPS/Wgt: 0.825
+    Durability: 70 (Max: 10, Break: 1 in 7)
+    Speed: 1.1, Length: , DoorDmg: 10, TreeDmg: 0
+    Pushback: True ()
+Tree Branch - Can-Reinforced (TreeBranch_Can) - Improvised (WeaponCrafted) - Swinging
+    Dmg: 0.6 - 1.1, Crit: 30% (3x) (Wgt: 2.5)
+        DPS: 1.615 - DPS/Wgt: 0.646
+    Durability: 64 (Max: 8, Break: 1 in 8)
+    Speed: 1, Length: 0.35, DoorDmg: 2, TreeDmg: 0
+    Pushback: False ()
+Stick - Can-Reinforced (WoodenStick_Can) - Improvised (WeaponCrafted) - Swinging
+    Dmg: 0.5 - 0.9, Crit: 30% (3x) (Wgt: 2.5)
+        DPS: 1.33 - DPS/Wgt: 0.532
+    Durability: 64 (Max: 8, Break: 1 in 8)
+    Speed: 1, Length: 0.55, DoorDmg: 2, TreeDmg: 0
+    Pushback: False ()
+Screwdriver (Screwdriver_Old) - Improvised (ToolWeapon) - Stab
+    Dmg: 0.3 - 0.7, Crit: 10% (10x) (Wgt: 0.5)
+        DPS: 1.0 - DPS/Wgt: 2.0
+    Durability: 60 (Max: 10, Break: 1 in 6)
+    Speed: 1, Length: 0.19, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Mason's Trowel (MasonsTrowel) - SmallBlade (ToolWeapon) - Stab
+    Dmg: 0.2 - 0.4, Crit: 30% (10x) (Wgt: 1)
+        DPS: 1.2 - DPS/Wgt: 1.2
+    Durability: 54 (Max: 6, Break: 1 in 9)
+    Speed: 1, Length: 0.2, DoorDmg: 5, TreeDmg: 0
+    Pushback: False ()
+Carving Fork (CarvingFork2) - SmallBlade (CookingWeapon) - Stab
+    Dmg: 0.2 - 0.4, Crit: 10% (10x) (Wgt: 0.5)
+        DPS: 0.6 - DPS/Wgt: 1.2
+    Durability: 54 (Max: 6, Break: 1 in 9)
+    Speed: 1, Length: 0.2, DoorDmg: 5, TreeDmg: 0
+    Pushback: False ()
+Bowling Pin (BowlingPin) - Improvised (SportsWeapon) - Swinging
+    Dmg: 0.3 - 0.5, Crit: 5% (2x) (Wgt: 1)
+        DPS: 0.528 - DPS/Wgt: 0.528
+    Durability: 50 (Max: 10, Break: 1 in 5)
+    Speed: 1.2, Length: 0.23, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Bowling Pin - Nail-Spiked (BowlingPin_Nails) - Improvised (SportsWeapon) - Swinging
+    Dmg: 0.4 - 0.7, Crit: 5% (5x) (Wgt: 1)
+        DPS: 0.825 - DPS/Wgt: 0.825
+    Durability: 50 (Max: 10, Break: 1 in 5)
+    Speed: 1.2, Length: 0.23, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Broken Field Hockey Stick (FieldHockeyStick_Broken) - Improvised (JunkWeapon) - Swinging
+    Dmg: 0.3 - 0.7, Crit: 25% (2x) (Wgt: 2)
+        DPS: 0.75 - DPS/Wgt: 0.375
+    Durability: 50 (Max: 10, Break: 1 in 5)
+    Speed: 1, Length: , DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Broken Field Hockey Stick - Nail-Spiked (FieldHockeyStick_Broken_Nails) - Improvised (WeaponCrafted) - Swinging
+    Dmg: 0.5 - 1.3, Crit: 30% (5x) (Wgt: 2)
+        DPS: 2.25 - DPS/Wgt: 1.125
+    Durability: 50 (Max: 10, Break: 1 in 5)
+    Speed: 1, Length: , DoorDmg: 2, TreeDmg: 0
+    Pushback: False ()
+Copper Saucepan (SaucepanCopper) - Improvised (CookingWeapon) - Swinging
+    Dmg: 0.2 - 0.7, Crit: 30% (2x) (Wgt: 0.7)
+        DPS: 0.72 - DPS/Wgt: 1.029
+    Durability: 50 (Max: 5, Break: 1 in 10)
+    Speed: 1, Length: 0.2, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Baseball Bat - Garden Fork Head (BaseballBat_GardenForkHead) - Blunt (WeaponCrafted) - Swinging
+    Dmg: 1.2 - 1.9, Crit: 30% (5x) (Wgt: 3)
+        DPS: 3.875 - DPS/Wgt: 1.292
+    Durability: 50 (Max: 10, Break: 1 in 5)
+    Speed: 1, Length: 0.5, DoorDmg: 7, TreeDmg: 1
+    Pushback: True ()
+Baseball Bat - Rake-Head (BaseballBat_RakeHead) - Blunt (WeaponCrafted) - Swinging
+    Dmg: 1.2 - 1.9, Crit: 30% (5x) (Wgt: 3)
+        DPS: 3.875 - DPS/Wgt: 1.292
+    Durability: 50 (Max: 10, Break: 1 in 5)
+    Speed: 1, Length: 0.5, DoorDmg: 7, TreeDmg: 1
+    Pushback: True ()
+Baseball Bat - Spiked (BaseballBat_Spiked) - Blunt (WeaponCrafted) - Swinging
+    Dmg: 1.2 - 1.9, Crit: 30% (5x) (Wgt: 3)
+        DPS: 3.875 - DPS/Wgt: 1.292
+    Durability: 50 (Max: 10, Break: 1 in 5)
+    Speed: 1, Length: 0.5, DoorDmg: 7, TreeDmg: 1
+    Pushback: True ()
+Long Handle - Nail-Spiked (LongHandle_Nails) - Improvised (WeaponCrafted) - Swinging
+    Dmg: 0.7 - 1.5, Crit: 30% (5x) (Wgt: 2)
+        DPS: 2.75 - DPS/Wgt: 1.375
+    Durability: 50 (Max: 10, Break: 1 in 5)
+    Speed: 1, Length: , DoorDmg: 5, TreeDmg: 0
+    Pushback: False ()
+Baseball Bat - Railspike (BaseballBat_RailSpike) - Axe (WeaponCrafted) - Swinging
+    Dmg: 1.2 - 1.9, Crit: 30% (5x) (Wgt: 3)
+        DPS: 3.875 - DPS/Wgt: 1.292
+    Durability: 50 (Max: 10, Break: 1 in 5)
+    Speed: 1, Length: 0.5, DoorDmg: 7, TreeDmg: 1
+    Pushback: True ()
+Scrap Metal Chopper (Machete_Crude) - LongBlade (WeaponCrafted) - Swinging
+    Dmg: 1 - 2, Crit: 10% (3x) (Wgt: 2)
+        DPS: 1.95 - DPS/Wgt: 0.975
+    Durability: 50 (Max: 10, Break: 1 in 5)
+    Speed: 1, Length: 0.3, DoorDmg: 5, TreeDmg: 5
+    Pushback: False ()
+Sushi Knife (KnifeSushi) - SmallBlade (CookingWeapon) - Stab
+    Dmg: 0.3 - 0.7, Crit: 25% (4x) (Wgt: 0.7)
+        DPS: 1.0 - DPS/Wgt: 1.429
+    Durability: 45 (Max: 15, Break: 1 in 3)
+    Speed: 1, Length: 0.19, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Stone Spear (SpearStone) - Spear (WeaponCrafted) - Spear
+    Dmg: 1 - 1.6, Crit: 20% (5x) (Wgt: 2.4)
+        DPS: 2.6 - DPS/Wgt: 1.083
+    Durability: 42 (Max: 6, Break: 1 in 7)
+    Speed: 1, Length: , DoorDmg: 5, TreeDmg: 0
+    Pushback: False ()
+Long Stone Spear (SpearStoneLong) - Spear (WeaponCrafted) - Spear
+    Dmg: 1.2 - 1.7, Crit: 20% (5x) (Wgt: 2.7)
+        DPS: 2.9 - DPS/Wgt: 1.074
+    Durability: 42 (Max: 6, Break: 1 in 7)
+    Speed: 1, Length: , DoorDmg: 7, TreeDmg: 0
+    Pushback: False ()
+Bone Spear (Spear_Bone) - Spear (WeaponCrafted) - Spear
+    Dmg: 1 - 1.6, Crit: 20% (5x) (Wgt: 2.4)
+        DPS: 2.6 - DPS/Wgt: 1.083
+    Durability: 42 (Max: 6, Break: 1 in 7)
+    Speed: 1, Length: , DoorDmg: 5, TreeDmg: 0
+    Pushback: False ()
+Long Bone Spear (Spear_BoneLong) - Spear (WeaponCrafted) - Spear
+    Dmg: 1.2 - 1.7, Crit: 20% (5x) (Wgt: 2.7)
+        DPS: 2.9 - DPS/Wgt: 1.074
+    Durability: 42 (Max: 6, Break: 1 in 7)
+    Speed: 1, Length: , DoorDmg: 7, TreeDmg: 0
+    Pushback: False ()
+Long Sharp Bone (SharpBone_Long) - SmallBlade (WeaponCrafted) - Stab
+    Dmg: 0.7 - 1.1, Crit: 20% (2x) (Wgt: 1)
+        DPS: 1.26 - DPS/Wgt: 1.26
+    Durability: 42 (Max: 6, Break: 1 in 7)
+    Speed: 1, Length: 0.25, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Long Stone Knife (StoneKnifeLong) - SmallBlade (WeaponCrafted) - Stab
+    Dmg: 0.7 - 1.1, Crit: 20% (2x) (Wgt: 1)
+        DPS: 1.26 - DPS/Wgt: 1.26
+    Durability: 42 (Max: 6, Break: 1 in 7)
+    Speed: 1, Length: 0.25, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Flint Nodule (FlintNodule) - Improvised (MaterialWeapon) - Swinging
+    Dmg: 0.5 - 0.8, Crit: 20% (2x) (Wgt: 1)
+        DPS: 0.819 - DPS/Wgt: 0.819
+    Durability: 40 (Max: 4, Break: 1 in 10)
+    Speed: 0.9, Length: , DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Stone (Stone2) - Improvised (MaterialWeapon) - Swinging
+    Dmg: 0.5 - 0.8, Crit: 20% (2x) (Wgt: 1)
+        DPS: 0.819 - DPS/Wgt: 0.819
+    Durability: 40 (Max: 4, Break: 1 in 10)
+    Speed: 0.9, Length: , DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Field Hockey Stick (FieldHockeyStick) - Improvised (SportsWeapon) - Swinging
+    Dmg: 0.3 - 0.7, Crit: 30% (2x) (Wgt: 1.5)
+        DPS: 0.72 - DPS/Wgt: 0.48
+    Durability: 35 (Max: 7, Break: 1 in 5)
+    Speed: 0.9, Length: , DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Field Hockey Stick - Nail-Spiked (FieldHockeyStick_Nails) - Improvised (WeaponCrafted) - Swinging
+    Dmg: 0.5 - 1.3, Crit: 30% (5x) (Wgt: 1.5)
+        DPS: 2.025 - DPS/Wgt: 1.35
+    Durability: 35 (Max: 7, Break: 1 in 5)
+    Speed: 0.9, Length: , DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Long Crude Spear (SpearCrudeLong) - Spear (WeaponCrafted) - Spear
+    Dmg: 1.2 - 1.7, Crit: 20% (5x) (Wgt: 3)
+        DPS: 2.9 - DPS/Wgt: 0.967
+    Durability: 35 (Max: 5, Break: 1 in 7)
+    Speed: 1, Length: , DoorDmg: 7, TreeDmg: 0
+    Pushback: False ()
+Shiv (KnifeShiv) - SmallBlade (WeaponCrafted) - Stab
+    Dmg: 0.3 - 0.5, Crit: 10% (5x) (Wgt: 0.5)
+        DPS: 0.6 - DPS/Wgt: 1.2
+    Durability: 35 (Max: 5, Break: 1 in 7)
+    Speed: 1, Length: 0.19, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Long Crude Blade (LongCrudeBlade) - SmallBlade (WeaponCrafted) - Stab
+    Dmg: 0.6 - 1.2, Crit: 50% (3x) (Wgt: 1)
+        DPS: 2.25 - DPS/Wgt: 2.25
+    Durability: 35 (Max: 5, Break: 1 in 7)
+    Speed: 1, Length: 0.25, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Long Crude Knife (LongCrudeKnife) - SmallBlade (WeaponCrafted) - Stab
+    Dmg: 0.6 - 1.2, Crit: 50% (3x) (Wgt: 1)
+        DPS: 2.25 - DPS/Wgt: 2.25
+    Durability: 35 (Max: 5, Break: 1 in 7)
+    Speed: 1, Length: 0.25, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Toothbrush Shiv (Toothbrush_Shiv) - SmallBlade (WeaponCrafted) - Stab
+    Dmg: 0.3 - 0.5, Crit: 10% (5x) (Wgt: 0.25)
+        DPS: 0.6 - DPS/Wgt: 2.4
+    Durability: 35 (Max: 5, Break: 1 in 7)
+    Speed: 1, Length: 0.19, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Broken Branch (Branch_Broken) - Improvised (JunkWeapon) - Swinging
+    Dmg: 0.4 - 0.8, Crit: 5% (2x) (Wgt: 2)
+        DPS: 0.792 - DPS/Wgt: 0.396
+    Durability: 30 (Max: 10, Break: 1 in 3)
+    Speed: 1.2, Length: 0.23, DoorDmg: 2, TreeDmg: 0
+    Pushback: False ()
+Broken Branch - Nail-Spiked (Branch_Broken_Nails) - Improvised (WeaponCrafted) - Swinging
+    Dmg: 0.4 - 0.8, Crit: 5% (2x) (Wgt: 2)
+        DPS: 0.792 - DPS/Wgt: 0.396
+    Durability: 30 (Max: 10, Break: 1 in 3)
+    Speed: 1.2, Length: 0.23, DoorDmg: 2, TreeDmg: 0
+    Pushback: False ()
+Medium Handle - Nail-Spiked (Handle_Nails) - Improvised (WeaponCrafted) - Swinging
+    Dmg: 0.4 - 0.7, Crit: 5% (5x) (Wgt: 1)
+        DPS: 0.791 - DPS/Wgt: 0.791
+    Durability: 30 (Max: 10, Break: 1 in 3)
+    Speed: 1.15, Length: 0.23, DoorDmg: 4, TreeDmg: 0
+    Pushback: False ()
+Broken Long Handle (LongHandle_Broken) - Improvised (JunkWeapon) - Swinging
+    Dmg: 0.4 - 0.8, Crit: 5% (2x) (Wgt: 1)
+        DPS: 0.792 - DPS/Wgt: 0.792
+    Durability: 30 (Max: 10, Break: 1 in 3)
+    Speed: 1.2, Length: 0.23, DoorDmg: 2, TreeDmg: 0
+    Pushback: False ()
+Broken Long Handle - Nail-Spiked (LongHandle_Broken_Nails) - Improvised (WeaponCrafted) - Swinging
+    Dmg: 0.4 - 0.8, Crit: 5% (2x) (Wgt: 1)
+        DPS: 0.792 - DPS/Wgt: 0.792
+    Durability: 30 (Max: 10, Break: 1 in 3)
+    Speed: 1.2, Length: 0.23, DoorDmg: 2, TreeDmg: 0
+    Pushback: False ()
+Broken Plank (Plank_Broken) - Improvised (JunkWeapon) - Swinging
+    Dmg: 0.4 - 0.8, Crit: 5% (2x) (Wgt: 1)
+        DPS: 0.792 - DPS/Wgt: 0.792
+    Durability: 30 (Max: 10, Break: 1 in 3)
+    Speed: 1.2, Length: 0.23, DoorDmg: 2, TreeDmg: 0
+    Pushback: False ()
+Broken Plank - Nail-Spiked (Plank_Broken_Nails) - Improvised (WeaponCrafted) - Swinging
+    Dmg: 0.4 - 0.8, Crit: 5% (2x) (Wgt: 1)
+        DPS: 0.792 - DPS/Wgt: 0.792
+    Durability: 30 (Max: 10, Break: 1 in 3)
+    Speed: 1.2, Length: 0.23, DoorDmg: 2, TreeDmg: 0
+    Pushback: False ()
+Broken Table Leg (TableLeg_Broken) - Improvised (JunkWeapon) - Swinging
+    Dmg: 0.4 - 0.8, Crit: 5% (2x) (Wgt: 1.5)
+        DPS: 0.792 - DPS/Wgt: 0.528
+    Durability: 30 (Max: 10, Break: 1 in 3)
+    Speed: 1.2, Length: 0.23, DoorDmg: 2, TreeDmg: 0
+    Pushback: False ()
+Broken Table Leg - Nail-Spiked (TableLeg_Broken_Nails) - Improvised (WeaponCrafted) - Swinging
+    Dmg: 0.4 - 0.8, Crit: 5% (2x) (Wgt: 1.5)
+        DPS: 0.792 - DPS/Wgt: 0.528
+    Durability: 30 (Max: 10, Break: 1 in 3)
+    Speed: 1.2, Length: 0.23, DoorDmg: 2, TreeDmg: 0
+    Pushback: False ()
+Broken Stick - Nail-Spiked (WoodenStick_Broken_Nails) - Improvised (WeaponCrafted) - Swinging
+    Dmg: 0.4 - 0.7, Crit: 5% (5x) (Wgt: 1)
+        DPS: 0.791 - DPS/Wgt: 0.791
+    Durability: 30 (Max: 10, Break: 1 in 3)
+    Speed: 1.15, Length: 0.23, DoorDmg: 4, TreeDmg: 0
+    Pushback: False ()
+Fire Hardened Wooden Spear (SpearCraftedFireHardened) - Improvised (WeaponCrafted) - Spear
+    Dmg: 1 - 1.5, Crit: 30% (10x) (Wgt: 2)
+        DPS: 5.0 - DPS/Wgt: 2.5
+    Durability: 28 (Max: 7, Break: 1 in 4)
+    Speed: 1, Length: , DoorDmg: 5, TreeDmg: 0
+    Pushback: False ()
+Crude Spear (SpearCrude) - Spear (WeaponCrafted) - Spear
+    Dmg: 1 - 1.6, Crit: 20% (5x) (Wgt: 2.5)
+        DPS: 2.6 - DPS/Wgt: 1.04
+    Durability: 28 (Max: 4, Break: 1 in 7)
+    Speed: 1, Length: , DoorDmg: 5, TreeDmg: 0
+    Pushback: False ()
+Spear with Small Knife (SpearKnifeSmall) - Improvised (WeaponCrafted) - Spear
+    Dmg: 1 - 1.6, Crit: 20% (5x) (Wgt: 2.7)
+        DPS: 2.6 - DPS/Wgt: 0.963
+    Durability: 28 (Max: 7, Break: 1 in 4)
+    Speed: 1, Length: , DoorDmg: 5, TreeDmg: 0
+    Pushback: False ()
+Stick - Nail-Spiked (StickNailSpiked) - Improvised (Material) - Swinging
+    Dmg: 0.3 - 0.6, Crit: 5% (1x) (Wgt: 2)
+        DPS: 0.567 - DPS/Wgt: 0.283
+    Durability: 25 (Max: 5, Break: 1 in 5)
+    Speed: 1.2, Length: 0.55, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Animal Bone (AnimalBone) - SmallBlunt (AnimalPartWeapon) - Swinging
+    Dmg: 0.5 - 1.1, Crit: 25% (2x) (Wgt: 0.7)
+        DPS: 1.32 - DPS/Wgt: 1.886
+    Durability: 25 (Max: 5, Break: 1 in 5)
+    Speed: 1.1, Length: 0.23, DoorDmg: 5, TreeDmg: 0
+    Pushback: True ()
+Large Animal Bone (LargeAnimalBone) - SmallBlunt (AnimalPartWeapon) - Swinging
+    Dmg: 0.5 - 1.1, Crit: 25% (2x) (Wgt: 1)
+        DPS: 1.32 - DPS/Wgt: 1.32
+    Durability: 25 (Max: 5, Break: 1 in 5)
+    Speed: 1.1, Length: 0.23, DoorDmg: 5, TreeDmg: 0
+    Pushback: True ()
+Broken Baseball Bat (BaseballBat_Broken) - SmallBlunt (BrokenWeapon) - Swinging
+    Dmg: 0.6 - 1.1, Crit: 25% (2x) (Wgt: 1.5)
+        DPS: 1.403 - DPS/Wgt: 0.935
+    Durability: 25 (Max: 5, Break: 1 in 5)
+    Speed: 1.1, Length: 0.35, DoorDmg: 3, TreeDmg: 0
+    Pushback: True ()
+Broken Baseball Bat - Nail-Spiked (BaseballBat_Broken_Nails) - SmallBlunt (WeaponCrafted) - Swinging
+    Dmg: 0.6 - 1.1, Crit: 25% (2x) (Wgt: 1.5)
+        DPS: 1.403 - DPS/Wgt: 0.935
+    Durability: 25 (Max: 5, Break: 1 in 5)
+    Speed: 1.1, Length: 0.35, DoorDmg: 3, TreeDmg: 0
+    Pushback: True ()
+Bone Club (BoneClub) - SmallBlunt (AnimalPartWeapon) - Swinging
+    Dmg: 0.5 - 1.1, Crit: 25% (2x) (Wgt: 1.5)
+        DPS: 1.32 - DPS/Wgt: 0.88
+    Durability: 25 (Max: 5, Break: 1 in 5)
+    Speed: 1.1, Length: 0.23, DoorDmg: 5, TreeDmg: 0
+    Pushback: True ()
+Bone Club - Spiked (BoneClub_Spiked) - Axe (AnimalPartWeapon) - Swinging
+    Dmg: 0.5 - 1.1, Crit: 25% (2x) (Wgt: 2)
+        DPS: 1.32 - DPS/Wgt: 0.66
+    Durability: 25 (Max: 5, Break: 1 in 5)
+    Speed: 1.1, Length: 0.23, DoorDmg: 5, TreeDmg: 0
+    Pushback: True ()
+Jawbone (JawboneBovide) - SmallBlunt (AnimalPartWeapon) - Swinging
+    Dmg: 0.5 - 1.1, Crit: 25% (2x) (Wgt: 1.5)
+        DPS: 1.32 - DPS/Wgt: 0.88
+    Durability: 25 (Max: 5, Break: 1 in 5)
+    Speed: 1.1, Length: 0.23, DoorDmg: 5, TreeDmg: 0
+    Pushback: True ()
+Large Bone Club (LargeBoneClub) - SmallBlunt (AnimalPartWeapon) - Swinging
+    Dmg: 0.5 - 1.1, Crit: 25% (2x) (Wgt: 2)
+        DPS: 1.32 - DPS/Wgt: 0.66
+    Durability: 25 (Max: 5, Break: 1 in 5)
+    Speed: 1.1, Length: 0.23, DoorDmg: 5, TreeDmg: 0
+    Pushback: True ()
+Large Bone Club - Spiked (LargeBoneClub_Spiked) - Axe (AnimalPartWeapon) - Swinging
+    Dmg: 0.5 - 1.1, Crit: 25% (2x) (Wgt: 2.5)
+        DPS: 1.32 - DPS/Wgt: 0.528
+    Durability: 25 (Max: 5, Break: 1 in 5)
+    Speed: 1.1, Length: 0.23, DoorDmg: 5, TreeDmg: 0
+    Pushback: True ()
+Large Hook (LargeHook) - SmallBlade (ToolWeapon) - Swinging
+    Dmg: 0.6 - 1.2, Crit: 15% (5x) (Wgt: 2)
+        DPS: 1.732 - DPS/Wgt: 0.866
+    Durability: 25 (Max: 5, Break: 1 in 5)
+    Speed: 1.1, Length: 0.15, DoorDmg: 5, TreeDmg: 0
+    Pushback: False ()
+Tree Branch (TreeBranch2) - Improvised (MaterialWeapon) - Swinging
+    Dmg: 0.5 - 1.0, Crit: 25% (2x) (Wgt: 1.5)
+        DPS: 1.125 - DPS/Wgt: 0.75
+    Durability: 25 (Max: 5, Break: 1 in 5)
+    Speed: 1, Length: 0.35, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Tree Branch - Bone-Spiked (TreeBranch_Bone) - Axe (WeaponCrafted) - Swinging
+    Dmg: 0.5 - 1.0, Crit: 25% (2x) (Wgt: 1.5)
+        DPS: 1.125 - DPS/Wgt: 0.75
+    Durability: 25 (Max: 5, Break: 1 in 5)
+    Speed: 1, Length: 0.35, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Tree Branch - Nail-Spiked (TreeBranch_Nails) - Improvised (WeaponCrafted) - Swinging
+    Dmg: 0.5 - 1.0, Crit: 25% (2x) (Wgt: 1.5)
+        DPS: 1.125 - DPS/Wgt: 0.75
+    Durability: 25 (Max: 5, Break: 1 in 5)
+    Speed: 1, Length: 0.35, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Stick (WoodenStick2) - Improvised (MaterialWeapon) - Swinging
+    Dmg: 0.4 - 0.8, Crit: 25% (2x) (Wgt: 2)
+        DPS: 0.9 - DPS/Wgt: 0.45
+    Durability: 25 (Max: 5, Break: 1 in 5)
+    Speed: 1, Length: 0.55, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Broken Stick (WoodenStick_Broken) - Improvised (JunkWeapon) - Swinging
+    Dmg: 0.3 - 0.5, Crit: 5% (2x) (Wgt: 1)
+        DPS: 0.528 - DPS/Wgt: 0.528
+    Durability: 25 (Max: 5, Break: 1 in 5)
+    Speed: 1.2, Length: 0.23, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Stick - Nail-Spiked (WoodenStick_Nails) - Improvised (WeaponCrafted) - Swinging
+    Dmg: 0.5 - 0.9, Crit: 25% (5x) (Wgt: 2)
+        DPS: 1.575 - DPS/Wgt: 0.787
+    Durability: 25 (Max: 5, Break: 1 in 5)
+    Speed: 1, Length: 0.55, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Hand Scythe (HandScytheForged) - Axe (GardeningWeapon) - Swinging
+    Dmg: 0.6 - 1.2, Crit: 15% (5x) (Wgt: 1)
+        DPS: 1.732 - DPS/Wgt: 1.732
+    Durability: 25 (Max: 5, Break: 1 in 5)
+    Speed: 1.1, Length: 0.3, DoorDmg: 5, TreeDmg: 0
+    Pushback: False ()
+Bone War Hatchet (Hatchet_Bone) - Axe (WeaponCrafted) - Swinging
+    Dmg: 0.5 - 1.0, Crit: 25% (2x) (Wgt: 1.5)
+        DPS: 1.125 - DPS/Wgt: 0.75
+    Durability: 25 (Max: 5, Break: 1 in 5)
+    Speed: 1, Length: 0.35, DoorDmg: 2, TreeDmg: 1
+    Pushback: False ()
+Stone-Blade Scythe (PrimitiveScythe) - Axe (GardeningWeapon) - Swinging
+    Dmg: 0.6 - 1.0, Crit: 15% (2x) (Wgt: 1)
+        DPS: 1.144 - DPS/Wgt: 1.144
+    Durability: 25 (Max: 5, Break: 1 in 5)
+    Speed: 1.1, Length: 0.3, DoorDmg: 5, TreeDmg: 0
+    Pushback: False ()
+Tree Branch - Railspike (TreeBranch_Railspike) - Improvised (WeaponCrafted) - Swinging
+    Dmg: 0.5 - 1.0, Crit: 25% (2x) (Wgt: 1.5)
+        DPS: 1.125 - DPS/Wgt: 0.75
+    Durability: 25 (Max: 5, Break: 1 in 5)
+    Speed: 1, Length: 0.35, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Long Stick (LongStick) - Improvised (MaterialWeapon) - Swinging
+    Dmg: 0.3 - 0.6, Crit: 5% (1x) (Wgt: 2)
+        DPS: 0.567 - DPS/Wgt: 0.283
+    Durability: 25 (Max: 5, Break: 1 in 5)
+    Speed: 1.2, Length: 0.55, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Sapling (Sapling) - Improvised (MaterialWeapon) - Swinging
+    Dmg: 0.3 - 0.6, Crit: 5% (1x) (Wgt: 2)
+        DPS: 0.567 - DPS/Wgt: 0.283
+    Durability: 25 (Max: 5, Break: 1 in 5)
+    Speed: 1.2, Length: 0.55, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Jawbone War Axe (JawboneBovide_Axe) - Axe (WeaponCrafted) - Swinging
+    Dmg: 0.6 - 1.1, Crit: 35% (4x) (Wgt: 2)
+        DPS: 2.244 - DPS/Wgt: 1.122
+    Durability: 25 (Max: 5, Break: 1 in 5)
+    Speed: 1.1, Length: 0.35, DoorDmg: 10, TreeDmg: 1
+    Pushback: True ()
+Handguard Dagger (HandguardDagger) - SmallBlade (Weapon) - Stab
+    Dmg: 0.6 - 1.2, Crit: 50% (3x) (Wgt: 1)
+        DPS: 2.25 - DPS/Wgt: 2.25
+    Durability: 25 (Max: 5, Break: 1 in 5)
+    Speed: 1, Length: 0.25, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Plunger - Barbed Wire (Plunger_BarbedWire) - Improvised (HouseholdWeapon) - Swinging
+    Dmg: 0.45 - 0.75, Crit: 5% (3x) (Wgt: 0.5)
+        DPS: 0.828 - DPS/Wgt: 1.656
+    Durability: 24 (Max: 6, Break: 1 in 4)
+    Speed: 1.2, Length: , DoorDmg: 0, TreeDmg: 0
+    Pushback: False ()
+Umbrella (Closed) (ClosedUmbrellaTINTED) - Improvised (HouseholdWeapon) - Swinging
+    Dmg: 0.5 - 0.7, Crit: 10% (1x) (Wgt: 1)
+        DPS: 0.594 - DPS/Wgt: 0.594
+    Durability: 21 (Max: 7, Break: 1 in 3)
+    Speed: 0.9, Length: , DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Brass Nameplate (BrassNameplate) - SmallBlunt (JunkWeapon) - Swinging
+    Dmg: 0.4 - 0.8, Crit: 20% (2x) (Wgt: 1)
+        DPS: 0.84 - DPS/Wgt: 0.84
+    Durability: 20 (Max: 4, Break: 1 in 5)
+    Speed: 1, Length: 0.23, DoorDmg: 10, TreeDmg: 0
+    Pushback: False ()
+Long Handle - Rake-Head (LongHandle_RakeHead) - Improvised (WeaponCrafted) - Swinging
+    Dmg: 0.7 - 1.5, Crit: 10% (5x) (Wgt: 2)
+        DPS: 1.65 - DPS/Wgt: 0.825
+    Durability: 20 (Max: 10, Break: 1 in 2)
+    Speed: 1, Length: , DoorDmg: 5, TreeDmg: 0
+    Pushback: False ()
+Long Spiked Club (LongSpikedClub) - Improvised (Weapon) - Swinging
+    Dmg: 0.7 - 1.5, Crit: 10% (5x) (Wgt: 2)
+        DPS: 1.65 - DPS/Wgt: 0.825
+    Durability: 20 (Max: 10, Break: 1 in 2)
+    Speed: 1, Length: , DoorDmg: 5, TreeDmg: 0
+    Pushback: False ()
+Plank - Saw (Plank_Saw) - Improvised (WeaponCrafted) - Swinging
+    Dmg: 0.5 - 0.8, Crit: 25% (5x) (Wgt: 3)
+        DPS: 1.243 - DPS/Wgt: 0.414
+    Durability: 20 (Max: 10, Break: 1 in 2)
+    Speed: 0.85, Length: , DoorDmg: 8, TreeDmg: 0
+    Pushback: False ()
+Plank - Nail-Spiked (Plank_Nails) - Improvised (WeaponCrafted) - Swinging
+    Dmg: 0.5 - 0.8, Crit: 25% (5x) (Wgt: 3)
+        DPS: 1.243 - DPS/Wgt: 0.414
+    Durability: 20 (Max: 10, Break: 1 in 2)
+    Speed: 0.85, Length: , DoorDmg: 8, TreeDmg: 0
+    Pushback: False ()
+Long Handle - Railspike (LongHandle_Railspike) - Improvised (WeaponCrafted) - Swinging
+    Dmg: 0.7 - 1.5, Crit: 10% (5x) (Wgt: 2)
+        DPS: 1.65 - DPS/Wgt: 0.825
+    Durability: 20 (Max: 10, Break: 1 in 2)
+    Speed: 1, Length: , DoorDmg: 5, TreeDmg: 0
+    Pushback: False ()
+Long Handle - Sawblade (LongHandle_Sawblade) - Axe (WeaponCrafted) - Swinging
+    Dmg: 0.7 - 1.5, Crit: 10% (5x) (Wgt: 2)
+        DPS: 1.65 - DPS/Wgt: 0.825
+    Durability: 20 (Max: 10, Break: 1 in 2)
+    Speed: 1, Length: , DoorDmg: 5, TreeDmg: 15
+    Pushback: False ()
+Long Handle - Brake Disc (LongHandle_Brake) - Improvised (WeaponCrafted) - Swinging
+    Dmg: 0.7 - 1.5, Crit: 10% (5x) (Wgt: 4)
+        DPS: 1.65 - DPS/Wgt: 0.413
+    Durability: 20 (Max: 10, Break: 1 in 2)
+    Speed: 1, Length: , DoorDmg: 5, TreeDmg: 5
+    Pushback: False ()
+Plank - Brake Disc (Plank_Brake) - Axe (WeaponCrafted) - Swinging
+    Dmg: 0.7 - 1.5, Crit: 10% (5x) (Wgt: 4)
+        DPS: 1.65 - DPS/Wgt: 0.413
+    Durability: 20 (Max: 10, Break: 1 in 2)
+    Speed: 1, Length: , DoorDmg: 5, TreeDmg: 5
+    Pushback: False ()
+Plank - Sawblade (Plank_Sawblade) - Axe (WeaponCrafted) - Swinging
+    Dmg: 0.7 - 1.5, Crit: 10% (5x) (Wgt: 4)
+        DPS: 1.65 - DPS/Wgt: 0.413
+    Durability: 20 (Max: 10, Break: 1 in 2)
+    Speed: 1, Length: , DoorDmg: 5, TreeDmg: 15
+    Pushback: False ()
+Handiknife (Handiknife) - SmallBlade (ToolWeapon) - Stab
+    Dmg: 0.3 - 0.7, Crit: 25% (4x) (Wgt: 0.4)
+        DPS: 1.0 - DPS/Wgt: 2.5
+    Durability: 20 (Max: 10, Break: 1 in 2)
+    Speed: 1, Length: 0.19, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Kitchen Knife (KitchenKnifeForged) - SmallBlade (CookingWeapon) - Stab
+    Dmg: 0.3 - 0.7, Crit: 25% (4x) (Wgt: 0.6)
+        DPS: 1.0 - DPS/Wgt: 1.667
+    Durability: 20 (Max: 10, Break: 1 in 2)
+    Speed: 1, Length: 0.19, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Butterfly Knife (KnifeButterfly) - SmallBlade (Weapon) - Stab
+    Dmg: 0.3 - 0.6, Crit: 20% (3x) (Wgt: 0.3)
+        DPS: 0.72 - DPS/Wgt: 2.4
+    Durability: 20 (Max: 10, Break: 1 in 2)
+    Speed: 1, Length: 0.19, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Paring Knife (KnifeParing) - SmallBlade (CookingWeapon) - Stab
+    Dmg: 0.3 - 0.4, Crit: 10% (3x) (Wgt: 0.3)
+        DPS: 0.455 - DPS/Wgt: 1.517
+    Durability: 20 (Max: 10, Break: 1 in 2)
+    Speed: 1, Length: 0.19, DoorDmg: 0, TreeDmg: 0
+    Pushback: False ()
+Pocket Knife (KnifePocket) - SmallBlade (ToolWeapon) - Stab
+    Dmg: 0.3 - 0.6, Crit: 20% (3x) (Wgt: 0.3)
+        DPS: 0.72 - DPS/Wgt: 2.4
+    Durability: 20 (Max: 10, Break: 1 in 2)
+    Speed: 1, Length: 0.19, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Multitool (Multitool) - SmallBlade (ToolWeapon) - Stab
+    Dmg: 0.3 - 0.8, Crit: 25% (4x) (Wgt: 0.5)
+        DPS: 1.1 - DPS/Wgt: 2.2
+    Durability: 20 (Max: 10, Break: 1 in 2)
+    Speed: 1, Length: 0.19, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Spearhead (SpearHead) - SmallBlade (MaterialWeapon) - Stab
+    Dmg: 0.8 - 1.3, Crit: 25% (4x) (Wgt: 0.7)
+        DPS: 2.1 - DPS/Wgt: 3.0
+    Durability: 20 (Max: 10, Break: 1 in 2)
+    Speed: 1, Length: 0.19, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Switchblade (SwitchKnife) - SmallBlade (Weapon) - Stab
+    Dmg: 0.3 - 0.6, Crit: 20% (3x) (Wgt: 0.3)
+        DPS: 0.72 - DPS/Wgt: 2.4
+    Durability: 20 (Max: 10, Break: 1 in 2)
+    Speed: 1, Length: 0.19, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Can Opener - Old-Fashioned (TinOpener_Old) - SmallBlade (CookingWeapon) - Stab
+    Dmg: 0.3 - 0.4, Crit: 10% (3x) (Wgt: 0.6)
+        DPS: 0.455 - DPS/Wgt: 0.758
+    Durability: 20 (Max: 10, Break: 1 in 2)
+    Speed: 1, Length: 0.19, DoorDmg: 0, TreeDmg: 0
+    Pushback: False ()
+Plunger Spear (Spear_Plunger) - Improvised (HouseholdWeapon) - Spear
+    Dmg: 0.3 - 0.6, Crit: 0% (1x) (Wgt: 2.5)
+        DPS: 0.45 - DPS/Wgt: 0.18
+    Durability: 18 (Max: 6, Break: 1 in 3)
+    Speed: 1, Length: , DoorDmg: 0, TreeDmg: 0
+    Pushback: False ()
+Small Knife (SmallKnife) - SmallBlade (ToolWeapon) - Stab
+    Dmg: 0.3 - 0.6, Crit: 20% (3x) (Wgt: 0.5)
+        DPS: 0.72 - DPS/Wgt: 1.44
+    Durability: 16 (Max: 8, Break: 1 in 2)
+    Speed: 1, Length: 0.17, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Field Hockey Stick - Sawblade (FieldHockeyStick_Sawblade) - Improvised (WeaponCrafted) - Swinging
+    Dmg: 0.7 - 1.5, Crit: 10% (5x) (Wgt: 1.5)
+        DPS: 1.485 - DPS/Wgt: 0.99
+    Durability: 14 (Max: 7, Break: 1 in 2)
+    Speed: 0.9, Length: , DoorDmg: 15, TreeDmg: 10
+    Pushback: False ()
+Spear with Steak Knife (SpearSteakKnife) - Improvised (WeaponCrafted) - Spear
+    Dmg: 1 - 1.6, Crit: 20% (5x) (Wgt: 2.5)
+        DPS: 2.6 - DPS/Wgt: 1.04
+    Durability: 14 (Max: 7, Break: 1 in 2)
+    Speed: 1, Length: , DoorDmg: 5, TreeDmg: 0
+    Pushback: False ()
+Gaff Hook (Gaffhook) - Improvised (FishingWeapon) - Swinging
+    Dmg: 0.2 - 0.4, Crit: 5% (1x) (Wgt: 1.5)
+        DPS: 0.378 - DPS/Wgt: 0.252
+    Durability: 12 (Max: 4, Break: 1 in 3)
+    Speed: 1.2, Length: 0.7, DoorDmg: 0, TreeDmg: 0
+    Pushback: False ()
+Antique Table Leg - Chained (TableLeg_Chain) - Improvised (JunkWeapon) - Swinging
+    Dmg: 0.5 - 0.9, Crit: 10% (2x) (Wgt: 2)
+        DPS: 0.84 - DPS/Wgt: 0.42
+    Durability: 12 (Max: 4, Break: 1 in 3)
+    Speed: 1, Length: , DoorDmg: 5, TreeDmg: 0
+    Pushback: False ()
+Antique Table Leg - Nail-Spiked (TableLeg_Nails) - Improvised (JunkWeapon) - Swinging
+    Dmg: 0.5 - 0.9, Crit: 10% (2x) (Wgt: 2)
+        DPS: 0.84 - DPS/Wgt: 0.42
+    Durability: 12 (Max: 4, Break: 1 in 3)
+    Speed: 1, Length: , DoorDmg: 5, TreeDmg: 0
+    Pushback: False ()
+Antique Table Leg - Sawblade (TableLeg_Sawblade) - Improvised (JunkWeapon) - Swinging
+    Dmg: 0.5 - 0.9, Crit: 20% (5x) (Wgt: 2)
+        DPS: 1.4 - DPS/Wgt: 0.7
+    Durability: 12 (Max: 4, Break: 1 in 3)
+    Speed: 1, Length: , DoorDmg: 15, TreeDmg: 0
+    Pushback: False ()
+Crude Knife (CrudeKnife) - SmallBlade (WeaponCrafted) - Stab
+    Dmg: 0.5 - 0.9, Crit: 25% (4x) (Wgt: 0.7)
+        DPS: 1.4 - DPS/Wgt: 2.0
+    Durability: 12 (Max: 6, Break: 1 in 2)
+    Speed: 1, Length: 0.19, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Fillet Knife (KnifeFillet) - SmallBlade (CookingWeapon) - Stab
+    Dmg: 0.3 - 0.5, Crit: 10% (3x) (Wgt: 0.7)
+        DPS: 0.52 - DPS/Wgt: 0.743
+    Durability: 10 (Max: 5, Break: 1 in 2)
+    Speed: 1, Length: 0.19, DoorDmg: 0, TreeDmg: 0
+    Pushback: False ()
+Crude Scissors (ScissorsForged) - SmallBlade (HouseholdWeapon) - Stab
+    Dmg: 0.1 - 0.1, Crit: 5% (0x) (Wgt: 0.5)
+        DPS: 0.1 - DPS/Wgt: 0.2
+    Durability: 10 (Max: 10, Break: 1 in 1)
+    Speed: 1, Length: 0.17, DoorDmg: 1, TreeDmg: 0
+    Pushback:  ()
+Steak Knife (SteakKnife) - SmallBlade (CookingWeapon) - Stab
+    Dmg: 0.3 - 0.7, Crit: 25% (4x) (Wgt: 0.5)
+        DPS: 1.0 - DPS/Wgt: 2.0
+    Durability: 10 (Max: 5, Break: 1 in 2)
+    Speed: 1, Length: 0.19, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Broken Long Stick (LongStick_Broken) - Improvised (JunkWeapon) - Swinging
+    Dmg: 0.2 - 0.5, Crit: 20% (3x) (Wgt: 2)
+        DPS: 0.672 - DPS/Wgt: 0.336
+    Durability: 8 (Max: 4, Break: 1 in 2)
+    Speed: 1.2, Length: 0.35, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Crude Blade (CrudeBlade) - SmallBlade (WeaponCrafted) - Stab
+    Dmg: 0.8 - 1.3, Crit: 25% (4x) (Wgt: 0.5)
+        DPS: 2.1 - DPS/Wgt: 4.2
+    Durability: 8 (Max: 4, Break: 1 in 2)
+    Speed: 1, Length: 0.19, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Chair Leg - Nail-Spiked (ChairLeg_Nails) - Improvised (Weapon) - Swinging
+    Dmg: 0.4 - 0.8, Crit: 5% (2x) (Wgt: 1)
+        DPS: 0.726 - DPS/Wgt: 0.726
+    Durability: 6 (Max: 3, Break: 1 in 2)
+    Speed: 1.1, Length: , DoorDmg: 5, TreeDmg: 0
+    Pushback: False ()
+Broom - Barbed-Wire (Broom_BarbedWire) - Improvised (Weapon) - Swinging
+    Dmg: 0.3 - 0.75, Crit: 5% (2x) (Wgt: 2)
+        DPS: 0.693 - DPS/Wgt: 0.346
+    Durability: 6 (Max: 3, Break: 1 in 2)
+    Speed: 1.2, Length: , DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Fountain Pen (PenFancy) - Improvised (Memento) - Stab
+    Dmg: 0.1 - 0.1, Crit: 0% (0x) (Wgt: 0.2)
+        DPS: 0.1 - DPS/Wgt: 0.5
+    Durability: 6 (Max: 3, Break: 1 in 2)
+    Speed: 1, Length: 0.15, DoorDmg: 0, TreeDmg: 0
+    Pushback: False ()
+Multi-Color Pen (PenMultiColor) - Improvised (HouseholdWeapon) - Stab
+    Dmg: 0.1 - 0.1, Crit: 0% (0x) (Wgt: 0.2)
+        DPS: 0.1 - DPS/Wgt: 0.5
+    Durability: 6 (Max: 3, Break: 1 in 2)
+    Speed: 1, Length: 0.15, DoorDmg: 0, TreeDmg: 0
+    Pushback: False ()
+Glass Spear (SpearGlass) - Spear (WeaponCrafted) - Spear
+    Dmg: 1 - 1.6, Crit: 20% (5x) (Wgt: 2.4)
+        DPS: 2.6 - DPS/Wgt: 1.083
+    Durability: 4 (Max: 2, Break: 1 in 2)
+    Speed: 1, Length: , DoorDmg: 5, TreeDmg: 0
+    Pushback: False ()
+Geometry Compass (CompassGeometry) - Improvised (ToolWeapon) - Stab
+    Dmg: 0.1 - 0.2, Crit: 10% (5x) (Wgt: 0.2)
+        DPS: 0.225 - DPS/Wgt: 1.125
+    Durability: 4 (Max: 2, Break: 1 in 2)
+    Speed: 1, Length: 0.15, DoorDmg: 0, TreeDmg: 0
+    Pushback: False ()
+FISH DEV ITEM (NOT SPAWN) (FISH_DEV_ITEM) - Improvised (Fishing) - Swinging
+    Dmg: 0.2 - 0.3, Crit: 5% (2x) (Wgt: 0.01)
+        DPS: 0.358 - DPS/Wgt: 35.75
+    Durability: 3 (Max: 3, Break: 1 in 1)
+    Speed: 1.3, Length: , DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Fork (ForkForged) - SmallBlade (CookingWeapon) - Stab
+    Dmg: 0.1 - 0.1, Crit: 5% (10x) (Wgt: 0.25)
+        DPS: 0.15 - DPS/Wgt: 0.6
+    Durability: 3 (Max: 3, Break: 1 in 1)
+    Speed: 1, Length: 0.17, DoorDmg: 1, TreeDmg: 0
+    Pushback:  ()
+Spoon (SpoonForged) - SmallBlade (CookingWeapon) - Stab
+    Dmg: 0.1 - 0.1, Crit: 0% (0x) (Wgt: 0.25)
+        DPS: 0.1 - DPS/Wgt: 0.4
+    Durability: 3 (Max: 3, Break: 1 in 1)
+    Speed: 1, Length: 0.17, DoorDmg: 1, TreeDmg: 0
+    Pushback:  ()
+Butter Knife - Silver (ButterKnife_Silver) - SmallBlade (CookingWeapon) - Stab
+    Dmg: 0.1 - 0.4, Crit: 7% (10x) (Wgt: 0.25)
+        DPS: 0.425 - DPS/Wgt: 1.7
+    Durability: 2 (Max: 2, Break: 1 in 1)
+    Speed: 1, Length: 0.17, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Fork - Silver (Fork_Silver) - SmallBlade (CookingWeapon) - Stab
+    Dmg: 0.1 - 0.1, Crit: 5% (10x) (Wgt: 0.25)
+        DPS: 0.15 - DPS/Wgt: 0.6
+    Durability: 2 (Max: 2, Break: 1 in 1)
+    Speed: 1, Length: 0.17, DoorDmg: 1, TreeDmg: 0
+    Pushback:  ()
+Glass Shiv (GlassShiv) - SmallBlade (WeaponCrafted) - Stab
+    Dmg: 0.3 - 0.5, Crit: 10% (5x) (Wgt: 0.5)
+        DPS: 0.6 - DPS/Wgt: 1.2
+    Durability: 2 (Max: 1, Break: 1 in 2)
+    Speed: 1, Length: 0.19, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Pen - Green (GreenPen) - Improvised (HouseholdWeapon) - Stab
+    Dmg: 0.1 - 0.1, Crit: 0% (0x) (Wgt: 0.1)
+        DPS: 0.1 - DPS/Wgt: 1.0
+    Durability: 2 (Max: 2, Break: 1 in 1)
+    Speed: 1, Length: 0.15, DoorDmg: 0, TreeDmg: 0
+    Pushback: False ()
+Pen - Spiffo (PenSpiffo) - Improvised (Memento) - Stab
+    Dmg: 0.1 - 0.1, Crit: 0% (0x) (Wgt: 0.2)
+        DPS: 0.1 - DPS/Wgt: 0.5
+    Durability: 2 (Max: 2, Break: 1 in 1)
+    Speed: 1, Length: 0.15, DoorDmg: 0, TreeDmg: 0
+    Pushback: False ()
+Spoon - Silver (Spoon_Silver) - SmallBlade (CookingWeapon) - Stab
+    Dmg: 0.1 - 0.1, Crit: 0% (0x) (Wgt: 0.25)
+        DPS: 0.1 - DPS/Wgt: 0.4
+    Durability: 2 (Max: 2, Break: 1 in 1)
+    Speed: 1, Length: 0.17, DoorDmg: 1, TreeDmg: 0
+    Pushback:  ()
+Gavel (Gavel) - Improvised (Weapon) - Swinging
+    Dmg: 0.1 - 0.2, Crit: 0% (0x) (Wgt: 0.5)
+        DPS: 0.195 - DPS/Wgt: 0.39
+    Durability: 1 (Max: 1, Break: 1 in 1)
+    Speed: 1.3, Length: , DoorDmg: 0, TreeDmg: 0
+    Pushback: False ()
+Debug Yardstick (YardstickDEBUG) - Improvised (Hidden) - Swinging
+    Dmg: 0.1 - 0.2, Crit: 0% (0x) (Wgt: 3)
+        DPS: 0.195 - DPS/Wgt: 0.065
+    Durability: 1 (Max: 1, Break: 1 in 1)
+    Speed: 1.3, Length: 0.23, DoorDmg: 0, TreeDmg: 0
+    Pushback: False ()
+Blunt Bone Knife (DullBoneKnife) - SmallBlade (CookingWeapon) - Stab
+    Dmg: 0.1 - 0.4, Crit: 7% (10x) (Wgt: 0.25)
+        DPS: 0.425 - DPS/Wgt: 1.7
+    Durability: 1 (Max: 1, Break: 1 in 1)
+    Speed: 1, Length: 0.17, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Butter Knife - Gold (ButterKnife_Gold) - SmallBlade (CookingWeapon) - Stab
+    Dmg: 0.1 - 0.4, Crit: 7% (10x) (Wgt: 0.25)
+        DPS: 0.425 - DPS/Wgt: 1.7
+    Durability: 1 (Max: 1, Break: 1 in 1)
+    Speed: 1, Length: 0.17, DoorDmg: 1, TreeDmg: 0
+    Pushback: False ()
+Fork - Gold (Fork_Gold) - SmallBlade (CookingWeapon) - Stab
+    Dmg: 0.1 - 0.1, Crit: 5% (10x) (Wgt: 0.25)
+        DPS: 0.15 - DPS/Wgt: 0.6
+    Durability: 1 (Max: 1, Break: 1 in 1)
+    Speed: 1, Length: 0.17, DoorDmg: 1, TreeDmg: 0
+    Pushback:  ()
+Bone Fork (Fork_Bone) - SmallBlade (CookingWeapon) - Stab
+    Dmg: 0.1 - 0.1, Crit: 5% (10x) (Wgt: 0.25)
+        DPS: 0.15 - DPS/Wgt: 0.6
+    Durability: 1 (Max: 1, Break: 1 in 1)
+    Speed: 1, Length: 0.17, DoorDmg: 1, TreeDmg: 0
+    Pushback:  ()
+Pencil - Spiffo (PencilSpiffo) - Improvised (Memento) - Stab
+    Dmg: 0.1 - 0.1, Crit: 0% (0x) (Wgt: 0.2)
+        DPS: 0.1 - DPS/Wgt: 0.5
+    Durability: 1 (Max: 1, Break: 1 in 1)
+    Speed: 1, Length: 0.15, DoorDmg: 0, TreeDmg: 0
+    Pushback: False ()
+Spoon - Gold (Spoon_Gold) - SmallBlade (CookingWeapon) - Stab
+    Dmg: 0.1 - 0.1, Crit: 0% (0x) (Wgt: 0.25)
+        DPS: 0.1 - DPS/Wgt: 0.4
+    Durability: 1 (Max: 1, Break: 1 in 1)
+    Speed: 1, Length: 0.17, DoorDmg: 1, TreeDmg: 0
+    Pushback:  ()
+Bone Spoon (Spoon_Bone) - SmallBlade (CookingWeapon) - Stab
+    Dmg: 0.1 - 0.1, Crit: 0% (0x) (Wgt: 0.25)
+        DPS: 0.1 - DPS/Wgt: 0.4
+    Durability: 1 (Max: 1, Break: 1 in 1)
+    Speed: 1, Length: 0.17, DoorDmg: 1, TreeDmg: 0
+    Pushback:  ()
+Sharp Bone Fragment (SharpBoneFragment) -  (AnimalPart) - 
+    Dmg:  - , Crit: 0% (0x) (Wgt: 0.3)
+        DPS:  - DPS/Wgt: 
+    Durability:  (Max: , Break: 1 in )
+    Speed: 1, Length: , DoorDmg: , TreeDmg: 
+    Pushback:  ()
+Firecrackers (Firecracker) -  (Explosives) - 
+    Dmg: 0 - 0, Crit: 0% (0x) (Wgt: 0.1)
+        DPS: 0.0 - DPS/Wgt: 0.0
+    Durability:  (Max: , Break: 1 in )
+    Speed: 1, Length: , DoorDmg: , TreeDmg: 
+    Pushback:  ()
