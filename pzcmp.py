@@ -222,11 +222,6 @@ def compare_item_lists(list1, list2):
     print("\nNew Weapons:")
     print("\n~~~~~~~~~~~~~~~~~~~~\n")
     print_weapons(added_weapons)
-    for item in added_weapons:
-        print(f"\n  NEW  {item['name']}")
-        for stat, value in item['stats'].items():
-            print(f"         {str(stat).rjust(padding_width)}: {value}")
-        print_weapon(item)
     
     print("\n~~~~~~~~~~~~~~~~~~~~\n")
     print("\nUpdated Items:")
